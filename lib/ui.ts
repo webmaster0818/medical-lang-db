@@ -3,7 +3,7 @@ import type { Day, SiteLang, TierCode } from "./data";
 // 画面の文言（英語版）。他言語の文言は出典つきの訳がそろってから足す
 export const UI = {
   en: {
-    siteName: "Clinic Finder Japan",
+    siteName: "MediLingo Japan",
     tagline: "Hospitals and clinics in Japan that accept patients in your language",
     tier: {
       A: { mark: "◎", label: "Staff or interpreter", desc: "The facility reports it can see patients in this language." },
