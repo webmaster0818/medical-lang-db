@@ -7,3 +7,9 @@ data/raw/
 # raw parse dump (14MB) - kept in jiro-2 workspace
 ingest/data/out/sections.jsonl
 
+
+# wrangler/OpenNext leftovers (not used: static export via wrangler pages deploy)
+.open-next/
+.wrangler/
+.dev.vars*
+.env*
