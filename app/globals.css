@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #13302f;
+  --color-paper: #f6f4ee;
+  --color-line: #d9d4c7;
+  --color-accent: #c4472d;
+  --color-tier-a: #1f6f50;
+  --color-tier-b: #2f5f8f;
+  --color-tier-c: #a26a14;
+  --color-tier-d: #6b6b6b;
+  --font-sans: "Atkinson Hyperlegible", "Noto Sans JP", sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+a {
+  text-underline-offset: 3px;
+}

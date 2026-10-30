@@ -1,0 +1,402 @@
+{
+ "救急科": {
+  "en": {
+   "text": "Emergency Medicine",
+   "src": "https://www.jnto.go.jp/emergency/eng/mi_guide.html"
+  },
+  "ko": {
+   "text": "구급과",
+   "src": "https://www.jnto.go.jp/emergency/kor/mi_guide.html"
+  },
+  "zh-hans": {
+   "text": "急救科",
+   "src": "https://www.jnto.go.jp/emergency/chs/mi_guide.html"
+  },
+  "zh-hant": {
+   "text": "急救科",
+   "src": "https://www.jnto.go.jp/emergency/chc/mi_guide.html"
+  }
+ },
+ "内科": {
+  "en": {
+   "text": "Internal Medicine",
+   "src": "https://www.jnto.go.jp/emergency/eng/mi_guide.html"
+  },
+  "ko": {
+   "text": "내과",
+   "src": "https://www.jnto.go.jp/emergency/kor/mi_guide.html"
+  },
+  "zh-hans": {
+   "text": "内科",
+   "src": "https://www.jnto.go.jp/emergency/chs/mi_guide.html"
+  },
+  "zh-hant": {
+   "text": "內科",
+   "src": "https://www.jnto.go.jp/emergency/chc/mi_guide.html"
+  },
+  "vi": {
+   "text": "Khoa nội",
+   "src": "https://kifjp.org/medical/vietnamese/"
+  },
+  "pt": {
+   "text": "Clínica geral",
+   "src": "https://kifjp.org/medical/portuguese/"
+  }
+ },
+ "外科": {
+  "en": {
+   "text": "Surgery",
+   "src": "https://www.jnto.go.jp/emergency/eng/mi_guide.html"
+  },
+  "ko": {
+   "text": "외과",
+   "src": "https://www.jnto.go.jp/emergency/kor/mi_guide.html"
+  },
+  "zh-hans": {
+   "text": "外科",
+   "src": "https://www.jnto.go.jp/emergency/chs/mi_guide.html"
+  },
+  "zh-hant": {
+   "text": "外科",
+   "src": "https://www.jnto.go.jp/emergency/chc/mi_guide.html"
+  },
+  "vi": {
+   "text": "Khoa ngoại",
+   "src": "https://kifjp.org/medical/vietnamese/"
+  },
+  "pt": {
+   "text": "Cirurgia",
+   "src": "https://kifjp.org/medical/portuguese/"
+  }
+ },
+ "小児科": {
+  "en": {
+   "text": "Pediatrics",
+   "src": "https://www.jnto.go.jp/emergency/eng/mi_guide.html"
+  },
+  "ko": {
+   "text": "소아과",
+   "src": "https://www.jnto.go.jp/emergency/kor/mi_guide.html"
+  },
+  "zh-hans": {
+   "text": "小儿科",
+   "src": "https://www.jnto.go.jp/emergency/chs/mi_guide.html"
+  },
+  "zh-hant": {
+   "text": "小兒科",
+   "src": "https://www.jnto.go.jp/emergency/chc/mi_guide.html"
+  },
+  "vi": {
+   "text": "Khoa nhi",
+   "src": "https://kifjp.org/medical/vietnamese/"
+  },
+  "pt": {
+   "text": "Pediatria",
+   "src": "https://kifjp.org/medical/portuguese/"
+  }
+ },
+ "精神科": {
+  "en": {
+   "text": "Psychiatry",
+   "src": "https://www.jnto.go.jp/emergency/eng/mi_guide.html"
+  },
+  "ko": {
+   "text": "정신과",
+   "src": "https://www.jnto.go.jp/emergency/kor/mi_guide.html"
+  },
+  "zh-hans": {
+   "text": "精神科",
+   "src": "https://www.jnto.go.jp/emergency/chs/mi_guide.html"
+  },
+  "zh-hant": {
+   "text": "精神科",
+   "src": "https://www.jnto.go.jp/emergency/chc/mi_guide.html"
+  },
+  "vi": {
+   "text": "Khoa tâm thần",
+   "src": "https://kifjp.org/medical/vietnamese/"
+  },
+  "pt": {
+   "text": "Psiquiatría",
+   "src": "https://kifjp.org/medical/portuguese/"
+  }
+ },
+ "皮膚科": {
+  "en": {
+   "text": "Dermatology",
+   "src": "https://www.jnto.go.jp/emergency/eng/mi_guide.html"
+  },
+  "ko": {
+   "text": "피부과",
+   "src": "https://www.jnto.go.jp/emergency/kor/mi_guide.html"
+  },
+  "zh-hans": {
+   "text": "皮肤科",
+   "src": "https://www.jnto.go.jp/emergency/chs/mi_guide.html"
+  },
+  "zh-hant": {
+   "text": "皮膚科",
+   "src": "https://www.jnto.go.jp/emergency/chc/mi_guide.html"
+  },
+  "vi": {
+   "text": "Khoa da liễu",
+   "src": "https://kifjp.org/medical/vietnamese/"
+  },
+  "pt": {
+   "text": "Dermatologia",
+   "src": "https://kifjp.org/medical/portuguese/"
+  }
+ },
+ "脳神経外科": {
+  "en": {
+   "text": "Neurosurgery",
+   "src": "https://www.jnto.go.jp/emergency/eng/mi_guide.html"
+  },
+  "ko": {
+   "text": "뇌신경외과",
+   "src": "https://www.jnto.go.jp/emergency/kor/mi_guide.html"
+  },
+  "zh-hans": {
+   "text": "脑神经外科",
+   "src": "https://www.jnto.go.jp/emergency/chs/mi_guide.html"
+  },
+  "zh-hant": {
+   "text": "腦神經外科",
+   "src": "https://www.jnto.go.jp/emergency/chc/mi_guide.html"
+  },
+  "vi": {
+   "text": "Khoa ngoại thần kinh",
+   "src": "https://kifjp.org/medical/vietnamese/"
+  },
+  "pt": {
+   "text": "Neurocirurgia",
+   "src": "https://kifjp.org/medical/portuguese/"
+  }
+ },
+ "泌尿器科": {
+  "en": {
+   "text": "Urology",
+   "src": "https://www.jnto.go.jp/emergency/eng/mi_guide.html"
+  },
+  "ko": {
+   "text": "비뇨기과",
+   "src": "https://www.jnto.go.jp/emergency/kor/mi_guide.html"
+  },
+  "zh-hans": {
+   "text": "泌尿科",
+   "src": "https://www.jnto.go.jp/emergency/chs/mi_guide.html"
+  },
+  "zh-hant": {
+   "text": "泌尿科",
+   "src": "https://www.jnto.go.jp/emergency/chc/mi_guide.html"
+  },
+  "vi": {
+   "text": "tiết niệu",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
+  },
+  "pt": {
+   "text": "Urologia",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
+  }
+ },
+ "整形外科": {
+  "en": {
+   "text": "Orthopedic Surgery",
+   "src": "https://www.jnto.go.jp/emergency/eng/mi_guide.html"
+  },
+  "ko": {
+   "text": "정형외과",
+   "src": "https://www.jnto.go.jp/emergency/kor/mi_guide.html"
+  },
+  "zh-hans": {
+   "text": "整形外科",
+   "src": "https://www.jnto.go.jp/emergency/chs/mi_guide.html"
+  },
+  "zh-hant": {
+   "text": "整形外科",
+   "src": "https://www.jnto.go.jp/emergency/chc/mi_guide.html"
+  },
+  "vi": {
+   "text": "Khoa chấn thương chỉnh hình",
+   "src": "https://kifjp.org/medical/vietnamese/"
+  },
+  "pt": {
+   "text": "Ortopedia",
+   "src": "https://kifjp.org/medical/portuguese/"
+  }
+ },
+ "眼科": {
+  "en": {
+   "text": "Ophthalmology",
+   "src": "https://www.jnto.go.jp/emergency/eng/mi_guide.html"
+  },
+  "ko": {
+   "text": "안과",
+   "src": "https://www.jnto.go.jp/emergency/kor/mi_guide.html"
+  },
+  "zh-hans": {
+   "text": "眼科",
+   "src": "https://www.jnto.go.jp/emergency/chs/mi_guide.html"
+  },
+  "zh-hant": {
+   "text": "眼科",
+   "src": "https://www.jnto.go.jp/emergency/chc/mi_guide.html"
+  },
+  "vi": {
+   "text": "Khoa mắt",
+   "src": "https://kifjp.org/medical/vietnamese/"
+  },
+  "pt": {
+   "text": "Oftalmologia",
+   "src": "https://kifjp.org/medical/portuguese/"
+  }
+ },
+ "耳鼻咽喉科": {
+  "en": {
+   "text": "Otorhinolaryngology",
+   "src": "https://www.jnto.go.jp/emergency/eng/mi_guide.html"
+  },
+  "ko": {
+   "text": "이비인후과",
+   "src": "https://www.jnto.go.jp/emergency/kor/mi_guide.html"
+  },
+  "zh-hans": {
+   "text": "耳鼻咽喉科",
+   "src": "https://www.jnto.go.jp/emergency/chs/mi_guide.html"
+  },
+  "zh-hant": {
+   "text": "耳鼻咽喉科",
+   "src": "https://www.jnto.go.jp/emergency/chc/mi_guide.html"
+  },
+  "vi": {
+   "text": "Khoa tai mũi họng",
+   "src": "https://kifjp.org/medical/vietnamese/"
+  },
+  "pt": {
+   "text": "Otorrinolaringologia",
+   "src": "https://kifjp.org/medical/portuguese/"
+  }
+ },
+ "産科": {
+  "en": {
+   "text": "Obstetrics",
+   "src": "https://www.jnto.go.jp/emergency/eng/mi_guide.html"
+  },
+  "ko": {
+   "text": "산과",
+   "src": "https://www.jnto.go.jp/emergency/kor/mi_guide.html"
+  },
+  "zh-hans": {
+   "text": "产科",
+   "src": "https://www.jnto.go.jp/emergency/chs/mi_guide.html"
+  },
+  "zh-hant": {
+   "text": "產科",
+   "src": "https://www.jnto.go.jp/emergency/chc/mi_guide.html"
+  }
+ },
+ "婦人科": {
+  "en": {
+   "text": "Gynecology",
+   "src": "https://www.jnto.go.jp/emergency/eng/mi_guide.html"
+  },
+  "ko": {
+   "text": "부인과",
+   "src": "https://www.jnto.go.jp/emergency/kor/mi_guide.html"
+  },
+  "zh-hans": {
+   "text": "妇科",
+   "src": "https://www.jnto.go.jp/emergency/chs/mi_guide.html"
+  },
+  "zh-hant": {
+   "text": "婦科",
+   "src": "https://www.jnto.go.jp/emergency/chc/mi_guide.html"
+  }
+ },
+ "歯科": {
+  "en": {
+   "text": "Oral Health",
+   "src": "https://www.jnto.go.jp/emergency/eng/mi_guide.html"
+  },
+  "ko": {
+   "text": "치과",
+   "src": "https://www.jnto.go.jp/emergency/kor/mi_guide.html"
+  },
+  "zh-hans": {
+   "text": "牙科",
+   "src": "https://www.jnto.go.jp/emergency/chs/mi_guide.html"
+  },
+  "zh-hant": {
+   "text": "牙科",
+   "src": "https://www.jnto.go.jp/emergency/chc/mi_guide.html"
+  },
+  "vi": {
+   "text": "Khoa nha",
+   "src": "https://kifjp.org/medical/vietnamese/"
+  },
+  "pt": {
+   "text": "Odontologia",
+   "src": "https://kifjp.org/medical/portuguese/"
+  }
+ },
+ "産婦人科": {
+  "vi": {
+   "text": "Khoa sản phụ",
+   "src": "https://kifjp.org/medical/vietnamese/"
+  },
+  "pt": {
+   "text": "Ginecologia e Obstetrícia",
+   "src": "https://kifjp.org/medical/portuguese/"
+  }
+ },
+ "形成外科": {
+  "en": {
+   "text": "plastic surgery",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_eng"
+  },
+  "zh-hant": {
+   "text": "整形外科",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_h"
+  }
+ },
+ "神経内科": {
+  "en": {
+   "text": "neurology",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_eng"
+  },
+  "zh-hant": {
+   "text": "神經內科",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_h"
+  }
+ },
+ "消化器内科": {
+  "en": {
+   "text": "gastroenterology",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_eng"
+  },
+  "zh-hant": {
+   "text": "肝膽胃腸科",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_h"
+  }
+ },
+ "循環器内科": {
+  "en": {
+   "text": "Cardiology",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_eng"
+  },
+  "zh-hant": {
+   "text": "心臟血管內科",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_h"
+  }
+ },
+ "呼吸器内科": {
+  "en": {
+   "text": "Respiratory medicine",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_eng"
+  },
+  "zh-hant": {
+   "text": "胸腔內科",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_h"
+  }
+ }
+}
