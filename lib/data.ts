@@ -1,7 +1,7 @@
 import facilitiesShinjuku from "@/data/site/facilities-13104.json";
 import departments from "@/data/site/departments.json";
 import dictionary from "@/data/dict/dictionary.json";
-import { UI } from "./ui";
+import { READY, UI } from "./ui";
 
 export type SiteLang = "en" | "ko" | "zh-hant" | "zh-hans" | "vi" | "pt";
 export type TierCode = "A" | "B" | "C" | "D";
@@ -46,7 +46,7 @@ export interface SiteFacility {
 
 export const ALL_LANGS: SiteLang[] = ["en", "ko", "zh-hant", "zh-hans", "vi", "pt"];
 // 画面の文言（lib/ui.ts）がそろった言語だけを書き出す
-export const LANGS: SiteLang[] = ALL_LANGS.filter((l) => UI[l]);
+export const LANGS: SiteLang[] = ALL_LANGS.filter((l) => UI[l] && (READY.includes(l) || process.env.PREVIEW_ALL_LANGS === "1"));
 export const TIER_RANK: Record<TierCode, number> = { A: 0, B: 1, C: 2, D: 3 };
 
 export interface Area {

@@ -49,9 +49,7 @@ export default async function DeptPage({ params }: { params: Promise<P> }) {
         <Link href={`/${lang}/`}>{t.home}</Link> › <Link href={`/${lang}/${a.prefSlug}/${a.citySlug}/`}>{place}</Link> › {name}
       </nav>
       <h1 className="font-display text-3xl font-semibold">{t.deptH1(name, place)}</h1>
-      <p>
-        {list.length} {t.facilities}.
-      </p>
+      <p className="font-bold">{t.count(list.length)}</p>
       <ul className="grid gap-3">
         {list.map((f) => (
           <FacilityCard key={f.id} f={f} lang={lang} />

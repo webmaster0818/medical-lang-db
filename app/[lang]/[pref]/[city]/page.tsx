@@ -45,7 +45,8 @@ export default async function CityPage({ params }: { params: Promise<P> }) {
       </nav>
       <h1 className="font-display text-3xl font-semibold">{t.cityH1(place)}</h1>
       <p>
-        {list.length} {t.facilities}. {t.listedFirst}
+        <span className="font-bold">{t.count(list.length)}</span>
+        <span className="block text-sm text-ink/70">{t.listedFirst}</span>
       </p>
       <section>
         <h2 className="mb-2 text-lg font-bold">{t.byDept}</h2>

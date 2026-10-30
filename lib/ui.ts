@@ -1,4 +1,5 @@
 import type { Day, SiteLang, TierCode } from "./data";
+import strings from "@/data/ui/strings.json";
 
 // 画面の文言。言語は UI に文言を足したものだけが書き出される（lib/data.ts の LANGS）。
 // 診療科・地名・言語名は辞書（data/dict）から引くので、ここには書かない
@@ -34,7 +35,7 @@ const EN = {
   emergency: "Emergency: call 119 (ambulance, free of charge)",
   byDept: "By department",
   allFacilities: "All facilities",
-  facilities: "facilities",
+  count: (n: number) => `${n} facilities`,
   website: "Website",
   holidays: "Hol = national holidays",
   home: "Home",
@@ -54,7 +55,56 @@ const EN = {
 
 export type UIStrings = typeof EN;
 
-export const UI: Partial<Record<SiteLang, UIStrings>> = { en: EN };
+type Raw = Record<string, string>;
+const fill = (s: string, v: Record<string, string | number>) => s.replace(/\{(\w+)\}/g, (_, k) => String(v[k]));
+
+// data/ui/strings.json（英語以外の画面の文言。出典のない訳は2台で突き合わせてから使う）から組み立てる
+function build(lang: SiteLang, r: Raw): UIStrings {
+  const tier = (k: TierCode) => ({ mark: EN.tier[k].mark, label: r[`tier${k}`], desc: r[`tier${k}desc`] });
+  return {
+    ...EN,
+    tagline: r.tagline,
+    tier: { A: tier("A"), B: tier("B"), C: tier("C"), D: tier("D") },
+    kind: { hospital: r.hospital, clinic: r.clinic, dental: r.dental },
+    day: { ...cldrWeekdays(lang), hol: r.hol },
+    openNow: r.openNow,
+    closedNow: r.closedNow,
+    bookingRequired: r.bookingRequired,
+    bookingNotRequired: r.bookingNotRequired,
+    phone: r.phone,
+    phoneForeign: r.phoneForeign,
+    address: r.address,
+    showDriver: r.showDriver,
+    departments: r.departments,
+    otherDepts: r.otherDepts,
+    payments: r.payments,
+    cashOnly: r.cashOnly,
+    translationDevice: r.translationDevice,
+    languages: r.languages,
+    sources: r.sources,
+    lastUpdated: r.lastUpdated,
+    disclaimer: r.disclaimer,
+    emergency: r.emergency,
+    byDept: r.byDept,
+    allFacilities: r.allFacilities,
+    count: (n) => fill(r.count, { n }),
+    website: r.website,
+    holidays: r.holidays,
+    home: r.home,
+    searchByArea: r.searchByArea,
+    howToRead: r.howToRead,
+    listedFirst: r.listedFirst,
+    srcMhlwNet: r.srcMhlwNet,
+    srcD5: r.srcD5,
+    cityH1: (place) => fill(r.cityH1, { place }),
+    cityTitle: (place, n) => fill(r.cityTitle, { place, n }),
+    cityDesc: (place, n) => fill(r.cityDesc, { place, n }),
+    deptH1: (dept, place) => fill(r.deptH1, { dept, place }),
+    deptTitle: (dept, place, n) => fill(r.deptTitle, { dept, place, n }),
+    clinicTitle: (name) => fill(r.clinicTitle, { name }),
+  };
+}
+
 
 export function ui(lang: SiteLang): UIStrings {
   const t = UI[lang];
@@ -98,3 +148,13 @@ export function langName(code: string, lang: SiteLang): string {
   if (lang === "en") return LANG_NAME_EN[code] ?? code;
   return new Intl.DisplayNames([BCP47[lang]], { type: "language", fallback: "code" }).of(CLDR_CODE[code] ?? code) ?? code;
 }
+
+// BCP47 を使うので末尾で組み立てる
+const RAW = strings as Record<string, Raw>;
+export const UI: Partial<Record<SiteLang, UIStrings>> = {
+  en: EN,
+  ...Object.fromEntries((Object.keys(RAW) as SiteLang[]).map((l) => [l, build(l, RAW[l])])),
+};
+
+/** 本番に書き出す言語。訳の突き合わせが済んだら足す（PREVIEW_ALL_LANGS=1 で全言語を書き出して確認できる） */
+export const READY: SiteLang[] = ["en"];

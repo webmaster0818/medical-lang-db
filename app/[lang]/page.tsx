@@ -23,7 +23,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               >
                 <span className="font-bold">{placeName(a, lang)}</span>
                 <span className="block text-sm text-ink/70">
-                  {facilitiesFor(lang, a.cityCode).length} {t.facilities}
+                  {t.count(facilitiesFor(lang, a.cityCode).length)}
                 </span>
               </Link>
             </li>
