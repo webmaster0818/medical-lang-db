@@ -202,7 +202,7 @@
  "pt": {
   "tagline": "Hospitais e clínicas no Japão que atendem em português",
   "tierA": "Atende neste idioma",
-  "tierAdesc": "A instituição informa que atende pacientes neste idioma, ou tem intérprete ou coordenador médico para ele.",
+  "tierAdesc": "A instituição informa que atende pacientes neste idioma, ou tem intérprete médico ou coordenador de atendimento para este idioma.",
   "tierB": "Intérprete por telefone ou vídeo",
   "tierBdesc": "O atendimento neste idioma é feito por intérprete por telefone ou vídeo.",
   "tierC": "Aparelho de tradução",
