@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AREAS, LANGS, deptFromSlug, deptGroups, deptLabel, deptSlug, facilitiesFor, inGroup, indexable, placeName, type SiteLang } from "@/lib/data";
 import { ui } from "@/lib/ui";
+import { robots } from "@/lib/robots";
 import { FacilityCard } from "@/components/FacilityCard";
 
 type P = { lang: string; pref: string; city: string; dept: string };
@@ -32,7 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
   return {
     title: ui(d.lang).deptTitle(name, placeName(d.a, d.lang), d.list.length),
     // ◎○が3施設に満たない組み合わせは検索に出さない（strategy §4-2）
-    robots: indexable(d.list, d.lang) ? undefined : { index: false, follow: true },
+    robots: robots(!indexable(d.list, d.lang)),
   };
 }
 

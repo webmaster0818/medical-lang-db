@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AREAS, LANGS, deptGroups, deptLabel, deptSlug, facilitiesFor, inGroup, placeName, type SiteLang } from "@/lib/data";
 import { ui } from "@/lib/ui";
+import { robots } from "@/lib/robots";
 import { FacilityCard } from "@/components/FacilityCard";
 
 type P = { lang: string; pref: string; city: string };
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
   const t = ui(lang);
   const place = placeName(a, lang);
   const n = facilitiesFor(lang, a.cityCode).length;
-  return { title: t.cityTitle(place, n), description: t.cityDesc(place, n) };
+  return { title: t.cityTitle(place, n), description: t.cityDesc(place, n), robots: robots() };
 }
 
 export default async function CityPage({ params }: { params: Promise<P> }) {

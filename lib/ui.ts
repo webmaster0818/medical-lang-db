@@ -157,4 +157,9 @@ export const UI: Partial<Record<SiteLang, UIStrings>> = {
 };
 
 /** 本番に書き出す言語。訳の突き合わせが済んだら足す（PREVIEW_ALL_LANGS=1 で全言語を書き出して確認できる） */
-export const READY: SiteLang[] = ["en"];
+export const READY: SiteLang[] = ["en", "ko", "zh-hant", "zh-hans", "vi", "pt"];
+
+/** 言語切り替えに出す自称（Unicode CLDR） */
+export function autonym(lang: SiteLang): string {
+  return new Intl.DisplayNames([BCP47[lang]], { type: "language" }).of(BCP47[lang]) ?? lang;
+}

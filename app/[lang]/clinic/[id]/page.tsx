@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AREAS, LANGS, TIER_RANK, deptLabel, facilitiesFor, facility, mhlwUrl, placeName, type Day, type SiteLang } from "@/lib/data";
 import { langName, ui } from "@/lib/ui";
+import { robots } from "@/lib/robots";
 import { TierBadge } from "@/components/TierBadge";
 import { OpenNow } from "@/components/OpenNow";
 
@@ -21,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
   return {
     title: ui(lang as SiteLang).clinicTitle(f.nameEn ?? f.nameJa),
     // 「―」（要相談で翻訳機なし）の施設ページは検索に出さない（strategy §4-2）
-    robots: s.tier === "D" ? { index: false, follow: true } : undefined,
+    robots: robots(s.tier === "D"),
   };
 }
 
