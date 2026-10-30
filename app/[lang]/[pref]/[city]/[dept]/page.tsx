@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { AREAS, LANGS, deptFromSlug, deptGroups, deptName, deptSlug, facilitiesFor, inGroup, indexable, type SiteLang } from "@/lib/data";
-import { UI } from "@/lib/ui";
+import { AREAS, LANGS, deptFromSlug, deptGroups, deptLabel, deptSlug, facilitiesFor, inGroup, indexable, placeName, type SiteLang } from "@/lib/data";
+import { ui } from "@/lib/ui";
 import { FacilityCard } from "@/components/FacilityCard";
 
 type P = { lang: string; pref: string; city: string; dept: string };
@@ -28,9 +28,9 @@ function load(p: P) {
 export async function generateMetadata({ params }: { params: Promise<P> }): Promise<Metadata> {
   const d = load(await params);
   if (!d) return {};
-  const name = deptName(d.g, d.lang);
+  const name = deptLabel(d.g, d.lang);
   return {
-    title: `English-speaking ${name} in Shinjuku City, Tokyo (${d.list.length})`,
+    title: ui(d.lang).deptTitle(name, placeName(d.a, d.lang), d.list.length),
     // ◎○が3施設に満たない組み合わせは検索に出さない（strategy §4-2）
     robots: indexable(d.list, d.lang) ? undefined : { index: false, follow: true },
   };
@@ -40,14 +40,15 @@ export default async function DeptPage({ params }: { params: Promise<P> }) {
   const d = load(await params);
   if (!d) notFound();
   const { a, g, lang, list } = d;
-  const t = UI[lang as "en"];
-  const name = deptName(g, lang);
+  const t = ui(lang);
+  const name = deptLabel(g, lang);
+  const place = placeName(a, lang);
   return (
     <div className="space-y-6">
       <nav className="text-sm text-ink/60">
-        <Link href={`/${lang}/`}>Home</Link> › Tokyo › <Link href={`/${lang}/${a.prefSlug}/${a.citySlug}/`}>Shinjuku</Link> › {name}
+        <Link href={`/${lang}/`}>{t.home}</Link> › <Link href={`/${lang}/${a.prefSlug}/${a.citySlug}/`}>{place}</Link> › {name}
       </nav>
-      <h1 className="font-display text-3xl font-semibold">English-speaking {name} in Shinjuku City, Tokyo</h1>
+      <h1 className="font-display text-3xl font-semibold">{t.deptH1(name, place)}</h1>
       <p>
         {list.length} {t.facilities}.
       </p>

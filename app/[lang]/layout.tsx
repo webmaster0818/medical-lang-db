@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import "../globals.css";
 import { LANGS, type SiteLang } from "@/lib/data";
-import { UI } from "@/lib/ui";
+import { BCP47, ui } from "@/lib/ui";
 
 // 公開前のプレビュー：全ページを検索に出さない（公開時に外す）
 export const PREVIEW = true;
@@ -17,9 +17,9 @@ export function generateStaticParams() {
 
 export default async function LangLayout({ children, params }: { children: React.ReactNode; params: Promise<{ lang: string }> }) {
   const { lang } = await params;
-  const t = UI[lang as "en"];
+  const t = ui(lang as SiteLang);
   return (
-    <html lang={lang as SiteLang}>
+    <html lang={BCP47[lang as SiteLang]}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
@@ -44,8 +44,7 @@ export default async function LangLayout({ children, params }: { children: React
           <div className="mx-auto max-w-4xl space-y-2 px-4 py-6 text-sm text-ink/70">
             <p>{t.disclaimer}</p>
             <p>
-              {t.sources}: Medical Information Net (Ministry of Health, Labour and Welfare) /{" "}
-              List of medical institutions accepting foreign patients (Ministry of Health, Labour and Welfare)
+              {t.sources}: {t.srcMhlwNet} / {t.srcD5}
             </p>
           </div>
         </footer>

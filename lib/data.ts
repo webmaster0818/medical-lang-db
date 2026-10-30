@@ -1,5 +1,7 @@
 import facilitiesShinjuku from "@/data/site/facilities-13104.json";
 import departments from "@/data/site/departments.json";
+import dictionary from "@/data/dict/dictionary.json";
+import { UI } from "./ui";
 
 export type SiteLang = "en" | "ko" | "zh-hant" | "zh-hans" | "vi" | "pt";
 export type TierCode = "A" | "B" | "C" | "D";
@@ -42,7 +44,9 @@ export interface SiteFacility {
   site: Partial<Record<SiteLang, LangSupport>>;
 }
 
-export const LANGS: SiteLang[] = ["en"]; // 第1週は英語版だけを書き出す
+export const ALL_LANGS: SiteLang[] = ["en", "ko", "zh-hant", "zh-hans", "vi", "pt"];
+// 画面の文言（lib/ui.ts）がそろった言語だけを書き出す
+export const LANGS: SiteLang[] = ALL_LANGS.filter((l) => UI[l]);
 export const TIER_RANK: Record<TierCode, number> = { A: 0, B: 1, C: 2, D: 3 };
 
 export interface Area {
@@ -50,8 +54,10 @@ export interface Area {
   prefSlug: string;
   cityCode: string;
   citySlug: string;
+  prefJa: string;
+  cityJa: string;
 }
-export const AREAS: Area[] = [{ prefCode: "13", prefSlug: "tokyo", cityCode: "13104", citySlug: "shinjuku" }];
+export const AREAS: Area[] = [{ prefCode: "13", prefSlug: "tokyo", cityCode: "13104", citySlug: "shinjuku", prefJa: "東京都", cityJa: "新宿区" }];
 
 const ALL = facilitiesShinjuku as unknown as SiteFacility[];
 
@@ -79,6 +85,20 @@ function titleCase(s: string) {
 export function deptName(ja: string, lang: SiteLang): string | null {
   const t = DEPTS[ja]?.[lang]?.text;
   return t ? (lang === "en" ? titleCase(t) : t) : null;
+}
+
+/** 辞書に訳が無い診療科は日本語のまま出す（出典のない訳はしない） */
+export function deptLabel(ja: string, lang: SiteLang): string {
+  return deptName(ja, lang) ?? ja;
+}
+
+type DictRow = { kind: string; value_ja: string; lang: string; text: string; status: string };
+const DICT = dictionary as DictRow[];
+
+/** 地名（「東京都新宿区」の表記）。辞書で「実測」の訳だけを使い、無ければ日本語 */
+export function placeName(a: Area, lang: SiteLang): string {
+  const r = DICT.find((x) => (x.kind === "ward" || x.kind === "city") && x.value_ja === a.cityJa && x.lang === lang && x.status === "実測" && x.text);
+  return r?.text ?? `${a.prefJa}${a.cityJa}`;
 }
 
 export function deptSlug(ja: string): string {

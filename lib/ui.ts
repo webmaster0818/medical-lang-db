@@ -1,44 +1,87 @@
 import type { Day, SiteLang, TierCode } from "./data";
 
-// 画面の文言（英語版）。他言語の文言は出典つきの訳がそろってから足す
-export const UI = {
-  en: {
-    siteName: "MediLingo Japan",
-    tagline: "Hospitals and clinics in Japan that accept patients in your language",
-    tier: {
-      A: { mark: "◎", label: "Staff or interpreter", desc: "The facility reports it can see patients in this language." },
-      B: { mark: "○", label: "Phone or video interpreter", desc: "Support is through a remote interpreting service." },
-      C: { mark: "△", label: "Translation device", desc: "Support relies on a translation device, or the facility asks you to consult first." },
-      D: { mark: "―", label: "Ask before visiting", desc: "The language is listed, but the facility asks you to consult first and has no translation device." },
-    } as Record<TierCode, { mark: string; label: string; desc: string }>,
-    kind: { hospital: "Hospital", clinic: "Clinic", dental: "Dental clinic" },
-    day: { mon: "Mon", tue: "Tue", wed: "Wed", thu: "Thu", fri: "Fri", sat: "Sat", sun: "Sun", hol: "Hol" } as Record<Day, string>,
-    openNow: "Open now",
-    closedNow: "Closed now",
-    bookingRequired: "Appointment required",
-    bookingNotRequired: "Walk-ins accepted",
-    phone: "Phone",
-    phoneForeign: "Phone for foreign patients",
-    address: "Address",
-    showDriver: "Show this to a taxi driver",
-    departments: "Departments and hours",
-    otherDepts: "Other departments (Japanese names)",
-    payments: "Cards and e-money",
-    cashOnly: "No cards or e-money reported",
-    translationDevice: "Translation device available",
-    languages: "Languages",
-    sources: "Sources",
-    lastUpdated: "Last updated by the facility",
-    disclaimer:
-      "Information is reported by each facility to the Ministry of Health, Labour and Welfare. Hours and language support can change. Please call before you visit.",
-    emergency: "Emergency: call 119 (ambulance, free of charge)",
-    byDept: "By department",
-    allFacilities: "All facilities",
-    facilities: "facilities",
-    website: "Website",
-    holidays: "Hol = national holidays",
-  },
-} satisfies Partial<Record<SiteLang, unknown>>;
+// 画面の文言。言語は UI に文言を足したものだけが書き出される（lib/data.ts の LANGS）。
+// 診療科・地名・言語名は辞書（data/dict）から引くので、ここには書かない
+const EN = {
+  siteName: "MediLingo Japan",
+  tagline: "Hospitals and clinics in Japan that accept patients in your language",
+  tier: {
+    A: { mark: "◎", label: "Staff or interpreter", desc: "The facility reports it can see patients in this language." },
+    B: { mark: "○", label: "Phone or video interpreter", desc: "Support is through a remote interpreting service." },
+    C: { mark: "△", label: "Translation device", desc: "Support relies on a translation device, or the facility asks you to consult first." },
+    D: { mark: "―", label: "Ask before visiting", desc: "The language is listed, but the facility asks you to consult first and has no translation device." },
+  } as Record<TierCode, { mark: string; label: string; desc: string }>,
+  kind: { hospital: "Hospital", clinic: "Clinic", dental: "Dental clinic" },
+  day: { mon: "Mon", tue: "Tue", wed: "Wed", thu: "Thu", fri: "Fri", sat: "Sat", sun: "Sun", hol: "Hol" } as Record<Day, string>,
+  openNow: "Open now",
+  closedNow: "Closed now",
+  bookingRequired: "Appointment required",
+  bookingNotRequired: "Walk-ins accepted",
+  phone: "Phone",
+  phoneForeign: "Phone for foreign patients",
+  address: "Address",
+  showDriver: "Show this to a taxi driver",
+  departments: "Departments and hours",
+  otherDepts: "Other departments (Japanese names)",
+  payments: "Cards and e-money",
+  cashOnly: "No cards or e-money reported",
+  translationDevice: "Translation device available",
+  languages: "Languages",
+  sources: "Sources",
+  lastUpdated: "Last updated by the facility",
+  disclaimer:
+    "Information is reported by each facility to the Ministry of Health, Labour and Welfare. Hours and language support can change. Please call before you visit.",
+  emergency: "Emergency: call 119 (ambulance, free of charge)",
+  byDept: "By department",
+  allFacilities: "All facilities",
+  facilities: "facilities",
+  website: "Website",
+  holidays: "Hol = national holidays",
+  home: "Home",
+  searchByArea: "Search by area",
+  howToRead: "How to read the language support levels",
+  listedFirst: "Facilities with staff or interpreters are listed first.",
+  srcMhlwNet: "Medical Information Net (Ministry of Health, Labour and Welfare)",
+  srcD5: "List of medical institutions accepting foreign patients (Ministry of Health, Labour and Welfare)",
+  cityH1: (place: string) => `English-speaking hospitals and clinics in ${place}`,
+  cityTitle: (place: string, n: number) => `English-speaking hospitals and clinics in ${place} (${n})`,
+  cityDesc: (place: string, n: number) =>
+    `${n} hospitals, clinics and dental clinics in ${place} that list English support, with hours, appointment rules and phone numbers.`,
+  deptH1: (dept: string, place: string) => `English-speaking ${dept} in ${place}`,
+  deptTitle: (dept: string, place: string, n: number) => `English-speaking ${dept} in ${place} (${n})`,
+  clinicTitle: (name: string) => `${name} – English support, hours and phone`,
+};
+
+export type UIStrings = typeof EN;
+
+export const UI: Partial<Record<SiteLang, UIStrings>> = { en: EN };
+
+export function ui(lang: SiteLang): UIStrings {
+  const t = UI[lang];
+  if (!t) throw new Error(`UI strings missing for ${lang}`);
+  return t;
+}
+
+/** サイトの言語コード → BCP 47（Intl に渡す）。pt は在日ブラジル人向けなので pt-BR */
+export const BCP47: Record<SiteLang, string> = {
+  en: "en",
+  ko: "ko",
+  "zh-hant": "zh-Hant",
+  "zh-hans": "zh-Hans",
+  vi: "vi",
+  pt: "pt-BR",
+};
+
+/** 月〜日の短い表記を Unicode CLDR（Intl）から取る。祝日は CLDR に無いので UI 側で持つ */
+export function cldrWeekdays(lang: SiteLang): Record<Exclude<Day, "hol">, string> {
+  const f = new Intl.DateTimeFormat(BCP47[lang], { weekday: "short", timeZone: "UTC" });
+  const keys = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"] as const;
+  // 2026-01-05 は月曜
+  return Object.fromEntries(keys.map((k, i) => [k, f.format(new Date(Date.UTC(2026, 0, 5 + i)))])) as Record<
+    Exclude<Day, "hol">,
+    string
+  >;
+}
 
 export const LANG_NAME_EN: Record<string, string> = {
   en: "English", ko: "Korean", zh: "Chinese (Mandarin)", "zh-tw": "Taiwanese", yue: "Cantonese", vi: "Vietnamese", pt: "Portuguese",
@@ -46,3 +89,12 @@ export const LANG_NAME_EN: Record<string, string> = {
   ne: "Nepali", it: "Italian", ar: "Arabic", hi: "Hindi", mn: "Mongolian", ms: "Malay", si: "Sinhala", bn: "Bengali",
   ur: "Urdu", fa: "Persian", tr: "Turkish", km: "Khmer", lo: "Lao", uk: "Ukrainian", pl: "Polish", nl: "Dutch",
 };
+
+// 医療情報ネットの言語コード → CLDR のコード（台湾語＝閩南語）
+const CLDR_CODE: Record<string, string> = { "zh-tw": "nan", tl: "fil" };
+
+/** 施設が対応する言語の名前。英語は従来の表記、他言語は Unicode CLDR の言語名 */
+export function langName(code: string, lang: SiteLang): string {
+  if (lang === "en") return LANG_NAME_EN[code] ?? code;
+  return new Intl.DisplayNames([BCP47[lang]], { type: "language", fallback: "code" }).of(CLDR_CODE[code] ?? code) ?? code;
+}

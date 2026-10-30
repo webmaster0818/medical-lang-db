@@ -13,3 +13,4 @@ ingest/data/out/sections.jsonl
 .wrangler/
 .dev.vars*
 .env*
+tsconfig.tsbuildinfo

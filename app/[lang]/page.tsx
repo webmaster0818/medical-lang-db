@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { AREAS, facilitiesFor, type SiteLang } from "@/lib/data";
-import { UI } from "@/lib/ui";
+import { AREAS, facilitiesFor, placeName, type SiteLang } from "@/lib/data";
+import { ui } from "@/lib/ui";
 import { TierLegend } from "@/components/TierBadge";
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = (await params) as { lang: SiteLang };
-  const t = UI[lang as "en"];
+  const t = ui(lang);
   return (
     <div className="space-y-8">
       <section>
@@ -13,7 +13,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         <p className="mt-3 rounded border-l-4 border-accent bg-white px-4 py-3 font-bold">{t.emergency}</p>
       </section>
       <section>
-        <h2 className="mb-3 text-xl font-bold">Search by area</h2>
+        <h2 className="mb-3 text-xl font-bold">{t.searchByArea}</h2>
         <ul className="grid gap-2 sm:grid-cols-2">
           {AREAS.map((a) => (
             <li key={a.cityCode}>
@@ -21,7 +21,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                 href={`/${lang}/${a.prefSlug}/${a.citySlug}/`}
                 className="block rounded border border-line bg-white p-4 no-underline hover:border-ink"
               >
-                <span className="font-bold">Shinjuku City, Tokyo</span>
+                <span className="font-bold">{placeName(a, lang)}</span>
                 <span className="block text-sm text-ink/70">
                   {facilitiesFor(lang, a.cityCode).length} {t.facilities}
                 </span>
@@ -31,8 +31,8 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         </ul>
       </section>
       <section>
-        <h2 className="mb-3 text-xl font-bold">How to read the language support levels</h2>
-        <TierLegend />
+        <h2 className="mb-3 text-xl font-bold">{t.howToRead}</h2>
+        <TierLegend lang={lang} />
       </section>
     </div>
   );

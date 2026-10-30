@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { AREAS, LANGS, TIER_RANK, deptName, facilitiesFor, facility, mhlwUrl, type Day, type SiteLang } from "@/lib/data";
-import { LANG_NAME_EN, UI } from "@/lib/ui";
+import { AREAS, LANGS, TIER_RANK, deptLabel, facilitiesFor, facility, mhlwUrl, placeName, type Day, type SiteLang } from "@/lib/data";
+import { langName, ui } from "@/lib/ui";
 import { TierBadge } from "@/components/TierBadge";
 import { OpenNow } from "@/components/OpenNow";
 
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }): Prom
   if (!f) return {};
   const s = f.site[lang as SiteLang]!;
   return {
-    title: `${f.nameEn ?? f.nameJa} – English support, hours and phone`,
+    title: ui(lang as SiteLang).clinicTitle(f.nameEn ?? f.nameJa),
     // 「―」（要相談で翻訳機なし）の施設ページは検索に出さない（strategy §4-2）
     robots: s.tier === "D" ? { index: false, follow: true } : undefined,
   };
@@ -30,7 +30,7 @@ export default async function ClinicPage({ params }: { params: Promise<P> }) {
   const lang = p.lang as SiteLang;
   const f = facility(p.id);
   if (!f || !f.site[lang]) notFound();
-  const t = UI[lang as "en"];
+  const t = ui(lang);
   const s = f.site[lang]!;
   const a = AREAS.find((x) => x.cityCode === f.cityCode)!;
   const grouped = f.depts.filter((d) => d.groups.length);
@@ -39,11 +39,11 @@ export default async function ClinicPage({ params }: { params: Promise<P> }) {
   return (
     <article className="space-y-6">
       <nav className="text-sm text-ink/60">
-        <Link href={`/${lang}/`}>Home</Link> › Tokyo › <Link href={`/${lang}/${a.prefSlug}/${a.citySlug}/`}>Shinjuku</Link>
+        <Link href={`/${lang}/`}>{t.home}</Link> › <Link href={`/${lang}/${a.prefSlug}/${a.citySlug}/`}>{placeName(a, lang)}</Link>
       </nav>
       <header>
         <div className="flex flex-wrap items-center gap-2">
-          <TierBadge tier={s.tier} />
+          <TierBadge tier={s.tier} lang={lang} />
           <span className="text-sm text-ink/60">{t.kind[f.kind]}</span>
           <OpenNow hours={f.depts.map((d) => d.hours)} open={t.openNow} closed={t.closedNow} />
         </div>
@@ -92,8 +92,8 @@ export default async function ClinicPage({ params }: { params: Promise<P> }) {
         <ul className="grid gap-2">
           {langs.map(([code, l]) => (
             <li key={code} className="flex flex-wrap items-center gap-2 text-sm">
-              <span className="w-40 font-bold">{LANG_NAME_EN[code] ?? code}</span>
-              <TierBadge tier={l.tier} />
+              <span className="w-40 font-bold">{langName(code, lang)}</span>
+              <TierBadge tier={l.tier} lang={lang} />
             </li>
           ))}
         </ul>
@@ -118,7 +118,7 @@ export default async function ClinicPage({ params }: { params: Promise<P> }) {
               {[...grouped, ...others].map((d) => (
                 <tr key={d.ja} className="border-b border-line/60 align-top">
                   <th className="py-2 pr-2 text-left font-bold">
-                    {d.groups.length ? deptName(d.groups[0], lang) : null}
+                    {d.groups.length ? deptLabel(d.groups[0], lang) : null}
                     <span className="block font-normal text-ink/60" lang="ja">
                       {d.ja}
                     </span>
@@ -150,10 +150,10 @@ export default async function ClinicPage({ params }: { params: Promise<P> }) {
         <h2 className="mb-1 font-bold">{t.sources}</h2>
         <ul className="list-disc pl-5">
           <li>
-            <a href={mhlwUrl(f.id)}>Medical Information Net (Ministry of Health, Labour and Welfare)</a>
+            <a href={mhlwUrl(f.id)}>{t.srcMhlwNet}</a>
             {f.updated && ` — ${t.lastUpdated}: ${f.updated}`}
           </li>
-          {f.d5 && <li>List of medical institutions accepting foreign patients (Ministry of Health, Labour and Welfare)</li>}
+          {f.d5 && <li>{t.srcD5}</li>}
           {f.url && (
             <li>
               {t.website}: <a href={f.url}>{f.url}</a>

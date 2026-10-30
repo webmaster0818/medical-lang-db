@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { AREAS, LANGS, deptGroups, deptName, deptSlug, facilitiesFor, inGroup, type SiteLang } from "@/lib/data";
-import { UI } from "@/lib/ui";
+import { AREAS, LANGS, deptGroups, deptLabel, deptSlug, facilitiesFor, inGroup, placeName, type SiteLang } from "@/lib/data";
+import { ui } from "@/lib/ui";
 import { FacilityCard } from "@/components/FacilityCard";
 
 type P = { lang: string; pref: string; city: string };
@@ -17,11 +17,13 @@ function area(p: P) {
 
 export async function generateMetadata({ params }: { params: Promise<P> }): Promise<Metadata> {
   const p = await params;
-  const list = facilitiesFor(p.lang as SiteLang, area(p)?.cityCode);
-  return {
-    title: `English-speaking hospitals and clinics in Shinjuku City, Tokyo (${list.length})`,
-    description: `${list.length} hospitals, clinics and dental clinics in Shinjuku City that list English support, with hours, appointment rules and phone numbers.`,
-  };
+  const a = area(p);
+  if (!a) return {};
+  const lang = p.lang as SiteLang;
+  const t = ui(lang);
+  const place = placeName(a, lang);
+  const n = facilitiesFor(lang, a.cityCode).length;
+  return { title: t.cityTitle(place, n), description: t.cityDesc(place, n) };
 }
 
 export default async function CityPage({ params }: { params: Promise<P> }) {
@@ -29,7 +31,8 @@ export default async function CityPage({ params }: { params: Promise<P> }) {
   const lang = p.lang as SiteLang;
   const a = area(p);
   if (!a) notFound();
-  const t = UI[lang as "en"];
+  const t = ui(lang);
+  const place = placeName(a, lang);
   const list = facilitiesFor(lang, a.cityCode);
   const depts = deptGroups()
     .map((g) => ({ g, n: list.filter((f) => inGroup(f, g)).length }))
@@ -38,11 +41,11 @@ export default async function CityPage({ params }: { params: Promise<P> }) {
   return (
     <div className="space-y-6">
       <nav className="text-sm text-ink/60">
-        <Link href={`/${lang}/`}>Home</Link> › Tokyo › Shinjuku
+        <Link href={`/${lang}/`}>{t.home}</Link> › {place}
       </nav>
-      <h1 className="font-display text-3xl font-semibold">English-speaking hospitals and clinics in Shinjuku City, Tokyo</h1>
+      <h1 className="font-display text-3xl font-semibold">{t.cityH1(place)}</h1>
       <p>
-        {list.length} {t.facilities}. Facilities with staff or interpreters are listed first.
+        {list.length} {t.facilities}. {t.listedFirst}
       </p>
       <section>
         <h2 className="mb-2 text-lg font-bold">{t.byDept}</h2>
@@ -53,7 +56,7 @@ export default async function CityPage({ params }: { params: Promise<P> }) {
                 href={`/${lang}/${a.prefSlug}/${a.citySlug}/${deptSlug(g)}/`}
                 className="inline-block rounded-full border border-line bg-white px-3 py-1 text-sm no-underline hover:border-ink"
               >
-                {deptName(g, lang)} <span className="text-ink/50">{n}</span>
+                {deptLabel(g, lang)} <span className="text-ink/50">{n}</span>
               </Link>
             </li>
           ))}
