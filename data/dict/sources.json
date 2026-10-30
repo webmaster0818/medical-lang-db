@@ -1,0 +1,76 @@
+{
+ "jnto-mi": {
+  "name": "日本を安心して旅していただくために―具合が悪くなったときに役立つガイド（医療機関検索）",
+  "org": "日本政府観光局（JNTO・独立行政法人国際観光振興機構）",
+  "nature": "国の独立行政法人",
+  "url_by_lang": {
+   "ja": "https://www.jnto.go.jp/emergency/jpn/mi_guide.html",
+   "en": "https://www.jnto.go.jp/emergency/eng/mi_guide.html",
+   "zh-hans": "https://www.jnto.go.jp/emergency/chs/mi_guide.html",
+   "zh-hant": "https://www.jnto.go.jp/emergency/chc/mi_guide.html",
+   "ko": "https://www.jnto.go.jp/emergency/kor/mi_guide.html"
+  },
+  "accessed": "2026-10-30",
+  "note": "同一ページの日本語版と各言語版で、入力欄の value 属性（d01_emergency 等）が共通。これで機械的に対応付けた。対応言語は ja/en/zh-hans/zh-hant/ko の5つで、vi・pt 版は無い。"
+ },
+ "mhlw-ml": {
+  "name": "外国人向け多言語説明資料",
+  "org": "厚生労働省",
+  "nature": "国の行政機関",
+  "url_by_lang": {
+   "ja": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
+  },
+  "accessed": "2026-10-30",
+  "note": "各PDFは日本語と対訳。中国語版は簡体字のみ（繁体字版は無い）。ベトナム語版は「現地語／英語／日本語」の3言語併記。"
+ },
+ "moj-gb": {
+  "name": "生活・就労ガイドブック",
+  "org": "出入国在留管理庁",
+  "nature": "国の行政機関",
+  "url_by_lang": {
+   "ja": "https://www.moj.go.jp/isa/support/portal/guidebook_all.html"
+  },
+  "accessed": "2026-10-30",
+  "note": "第6章「医療」の同一表（ja 印刷ページ63）を各言語版の同じ表から取った。18言語版があり、vi・pt を含む。"
+ },
+ "kifjp": {
+  "name": "多言語医療問診票",
+  "org": "公益財団法人かながわ国際交流財団／NPO法人国際交流ハーティ港南台（自治体国際化協会の助成）",
+  "nature": "県の外郭団体（公益財団法人）",
+  "url_by_lang": {
+   "en": "https://kifjp.org/medical/english/",
+   "ko": "https://kifjp.org/medical/korea/",
+   "zh-hans": "https://kifjp.org/medical/chinese/",
+   "vi": "https://kifjp.org/medical/vietnamese/",
+   "pt": "https://kifjp.org/medical/portuguese/"
+  },
+  "accessed": "2026-10-30",
+  "note": "各ページで訳語と日本語が並記されている。中国語版は簡体字と繁体字が混在する箇所がある（例：内科を「內科」と表記）ため、簡体字の典拠としては mhlw-ml / jnto-mi を優先した。"
+ },
+ "tokyo-med": {
+  "name": "外国人のためのTOKYO医療情報サイト（症状に応じた診療科／医療機関にかかるときの流れ）",
+  "org": "東京都保健医療局",
+  "nature": "都道府県",
+  "url_by_lang": {
+   "ja": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info",
+   "en": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_eng",
+   "zh-hans": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_k",
+   "zh-hant": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_h",
+   "ko": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_kor"
+  },
+  "accessed": "2026-10-30",
+  "note": "ja/en/zh-hans/zh-hant/ko の5言語。vi・pt 版は無い。"
+ },
+ "jma-dic": {
+  "name": "防災気象情報の多言語辞書（都道府県・市区町村）",
+  "org": "気象庁",
+  "nature": "国の行政機関",
+  "url_by_lang": {
+   "pref": "https://www.data.jma.go.jp/multi/data/dictionary/pref.json",
+   "city": "https://www.data.jma.go.jp/multi/data/dictionary/city.json",
+   "top": "https://www.jma.go.jp/jma/kokusai/multi.html"
+  },
+  "accessed": "2026-10-30",
+  "note": "都道府県47件・市区町村1,901件を15言語で収録。en/ko/zh-hans(chinese_zs)/zh-hant(chinese_zt)/vi(vietnamese)/pt(portuguese) の6言語すべてを含む。政令指定都市は区単位の見出し（例：横浜鶴見区）のため、市の部分だけを切り出した箇所がある（各項目の source_note に明記）。"
+ }
+}
