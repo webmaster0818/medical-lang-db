@@ -5,12 +5,12 @@ import strings from "@/data/ui/strings.json";
 // 診療科・地名・言語名は辞書（data/dict）から引くので、ここには書かない
 const EN = {
   siteName: "MediLingo Japan",
-  tagline: "Hospitals and clinics in Japan that accept patients in your language",
+  tagline: "Hospitals and clinics in Japan with support in your language",
   tier: {
     A: { mark: "◎", label: "Accepts this language", desc: "The facility reports it can see patients in this language, or has a medical interpreter or coordinator for it." },
     B: { mark: "○", label: "Phone or video interpreter", desc: "Support in this language is through a phone or video interpreting service." },
     C: { mark: "△", label: "Translation device", desc: "The facility has a translation device and relies on it for this language." },
-    D: { mark: "―", label: "Contact before visiting", desc: "The language is listed, but the facility asks you to contact it first and has no translation device." },
+    D: { mark: "―", label: "Contact before visiting", desc: "The language is listed, but no interpreter or translation device is recorded. Please contact the facility before visiting." },
   } as Record<TierCode, { mark: string; label: string; desc: string }>,
   kind: { hospital: "Hospital", clinic: "Clinic", dental: "Dental clinic" },
   day: { mon: "Mon", tue: "Tue", wed: "Wed", thu: "Thu", fri: "Fri", sat: "Sat", sun: "Sun", hol: "Hol" } as Record<Day, string>,
