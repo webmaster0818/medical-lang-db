@@ -3,3 +3,6 @@ node_modules/
 out/
 data/raw/
 .DS_Store
+
+# raw parse dump (14MB) - kept in jiro-2 workspace
+ingest/data/out/sections.jsonl

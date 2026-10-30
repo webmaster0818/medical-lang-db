@@ -1,0 +1,8606 @@
+[
+{
+"id": "1311130800120",
+"pref": "13",
+"kbn": "1",
+"kikanCd": "1130800120",
+"name": "国立健康危機管理研究機構国立国際医療センター",
+"city_code": "13104",
+"csv": "01-1_hospital_facility_info"
+},
+{
+"id": "1311130800250",
+"pref": "13",
+"kbn": "1",
+"kikanCd": "1130800250",
+"name": "公益財団法人　神経研究所附属晴和病院",
+"city_code": "13104",
+"csv": "01-1_hospital_facility_info"
+},
+{
+"id": "1311130800380",
+"pref": "13",
+"kbn": "1",
+"kikanCd": "1130800380",
+"name": "独立行政法人地域医療機能推進機構　東京新宿メディカルセンター",
+"city_code": "13104",
+"csv": "01-1_hospital_facility_info"
+},
+{
+"id": "1311130800410",
+"pref": "13",
+"kbn": "1",
+"kikanCd": "1130800410",
+"name": "東京女子医科大学病院",
+"city_code": "13104",
+"csv": "01-1_hospital_facility_info"
+},
+{
+"id": "1311130800670",
+"pref": "13",
+"kbn": "1",
+"kikanCd": "1130800670",
+"name": "医療法人社団鉄友会　柳町病院",
+"city_code": "13104",
+"csv": "01-1_hospital_facility_info"
+},
+{
+"id": "1311130900280",
+"pref": "13",
+"kbn": "1",
+"kikanCd": "1130900280",
+"name": "慶應義塾大学病院",
+"city_code": "13104",
+"csv": "01-1_hospital_facility_info"
+},
+{
+"id": "1311131000220",
+"pref": "13",
+"kbn": "1",
+"kikanCd": "1131000220",
+"name": "地方独立行政法人東京都立病院機構　東京都立大久保病院",
+"city_code": "13104",
+"csv": "01-1_hospital_facility_info"
+},
+{
+"id": "1311131000640",
+"pref": "13",
+"kbn": "1",
+"kikanCd": "1131000640",
+"name": "東京医科大学病院",
+"city_code": "13104",
+"csv": "01-1_hospital_facility_info"
+},
+{
+"id": "1311131000770",
+"pref": "13",
+"kbn": "1",
+"kikanCd": "1131000770",
+"name": "社会福祉法人聖母会　聖母病院",
+"city_code": "13104",
+"csv": "01-1_hospital_facility_info"
+},
+{
+"id": "1311131001100",
+"pref": "13",
+"kbn": "1",
+"kikanCd": "1131001100",
+"name": "医療法人社団悦伝会　目白病院",
+"city_code": "13104",
+"csv": "01-1_hospital_facility_info"
+},
+{
+"id": "1311131001490",
+"pref": "13",
+"kbn": "1",
+"kikanCd": "1131001490",
+"name": "独立行政法人地域医療機能推進機構　東京山手メディカルセンター",
+"city_code": "13104",
+"csv": "01-1_hospital_facility_info"
+},
+{
+"id": "1311136200000",
+"pref": "13",
+"kbn": "1",
+"kikanCd": "1136200000",
+"name": "一般社団法人　ＩＣＲ　附属　クリニカルリサーチ東京病院",
+"city_code": "13104",
+"csv": "01-1_hospital_facility_info"
+},
+{
+"id": "1311136200100",
+"pref": "13",
+"kbn": "1",
+"kikanCd": "1136200100",
+"name": "医療法人社団広恵会　春山記念病院",
+"city_code": "13104",
+"csv": "01-1_hospital_facility_info"
+},
+{
+"id": "1321315724992",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315724992",
+"name": "西新宿パークサイドクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725098",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725098",
+"name": "東新宿りん内視鏡内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725106",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725106",
+"name": "医療法人財団綜友会　新宿ファーストタワークリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725114",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725114",
+"name": "医療法人大福会　東京新宿クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725163",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725163",
+"name": "リリモアクリニック内科歯科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725171",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725171",
+"name": "医療法人社団親豊会　新宿なないろクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725213",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725213",
+"name": "神楽坂やまもと内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725262",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725262",
+"name": "市ヶ谷ウィメンズヘルス＆ウェルネスクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725270",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725270",
+"name": "とやま内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725288",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725288",
+"name": "ここあすクリニック市ヶ谷",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725320",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725320",
+"name": "西新宿内科つながりクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725403",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725403",
+"name": "新宿三丁目メディカルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725486",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725486",
+"name": "一般社団法人日本先進医療学会　新宿うるおい皮膚科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725585",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725585",
+"name": "新宿糖尿病・皮膚科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725619",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725619",
+"name": "やさしい内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725643",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725643",
+"name": "ヘルスマネージメントクリニック西新宿",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725650",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725650",
+"name": "眠りのクリニック神楽坂",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725676",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725676",
+"name": "医療法人社団じあい会　メディカルスキャニング東新宿",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725684",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725684",
+"name": "新宿弁天内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725700",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725700",
+"name": "東京中央メンタルケアクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725726",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725726",
+"name": "まつもとクリニック西新宿五丁目耳鼻咽喉科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725734",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725734",
+"name": "新宿かえで歯科・形成外科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725775",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725775",
+"name": "東新宿あらい内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725817",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725817",
+"name": "アーサー皮膚科　美容皮膚科　高田馬場",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725858",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725858",
+"name": "シティライトクリニック歌舞伎町",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725932",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725932",
+"name": "鈴木眼科　四谷三丁目クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725957",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725957",
+"name": "東新宿整形外科リハビリクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315725965",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315725965",
+"name": "医療法人社団円遊会　高田馬場クリニックこころとひふ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315726013",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315726013",
+"name": "内科・糖尿病・甲状腺の早稲田メディカルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315726054",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315726054",
+"name": "新宿目白　胃・大腸内視鏡と肛門　うえひら消化器クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315726112",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315726112",
+"name": "新宿心療内科　新宿西口駅前メンタルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315726161",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315726161",
+"name": "新宿御苑レディースクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1321315726229",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "1315726229",
+"name": "神楽坂メンタルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130801140",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130801140",
+"name": "温知堂　矢数医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130803610",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130803610",
+"name": "総務省第二庁舎診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130804170",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130804170",
+"name": "医療法人社団真昌会　神楽坂岡田診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130804200",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130804200",
+"name": "大日本印刷健康保険組合市谷診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130804750",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130804750",
+"name": "公益財団法人東京都予防医学協会保健会館クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130806510",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130806510",
+"name": "医療法人社団豊和会　村橋医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130810650",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130810650",
+"name": "伊藤医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130811790",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130811790",
+"name": "医療法人社団優徳会　矢来クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130812380",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130812380",
+"name": "飯田橋医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130812700",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130812700",
+"name": "社会福祉法人新宿区障害者福祉協会　新宿区立障害者福祉センター健康管理室",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130813710",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130813710",
+"name": "医療法人社団早正会　岡崎医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130814430",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130814430",
+"name": "小野眼科医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130815280",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130815280",
+"name": "特別養護老人ホームあかね苑　診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130816320",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130816320",
+"name": "医療法人社団涼友会　執行クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130817750",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130817750",
+"name": "関東ＩＴソフトウェア健康保険組合大久保診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130817910",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130817910",
+"name": "こだち整形形成外科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130818050",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130818050",
+"name": "東京保健生活協同組合江戸川橋診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130818210",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130818210",
+"name": "医療法人社団喜生会　ハートクリニック飯田橋",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130818890",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130818890",
+"name": "医療法人社団泉晶会　飯田橋内科歯科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130819220",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130819220",
+"name": "鈴木医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130819350",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130819350",
+"name": "医療法人社団紫苑会　たかはし眼科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130820750",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130820750",
+"name": "外堀クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130900450",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130900450",
+"name": "医療法人社団はなみずき　佐藤内科小児科医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130900900",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130900900",
+"name": "医療法人社団柏葉会　高村医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130901750",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130901750",
+"name": "須田医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130902340",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130902340",
+"name": "信濃町診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130906540",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130906540",
+"name": "田中内科医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130909570",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130909570",
+"name": "樋口クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130911720",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130911720",
+"name": "石井外科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130914200",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130914200",
+"name": "医療法人社団川添記念会　四谷川添産婦人科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130915180",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130915180",
+"name": "日原医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130916060",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130916060",
+"name": "医療法人社団順正会　ヒロオカクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130916770",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130916770",
+"name": "医療法人社団藤和東光会　藤村内科外科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130917650",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130917650",
+"name": "花輪皮膚科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130917940",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130917940",
+"name": "安藤整形外科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130918240",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130918240",
+"name": "四谷メディカルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130918660",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130918660",
+"name": "まさご眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130919250",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130919250",
+"name": "医療法人社団修琴堂　大塚医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130920490",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130920490",
+"name": "まがり医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130920810",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130920810",
+"name": "医療法人社団幸清会　四谷クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322130921240",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2130921240",
+"name": "信濃町眼科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131001950",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131001950",
+"name": "京王プラザホテル診療室",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131002090",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131002090",
+"name": "三好医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131002700",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131002700",
+"name": "医療法人社団いずみ会　堀江皮フ科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131002960",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131002960",
+"name": "医療法人社団顕彬会　伊藤外科内科医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131006030",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131006030",
+"name": "医療法人社団医食会　新宿医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131009640",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131009640",
+"name": "高橋医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131010040",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131010040",
+"name": "橋爪医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131010750",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131010750",
+"name": "一般財団法人日本健康管理協会　新宿健診プラザ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131011630",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131011630",
+"name": "一般財団法人光線研究所付属診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131012510",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131012510",
+"name": "医療法人社団　西北診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131014080",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131014080",
+"name": "医療法人社団正修会　細谷医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131014820",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131014820",
+"name": "医療法人社団　麓翠会　助川クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131016420",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131016420",
+"name": "医療法人社団あけぼの会　山本医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131017010",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131017010",
+"name": "菅谷医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131019290",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131019290",
+"name": "久木田医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131023750",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131023750",
+"name": "損保ジャパン診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131023910",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131023910",
+"name": "医療法人社団　腎研記念会",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131024180",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131024180",
+"name": "竹下医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131025190",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131025190",
+"name": "医療法人社団敬昭会　芙蓉診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131026070",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131026070",
+"name": "医療法人社団慈眼真成会　加藤眼科医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131027240",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131027240",
+"name": "医療法人社団優久会　根本医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131028670",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131028670",
+"name": "医療法人社団ＥＮＥＸＴ　新宿センタービルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131028960",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131028960",
+"name": "かわかた医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131029000",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131029000",
+"name": "医療法人社団榊原厚生会　新宿三井ビルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131029680",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131029680",
+"name": "光眼科医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131030240",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131030240",
+"name": "新宿形成外科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131030790",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131030790",
+"name": "医療法人社団愛静会　池田整形外科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131032420",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131032420",
+"name": "水町クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131039940",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131039940",
+"name": "医療法人社団康生会　新宿新都心クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131041190",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131041190",
+"name": "医療法人社団榊原厚生会　新宿ＮＳビルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131041480",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131041480",
+"name": "佐藤クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131041640",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131041640",
+"name": "医療法人社団新裕会　オリエンタル診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131044540",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131044540",
+"name": "さちクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131046430",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131046430",
+"name": "医療法人社団あさひ会　西早稲田クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131046560",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131046560",
+"name": "医療法人社団白水会　須田クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131048610",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131048610",
+"name": "磯貝クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131049910",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131049910",
+"name": "東京都職員共済組合シティ・ホール診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131050310",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131050310",
+"name": "東京都交通局職員部労働課健康管理室",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131051290",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131051290",
+"name": "入江　ＣＬＩＮＩＣ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131053050",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131053050",
+"name": "医療法人社団尾城会　尾城眼科医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131053210",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131053210",
+"name": "高田馬場診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131053340",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131053340",
+"name": "公益財団法人　三越厚生事業団　三越診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131054510",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131054510",
+"name": "医療法人社団弘恵会　西新宿皮フ科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131055100",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131055100",
+"name": "たまきクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131056950",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131056950",
+"name": "医療法人社団珠ＭＥＤＩＣＡＬ　高島クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131057120",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131057120",
+"name": "医療法人社団石川記念会　新宿石川クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131057670",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131057670",
+"name": "医療法人社団菱秀会　金内メディカルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131060120",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131060120",
+"name": "山手皮膚科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131061420",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131061420",
+"name": "北新宿特別養護老人ホーム医務室",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131061710",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131061710",
+"name": "都市再生機構新宿診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131062560",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131062560",
+"name": "医療法人社団慶順会　柏木医科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131062980",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131062980",
+"name": "沢田クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131063150",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131063150",
+"name": "医療法人社団　桑原医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131064160",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131064160",
+"name": "医療法人社団水神会　中井駅前クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131064290",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131064290",
+"name": "医療法人社団知足会　百人町アルファクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131064450",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131064450",
+"name": "医療法人社団玄英会　新宿ウエストクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131064870",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131064870",
+"name": "医療法人健育会　オボクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131065170",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131065170",
+"name": "医療法人社団四葉会　木島内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131066630",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131066630",
+"name": "医療法人社団竹誠会　宗像クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131066890",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131066890",
+"name": "オペラシティクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131067770",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131067770",
+"name": "医療法人社団コスモス会　紫藤クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131069110",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131069110",
+"name": "本庄医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131069820",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131069820",
+"name": "しらたき眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131069950",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131069950",
+"name": "医療法人社団医進会　小田クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131070640",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131070640",
+"name": "新宿シティ眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131071520",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131071520",
+"name": "医療法人社団成山会楠樹記念クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131072370",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131072370",
+"name": "晶眼科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131072400",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131072400",
+"name": "石田クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131072530",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131072530",
+"name": "医療法人社団藤和東光会　藤保クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322131118470",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2131118470",
+"name": "西大久保クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322132925330",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2132925330",
+"name": "医療法人社団澄琴会　夏目坂皮フ科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322133100119",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2133100119",
+"name": "医療法人社団松和会　望星西新宿診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322133251560",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2133251560",
+"name": "医療法人社団三幸会　新宿フェミークリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322135811290",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2135811290",
+"name": "東京女子医科大学東洋医学研究所クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136128669",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136128669",
+"name": "新宿西口耳鼻いんこう科・形成外科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200000",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200000",
+"name": "医療法人社団イーボイス新宿ボイスクリニック耳鼻咽喉科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200003",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200003",
+"name": "医療法人社団正定会　新宿ＯＰ廣瀬クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200004",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200004",
+"name": "医療法人社団青弘会　はまやホームケアクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200007",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200007",
+"name": "医療法人社団翔心会　伊藤メディカルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200008",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200008",
+"name": "医療法人社団永康会　四ツ谷腎クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200015",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200015",
+"name": "医療法人社団優秋会　みみ・はな・のど神楽坂クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200023",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200023",
+"name": "桜花クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200024",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200024",
+"name": "新宿心療内科ゆうメンタルクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200025",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200025",
+"name": "医療法人社団桜花会　ＫＭ新宿クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200026",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200026",
+"name": "西條クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200027",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200027",
+"name": "医療法人社団イルマーレドクター松井クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200031",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200031",
+"name": "山本りかアイクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200032",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200032",
+"name": "Ｓｈｉｎｊｕｋｕ　ＡＲＴ　Ｃｌｉｎｉｃ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200037",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200037",
+"name": "林あいずみ医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200039",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200039",
+"name": "医療法人社団　善仁会　ヘルチェックレディース新宿クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200040",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200040",
+"name": "医療法人社団吉医会　四谷ローズクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200042",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200042",
+"name": "健康管理クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200043",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200043",
+"name": "内科すずきクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200044",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200044",
+"name": "アルツクリニックＰＥＴラボ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200045",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200045",
+"name": "あおばクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200046",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200046",
+"name": "医療法人社団最匠会　光伸メディカルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200047",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200047",
+"name": "医療法人社団　楓心会　おおぬき耳鼻咽喉科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200049",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200049",
+"name": "北新宿ガーデンクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200050",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200050",
+"name": "医療法人社団慶翔会　新宿眼科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200051",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200051",
+"name": "医療法人社団慶幸会　東新宿クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200052",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200052",
+"name": "くれクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200056",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200056",
+"name": "神楽坂みなみの眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200057",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200057",
+"name": "医療法人社団　慶真記念会　新宿　睡眠・呼吸器内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200058",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200058",
+"name": "医療法人社団尚高会　西新宿きさらぎクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200061",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200061",
+"name": "新宿ライフクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200062",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200062",
+"name": "医療法人社団甲状腺のクリニック　甲状腺のクリニック　若松河田",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200063",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200063",
+"name": "医療法人社団慶潤会　ＫＤＤＩビルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200064",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200064",
+"name": "医療法人社団吉誠会　新宿耳鼻科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200065",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200065",
+"name": "四谷こころのクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200066",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200066",
+"name": "ＡＢＣクリニック美容外科　新宿渡辺院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200077",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200077",
+"name": "いなげ眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200078",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200078",
+"name": "大日本印刷健康保険組合ＤＮＰ健康情報管理室",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200085",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200085",
+"name": "虹色クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200088",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200088",
+"name": "東新宿こころのクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200098",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200098",
+"name": "医療法人社団英紀会　東京ロンフェルメ耳鼻いんこう科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200100",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200100",
+"name": "若松河田眼科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200102",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200102",
+"name": "新大久保クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200104",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200104",
+"name": "水町保険診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200107",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200107",
+"name": "新宿なかまる眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200108",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200108",
+"name": "田中クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200109",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200109",
+"name": "アパリクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200114",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200114",
+"name": "高田馬場さくらクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200117",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200117",
+"name": "めじろそらクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200118",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200118",
+"name": "医療法人社団緑寿会　こばやし皮ふケアクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200119",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200119",
+"name": "医療法人社団ＳＥＣ　新宿駅前クリニック皮膚科・内科・泌尿器科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200120",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200120",
+"name": "医療法人社団北の丸会　歌舞伎町メンタルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200123",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200123",
+"name": "医療法人社団　こどもの城会　こども・思春期メンタルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200124",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200124",
+"name": "目白よしみクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200128",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200128",
+"name": "新宿区医師会区民健康センター",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200131",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200131",
+"name": "新宿区東新宿保健センター",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200133",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200133",
+"name": "ＳＢＣ整形外科クリニック西新宿本院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200137",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200137",
+"name": "医療法人社団健鳳会　アイクリニック神楽坂",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200138",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200138",
+"name": "いしい内科・外科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200139",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200139",
+"name": "医療法人社団生光会　新宿追分クリニック・レディース",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200140",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200140",
+"name": "医療法人社団健真美　しらゆりメディカルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200142",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200142",
+"name": "親和クリニック新宿",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200143",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200143",
+"name": "アスク井上クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200145",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200145",
+"name": "医療法人社団西美会",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200147",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200147",
+"name": "医療法人社団千紫会　新宿神経クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200149",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200149",
+"name": "神楽坂こころのクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200151",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200151",
+"name": "新宿ゲートウェイクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200156",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200156",
+"name": "特別養護老人ホーム　もみの樹園医務室",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200157",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200157",
+"name": "医療法人みなとみらい　新宿金沢内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200159",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200159",
+"name": "医療法人社団清佑会　ＭＳクリニック新宿",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200160",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200160",
+"name": "早稲田たけのこクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200162",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200162",
+"name": "Ｋ　ｃｌｉｎｉｃ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200164",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200164",
+"name": "若松町整形外科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200166",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200166",
+"name": "医療法人社団こどもハート　富久こどもハート・アレルギークリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200167",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200167",
+"name": "新宿トミヒサクロスクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200170",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200170",
+"name": "新宿ＡＧＡクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200173",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200173",
+"name": "東京都赤十字血液センター",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200175",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200175",
+"name": "とびた整形外科・内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200178",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200178",
+"name": "医療法人社団白千代会　貴子レディースクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200184",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200184",
+"name": "まこと小児神経クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200185",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200185",
+"name": "高田馬場耳鼻咽喉科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200187",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200187",
+"name": "医療法人社団鉄医会　ナビタスクリニック新宿",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200188",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200188",
+"name": "東京都心身障害者福祉センター",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200190",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200190",
+"name": "新宿美容外科クリニック　新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200192",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200192",
+"name": "西新宿小林クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200193",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200193",
+"name": "富久クロス眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200194",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200194",
+"name": "医療法人社団予防会　新宿サテライトクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200197",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200197",
+"name": "医療法人社団ＭＫ　みきこどもクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200204",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200204",
+"name": "高田馬場アイクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200205",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200205",
+"name": "新宿内視鏡クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200207",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200207",
+"name": "市ヶ谷ひもろぎクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200209",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200209",
+"name": "耳鼻咽喉科　ヒロ医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200210",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200210",
+"name": "医療法人社団上伸会　東京上野クリニック新宿医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200212",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200212",
+"name": "阪田美容・形成外科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200213",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200213",
+"name": "西新宿おざわメンタルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200220",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200220",
+"name": "医療法人社団Ｂｌｏｏｍｉｎｇ　桜の芽クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200222",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200222",
+"name": "医療法人社団活寿会　東京ひざ関節症クリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200224",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200224",
+"name": "東京女子医科大学保健管理・学生健康管理クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200225",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200225",
+"name": "もりクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200228",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200228",
+"name": "オラクル美容皮膚科東京新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200231",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200231",
+"name": "医療法人社団裕志会プライベートケアクリニック東京　新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200232",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200232",
+"name": "医療法人社団雄慶会　東新宿駅前皮ふ科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200234",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200234",
+"name": "医療法人新光会　四谷三丁目駅前眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200236",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200236",
+"name": "湘南美容クリニック新宿南口院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200240",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200240",
+"name": "いわさき眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200241",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200241",
+"name": "もりのぶ小児科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200242",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200242",
+"name": "プライベートクリニック高田馬場",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200246",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200246",
+"name": "なでしこ女性診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200249",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200249",
+"name": "落合ファミリークリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200255",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200255",
+"name": "医療法人社団杉一会　杉山産婦人科　新宿",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200257",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200257",
+"name": "医療法人社団二葉会　東新宿駅前クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200260",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200260",
+"name": "早稲田メンタルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200262",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200262",
+"name": "医療法人社団千美会　美容外科・歯科新宿ガーデンクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200264",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200264",
+"name": "神楽坂内科・脳神経内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200265",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200265",
+"name": "にしむら整形外科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200268",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200268",
+"name": "御苑アンジェリカクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200269",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200269",
+"name": "あけぼの診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200270",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200270",
+"name": "西早稲田眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200271",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200271",
+"name": "新宿東口ハートクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200274",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200274",
+"name": "まきレディスクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200276",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200276",
+"name": "ＡＧＡメディカルケアクリニック　新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200278",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200278",
+"name": "レジーナクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200282",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200282",
+"name": "医療法人社団しらゆき　ジャスミンレディースクリニック新宿",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200284",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200284",
+"name": "医療法人社団淳康会ギガクリニック新宿南口院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200285",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200285",
+"name": "ＴＣＢ　東京中央美容外科・ＴＣＢ　スキンクリニック　新宿東口院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200287",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200287",
+"name": "医療法人社団平成医会　平成かぐらクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200288",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200288",
+"name": "こぐれ理学診療クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200290",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200290",
+"name": "新宿三丁目えきちかクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200291",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200291",
+"name": "ミラザ新宿つるかめクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200293",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200293",
+"name": "新宿内科耳鼻咽喉科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200294",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200294",
+"name": "神楽坂形成外科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200299",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200299",
+"name": "医療法人社団黎明会　新宿東メトロクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200303",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200303",
+"name": "高田馬場内科・皮膚科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200304",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200304",
+"name": "医療法人社団Ｈｅａｒｔｂｅａｔ　新宿グリーンタワー内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200305",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200305",
+"name": "四谷甲状腺糖尿病クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200309",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200309",
+"name": "エミナルクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200310",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200310",
+"name": "医療法人社団東京桜十字　新宿桜十字クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200311",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200311",
+"name": "春日メディカルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200313",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200313",
+"name": "医療法人社団さくらさくら会　新宿駅前さくらレディースクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200314",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200314",
+"name": "柳沢クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200316",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200316",
+"name": "医療法人社団慈創会　曙ホームクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200317",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200317",
+"name": "星医メンタルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200319",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200319",
+"name": "医療法人社団ペリカン　新宿ペリカンこころクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200320",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200320",
+"name": "医療法人社団ＴＬＣ医療会　ブレインケアクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200321",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200321",
+"name": "高田馬場皮膚科・形成外科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200322",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200322",
+"name": "特別養護老人ホーム　みさよはうす富久",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200324",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200324",
+"name": "医療法人社団新拓会　新宿ホームクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200326",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200326",
+"name": "いやま眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200328",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200328",
+"name": "新宿新南口れいわクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200333",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200333",
+"name": "ＳＨＥＲＩＥ　ＣＬＩＮＩＣ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200337",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200337",
+"name": "美容皮膚科リゼクリニック新宿東口",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200338",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200338",
+"name": "四谷三丁目つばめクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200339",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200339",
+"name": "新宿皮膚科ゆうスキンクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200343",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200343",
+"name": "医療法人逍葉会　新宿マルイ眼科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200347",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200347",
+"name": "医療法人社団桜蔵会わせだ耳鼻咽喉科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200348",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200348",
+"name": "先進会眼科　東京",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200351",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200351",
+"name": "医療法人社団イースト会　新宿東口イースト駅前クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200352",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200352",
+"name": "市ヶ谷みぎわ心のクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200353",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200353",
+"name": "宮田胃腸内科皮膚科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200354",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200354",
+"name": "医療法人社団四谷森田　もりた眼科小児科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200355",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200355",
+"name": "ＶＩＳＩＯＮ　ＰＡＲＴＮＥＲ　メンタルクリニック四谷",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200356",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200356",
+"name": "サウスタワークリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200357",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200357",
+"name": "東京クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200360",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200360",
+"name": "中央大学　保健センター　市ヶ谷田町キャンパス分室",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200362",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200362",
+"name": "医療法人社団エムズ　クリニックフォア四谷",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200364",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200364",
+"name": "フィラークリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200365",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200365",
+"name": "新宿駅前メンタルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200366",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200366",
+"name": "ファイヤークリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200367",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200367",
+"name": "ルラ美容クリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200371",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200371",
+"name": "新宿トータルアシストクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200374",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200374",
+"name": "プラセルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200377",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200377",
+"name": "新宿アトムクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200378",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200378",
+"name": "ＴＣＢ　東京中央美容外科・ＴＣＢ　スキンクリニック　高田馬場院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200380",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200380",
+"name": "神楽坂泌尿器科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200381",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200381",
+"name": "一般社団法人のぞみ会　ＰＲＯＵＤ　ＣＬＩＮＩＣ　新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200385",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200385",
+"name": "高田馬場こころのクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200386",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200386",
+"name": "西新宿こどもハート・アレルギークリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200387",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200387",
+"name": "北里整形外科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200388",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200388",
+"name": "医療法人社団燈心会ライトメンタルクリニック高田馬場院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200389",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200389",
+"name": "飯田橋ともじり皮ふ科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200392",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200392",
+"name": "ＴＣＢ　東京中央美容外科・ＴＣＢ　スキンクリニック　ＢＳクリニック　ＲＥＧＥＮＥ　ＣＬＩＮＩＣ　　新宿三丁目院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200394",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200394",
+"name": "メンズライフクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200396",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200396",
+"name": "さいとうクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200397",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200397",
+"name": "ラピスクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200398",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200398",
+"name": "東京皮膚のできものと粉瘤クリニックふるばやし形成外科　新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200401",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200401",
+"name": "ｒｅａｌａｃｌｉｎｉｃ新宿",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200403",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200403",
+"name": "新宿東整形外科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200404",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200404",
+"name": "ゆかウィメンズクリニック神楽坂",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200406",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200406",
+"name": "医療法人社団エムエフシー　銀座ファインケアクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200408",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200408",
+"name": "Ｓｅｅｄｓ　Ｃｌｉｎｉｃ　新宿三丁目",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200409",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200409",
+"name": "エミナルクリニック新宿西口院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200410",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200410",
+"name": "美容皮膚科メンズリゼクリニック新宿南口",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200411",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200411",
+"name": "新宿高田馬場駅前おだぎ内視鏡・消化器内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200412",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200412",
+"name": "医療法人社団たまゆら　くまもとこどもクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200414",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200414",
+"name": "医療法人社団幸真会　新宿コスモ眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200416",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200416",
+"name": "東京都新宿東口検査・相談室",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200417",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200417",
+"name": "マルファン・大動脈・ハートクリニック　青見循環器外科・内科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200418",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200418",
+"name": "医療法人社団和光会　キノメディッククリニック高田馬場",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200419",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200419",
+"name": "神楽坂消化器内科・内視鏡クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200420",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200420",
+"name": "曙橋よつばファミリークリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200423",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200423",
+"name": "ＡＵＲＯＲＡ　ＣＬＩＮＩＣ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200424",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200424",
+"name": "Ｎ２クリニック四谷",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200425",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200425",
+"name": "銀座よしえクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200426",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200426",
+"name": "にしたんクリニック新宿",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200427",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200427",
+"name": "レジーナクリニックオム新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200428",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200428",
+"name": "エイトビューティークリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200433",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200433",
+"name": "医療法人社団琴誠会　市ケ谷こころのクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200434",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200434",
+"name": "よつや耳鼻咽喉科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200436",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200436",
+"name": "ブレインクリニック新宿",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200437",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200437",
+"name": "新宿しまだ内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200438",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200438",
+"name": "新宿ＮＳビルスカイクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200439",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200439",
+"name": "新宿皮膚と心の診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200440",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200440",
+"name": "ウィルビークリニック新宿",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200441",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200441",
+"name": "予防からはじめる整形外科　Ｔ　ＣＬＩＮＩＣ　Ｉｃｈｉｇａｙａ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200444",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200444",
+"name": "医療法人社団　西新宿サテライトクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200445",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200445",
+"name": "医療法人社団相心会　ワイズクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200446",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200446",
+"name": "新宿西口あおばクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200447",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200447",
+"name": "新宿おしりのクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200449",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200449",
+"name": "竹下レディスクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200452",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200452",
+"name": "医療法人社団千秋双葉会　新宿曙橋耳鼻咽喉科・アレルギー科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200454",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200454",
+"name": "医療法人社団フェルズ　Ｆｅｌｌｅｚ　Ｃｌｉｎｉｃ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200459",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200459",
+"name": "大久保駅前・林クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200460",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200460",
+"name": "湘南美容皮フ科新宿東口院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200464",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200464",
+"name": "医療法人社団　永友会　おうえケアとわクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200465",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200465",
+"name": "新宿駅前婦人科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200466",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200466",
+"name": "花クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200467",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200467",
+"name": "東京シンデレラ美容外科新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200470",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200470",
+"name": "東京都赤十字血液センター新宿東口出張所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200471",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200471",
+"name": "医療法人社団白凛会　ブランクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200472",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200472",
+"name": "ＢＥＬＩＮＤＡ　ＣＬＩＮＩＣ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200474",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200474",
+"name": "高田馬場駅前メディカルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200476",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200476",
+"name": "あゆみレディースクリニック高田馬場",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200478",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200478",
+"name": "アイランド内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200479",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200479",
+"name": "よつや駅前クリニック　内科と皮膚科・形成外科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200480",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200480",
+"name": "Ａ　ＣＬＩＮＩＣ新宿　美容外科　美容皮膚科　形成外科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200483",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200483",
+"name": "新大久保にじいろおやこクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200484",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200484",
+"name": "イーヘルスクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200485",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200485",
+"name": "医療法人社団紡潤会　ウィルＡＧＡ・いびきメディカルクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200487",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200487",
+"name": "四谷内科・内視鏡クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200490",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200490",
+"name": "ＵＢクリニック新宿",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200493",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200493",
+"name": "メンズエミナルクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200494",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200494",
+"name": "ディオクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200500",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200500",
+"name": "小滝橋そら内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200502",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200502",
+"name": "医療法人社団新穂会　目白通り皮フ科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200506",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200506",
+"name": "医療法人社団清優会　はなふさ皮膚科新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200507",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200507",
+"name": "エトワールレジーナクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200510",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200510",
+"name": "医療法人社団北辰匠会　美容皮膚科アイエスクリニック．",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200511",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200511",
+"name": "医療法人社団新穂会　早稲田通り皮フ科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200512",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200512",
+"name": "新宿東口プライマリケアクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200513",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200513",
+"name": "Ｔ　ＣＬＩＮＩＣ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200517",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200517",
+"name": "医療法人社団ＢＲＡＶＥ　東京ホームクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200522",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200522",
+"name": "アーモンドクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200523",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200523",
+"name": "医療法人社団広域白報会　ＨＡＫＵビューティークリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200524",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200524",
+"name": "医療法人社団中西会　新宿中西クリニック歌舞伎町",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200529",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200529",
+"name": "医療法人社団桃青会東京ジェネラルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200532",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200532",
+"name": "すわのもりクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200534",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200534",
+"name": "一般社団法人社会福祉友の会　ふくろう内科・内視鏡クリニック新宿高田馬場",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200538",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200538",
+"name": "ＳＫ新宿歌舞伎町美容外科・歯科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200539",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200539",
+"name": "東新宿おかべ眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200541",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200541",
+"name": "ＴＣＢ　東京中央美容外科・ＴＣＢ　スキンクリニック　新宿西口院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200547",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200547",
+"name": "Ｂａｒｂｉｅ　Ｃｌｉｎｉｃ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200548",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200548",
+"name": "医療法人社団斗南堂　八王子クリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200549",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200549",
+"name": "医療法人社団織華会　Ｏｔｕｓ　Ｃｌｉｎｉｃ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200551",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200551",
+"name": "くすのき心のクリニック高田馬場",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200552",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200552",
+"name": "Ｌｕｃｉｎａ新宿四谷クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200554",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200554",
+"name": "ルシアクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200556",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200556",
+"name": "新宿消化器内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200558",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200558",
+"name": "大京町メディカルコンサルト",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200559",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200559",
+"name": "新宿うるおいこころのクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200560",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200560",
+"name": "高田馬場みやの耳鼻咽喉科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200561",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200561",
+"name": "医療法人明和会　宮田眼科東京",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200563",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200563",
+"name": "医療法人邦寿会　ＮＥＷ　ＦＡＣＥ　ＡＥＳＴＨＥＴＩＣ　ＣＬＩＮＩＣ　新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200564",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200564",
+"name": "Ｔｏｋｙｏ　Ｔｅｎｓｅｉ　Ｃｌｉｎｉｃ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200566",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200566",
+"name": "田山・皿井耳鼻咽喉科・ボイスクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200567",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200567",
+"name": "クリニックゼロプラス高田馬場院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200568",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200568",
+"name": "シティタワー新宿クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200570",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200570",
+"name": "江戸川橋駅前内科・甲状腺クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200573",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200573",
+"name": "ＬＯＲＥ　ＣＬＩＮＩＣ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200577",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200577",
+"name": "湘南ＡＧＡクリニック新宿本院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200578",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200578",
+"name": "新宿駅前　精神科・心療内科・内科　おおかみこころのクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200579",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200579",
+"name": "テーラーメイド腰のクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200581",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200581",
+"name": "新宿内科　糖尿病・代謝・内分泌クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200585",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200585",
+"name": "西新宿皮ふのクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200586",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200586",
+"name": "新宿よりそいメンタルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200588",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200588",
+"name": "若松河田クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200589",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200589",
+"name": "西早稲田ライフケアクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200594",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200594",
+"name": "大内ビューティークリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200597",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200597",
+"name": "スマイルＡＧＡクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200598",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200598",
+"name": "Ｓｕｎｎｙクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200790",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200790",
+"name": "若松皮ふ科こどもクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136200820",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136200820",
+"name": "医療法人社団曙光会　落合内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136201120",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136201120",
+"name": "岡田小児科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136201960",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136201960",
+"name": "新宿中央クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136202390",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136202390",
+"name": "医療法人社団豊済会　下落合クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136202420",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136202420",
+"name": "新宿東口スキンクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136202680",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136202680",
+"name": "新宿東口クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136203300",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136203300",
+"name": "やしまメンタルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136204020",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136204020",
+"name": "新宿区牛込保健センター",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136204150",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136204150",
+"name": "新宿区四谷保健センター",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136204310",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136204310",
+"name": "新宿区落合保健センター",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136204570",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136204570",
+"name": "医療法人社団東京みどり会　新宿東口眼科医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136204860",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136204860",
+"name": "防衛省共済組合本部診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136205160",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136205160",
+"name": "医療法人平心会　ＴｏＣＲＯＭクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136205450",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136205450",
+"name": "星野こどもクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136206040",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136206040",
+"name": "医療法人社団寿慶会　小滝橋整形外科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136206200",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136206200",
+"name": "医療法人社団翠会　慈友クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136206590",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136206590",
+"name": "医療法人社団青川会　三好医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136206880",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136206880",
+"name": "医療法人社団秀紀会　竹田クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136207630",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136207630",
+"name": "加藤レディスクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136208930",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136208930",
+"name": "そはら医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136209490",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136209490",
+"name": "目白通りクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136209520",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136209520",
+"name": "アスカクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136209810",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136209810",
+"name": "医療法人社団ビオセラ会　ビオセラクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136210180",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136210180",
+"name": "社会福祉法人聖母会特別養護老人ホーム聖母ホーム診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136211190",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136211190",
+"name": "医療法人財団東京勤労者医療会　おおくぼ戸山診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136212490",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136212490",
+"name": "医療法人社団幸毅会　中澤眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136212520",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136212520",
+"name": "医療法人社団愛智会　抜弁天クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136212810",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136212810",
+"name": "医療法人社団眞幸会　四谷三丁目皮膚科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136213370",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136213370",
+"name": "学校法人東京理科大学　神楽坂校舎診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136213820",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136213820",
+"name": "医療法人社団医精会　マイシティクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136213950",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136213950",
+"name": "松本皮膚科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136214410",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136214410",
+"name": "医療法人社団涼友会　神楽坂Ｄ．Ｓ．マイクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136214830",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136214830",
+"name": "咲くらクリニック新宿南口",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136215130",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136215130",
+"name": "西早稲田整形外科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136215260",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136215260",
+"name": "医療法人社団千晶会　落合駅前クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136215710",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136215710",
+"name": "医療法人社団慈紹会　フジモト新宿クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136215840",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136215840",
+"name": "医療法人社団誠進会　飯田橋村井医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136216690",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136216690",
+"name": "医療法人社団メディカルフェニックス　メディカルスキャニング新宿　阿部公彦記念クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136216720",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136216720",
+"name": "医療法人社団嶺雪会　須田外科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136217150",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136217150",
+"name": "医療法人社団ナオス会　金内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136217990",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136217990",
+"name": "医療法人社団樹伸会　アイランドタワークリニック新宿",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136218030",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136218030",
+"name": "医療法人新光会　新宿西口駅前眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136218610",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136218610",
+"name": "医療法人社団誠晃会　えとう内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136218870",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136218870",
+"name": "湘南美容クリニック新宿本院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136219040",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136219040",
+"name": "特定医療法人社団研精会　はらまちクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136219170",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136219170",
+"name": "医療法人社団東京西双泉会　双泉会クリニックしんじゅく",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136219200",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136219200",
+"name": "市谷アレルギー・リウマチクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136219330",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136219330",
+"name": "アネックスビル診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136219460",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136219460",
+"name": "医療法人社団千緑会　神楽坂医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136219620",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136219620",
+"name": "林ウィメンズクリニック　新大久保",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136220600",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136220600",
+"name": "医療法人社団　のもと皮膚科・形成外科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136220860",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136220860",
+"name": "医療法人社団研靖会　ワタナベ皮膚科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136221450",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136221450",
+"name": "医療法人社団千達会　たつきクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136221580",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136221580",
+"name": "丸尾眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136222330",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136222330",
+"name": "医療法人社団信濃会　信濃坂クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136222460",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136222460",
+"name": "医療法人社団　善仁会　新宿西口ヘルチェッククリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136222590",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136222590",
+"name": "医療法人社団左門ふたば会　ふたばクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136223050",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136223050",
+"name": "医療法人社団　四谷しらと眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136223210",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136223210",
+"name": "落合パークサイドクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136223340",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136223340",
+"name": "医療法人社団長島クリニック　四谷・長島クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136223500",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136223500",
+"name": "やまだ内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136223920",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136223920",
+"name": "アルバ・メンタルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136224800",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136224800",
+"name": "医療法人社団慶門会　左門町皮膚科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136225100",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136225100",
+"name": "御苑前クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136225230",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136225230",
+"name": "西戸山クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136225490",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136225490",
+"name": "目白眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136225780",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136225780",
+"name": "四谷見附クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136225940",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136225940",
+"name": "医療法人社団予防会　新宿クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136226240",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136226240",
+"name": "医療法人社団博由会　四谷内科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136226790",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136226790",
+"name": "信濃町きぼうクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136226950",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136226950",
+"name": "あけぼのばし眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136227090",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136227090",
+"name": "医療法人社団桐医会　なかやまクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136227120",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136227120",
+"name": "医療法人社団ときわ会　余丁町クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136227540",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136227540",
+"name": "医療法人社団新宿御苑しょうクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136228000",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136228000",
+"name": "目白ブライトクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136228420",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136228420",
+"name": "医療法人社団飛馬会　新宿ブレストセンタークサマクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136228550",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136228550",
+"name": "四谷ゆいクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136228710",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136228710",
+"name": "武野クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136229270",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136229270",
+"name": "福内ペインクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136229300",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136229300",
+"name": "医療法人社団ライフスタイル　ともながクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136229850",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136229850",
+"name": "早稲田通り心のクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136230090",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136230090",
+"name": "医療法人社団若水会　牛込台さこむら内科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136230120",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136230120",
+"name": "医療法人社団慶洋会　ケイアイクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136230540",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136230540",
+"name": "新宿三丁目駅前眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136230670",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136230670",
+"name": "医療法人社団セントメリー　飯田橋中村クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136230830",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136230830",
+"name": "おかべふじこ内科・循環器クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136231000",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136231000",
+"name": "寺尾クリニカ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136231130",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136231130",
+"name": "医療法人社団明日葉会　城北ホームケアクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136231260",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136231260",
+"name": "医療法人社団三育会　新宿ヒロクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136231550",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136231550",
+"name": "新宿メンタルヘルスクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136232010",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136232010",
+"name": "医療法人財団新生会　百人町診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136232140",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136232140",
+"name": "医療法人社団朗会耳鼻いんこう科山西クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136232270",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136232270",
+"name": "一般財団法人東京社会保険協会　フィオーレ健診クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136232300",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136232300",
+"name": "新宿睡眠メディカルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136232850",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136232850",
+"name": "うつみやす子レディースクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136233150",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136233150",
+"name": "医療法人社団敬水会　江戸川橋鈴木クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136233280",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136233280",
+"name": "みどりの森ひふ科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136233310",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136233310",
+"name": "やおいた整形外科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136233570",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136233570",
+"name": "医療法人社団オリビエ会　新宿外科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136234030",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136234030",
+"name": "医療法人社団有恒会　オザキクリニックＬＵＸＥ新宿",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136234160",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136234160",
+"name": "医療法人社団心静会　南海クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136234610",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136234610",
+"name": "さいとう眼科医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136235040",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136235040",
+"name": "医療法人社団藍碧会　有川スキンクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136235200",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136235200",
+"name": "倉澤クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136235460",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136235460",
+"name": "かおり内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136235880",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136235880",
+"name": "医療法人社団慈梁会　やない胃腸科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136235910",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136235910",
+"name": "しらかば診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236180",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236180",
+"name": "四谷・村川内科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236213",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236213",
+"name": "小池統合医療クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236897",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236897",
+"name": "新宿区保健所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236902",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236902",
+"name": "新宿けやき園医務室",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236904",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236904",
+"name": "飯田橋鈴木内科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236906",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236906",
+"name": "東京新宿メイルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236908",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236908",
+"name": "医療法人社団宏彩会　西新宿コンシェリアクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236910",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236910",
+"name": "リブラクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236913",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236913",
+"name": "医療法人社団ジーメディコ　都庁前血管外科・循環器内科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236917",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236917",
+"name": "医療法人社団豊希会　若松河田耳鼻咽喉科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236919",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236919",
+"name": "愛児クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236920",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236920",
+"name": "医療法人社団永康会　新宿西口腎クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236924",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236924",
+"name": "パナソニックホームズ東部地区健康管理室",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236926",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236926",
+"name": "医療法人社団慶潤会　新都心十二社クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236927",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236927",
+"name": "学校法人小倉学園附属四谷整形外科リハビリテーションクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236928",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236928",
+"name": "余丁町皮フ科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236929",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236929",
+"name": "医療法人社団イースト会　新宿イースト駅前クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236933",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236933",
+"name": "新宿近視クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236936",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236936",
+"name": "黒坂医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236937",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236937",
+"name": "花園医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236938",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236938",
+"name": "医療法人社団新友会　プラザ３０階クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236939",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236939",
+"name": "医療法人社団美帆会　神楽坂ストレスクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236945",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236945",
+"name": "矢来町耳鼻いんこう科医院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136236948",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136236948",
+"name": "医療法人社団ＣＶＩＣ　心臓画像クリニック飯田橋",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136251562",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136251562",
+"name": "医療法人社団十二会　ゴリラクリニック新宿本院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136251567",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136251567",
+"name": "西新宿さいとう眼科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136251568",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136251568",
+"name": "小滝橋眼科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136251570",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136251570",
+"name": "四谷いわさきクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136251571",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136251571",
+"name": "たはらクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136251574",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136251574",
+"name": "市谷薬王寺クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136251575",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136251575",
+"name": "医療法人社団新宿レディースクリニック会　新宿レディースクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136251578",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136251578",
+"name": "医療法人社団糖真会　上落合　真クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136251582",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136251582",
+"name": "平山胃腸クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136400002",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136400002",
+"name": "医療法人社団幸楽会　幸楽メディカルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136400115",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136400115",
+"name": "一般社団法人日本うつ病センター　六番町メンタルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136419680",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136419680",
+"name": "朝日生命保険相互会社・診療所",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136431800",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136431800",
+"name": "光洋クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322136900255",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2136900255",
+"name": "東京美容外科新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1322139225173",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "2139225173",
+"name": "よつや三栄通りメンタルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139900100",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139900100",
+"name": "東京イビキクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139900170",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139900170",
+"name": "フェミューズクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139900560",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139900560",
+"name": "ベンスクリニック　新宿",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139900850",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139900850",
+"name": "すやすやクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139900910",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139900910",
+"name": "マンモスクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139900960",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139900960",
+"name": "尾崎クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139901570",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139901570",
+"name": "ルテラメンズクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139901580",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139901580",
+"name": "Ｋスリービル眼科クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139901660",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139901660",
+"name": "医療法人社団白玉会新宿ファストクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139901760",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139901760",
+"name": "いびきのクリニック　新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139902030",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139902030",
+"name": "Ｊｕｎｏ　ｂｅａｕｔｙ　ｃｌｉｎｉｃ　新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139902240",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139902240",
+"name": "ＢＥＬＩＮＤＡ　ＣＬＩＮＩＣ　新宿２号院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139902360",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139902360",
+"name": "ＡＢ美容クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139902510",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139902510",
+"name": "ＰＩＯＮＥ　ＢＥＡＵＴＹ　ＣＬＩＮＩＣ",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139902540",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139902540",
+"name": "東京シルククリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139902580",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139902580",
+"name": "スリープメディカルクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139902720",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139902720",
+"name": "酒井成身クリニック　新宿美容外科・歯科",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139902820",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139902820",
+"name": "湘南美容クリニック新宿アネックス２４",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139902840",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139902840",
+"name": "医療法人社団日昇会　Ｄｒ．ＡＧＡクリニック新宿院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139903310",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139903310",
+"name": "ヒーロークリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139903440",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139903440",
+"name": "医療法人社団イースト会　ＳＤＨクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139903730",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139903730",
+"name": "さくらバストクリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139903760",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139903760",
+"name": "医療法人社団あおばクリニック　あおばクリニック大久保院",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139903790",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139903790",
+"name": "親和クリニック新宿西口",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1325139904120",
+"pref": "13",
+"kbn": "2",
+"kikanCd": "5139904120",
+"name": "新宿美容内科医療クリニック",
+"city_code": "13104",
+"csv": "02-1_clinic_facility_info"
+},
+{
+"id": "1331330486803",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "1330486803",
+"name": "高田馬場歯科・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1331330486878",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "1330486878",
+"name": "ラ・ティ歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1331330486886",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "1330486886",
+"name": "新宿三丁目駅歯科キースブライトクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1331330486894",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "1330486894",
+"name": "神楽坂さいとう歯科・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1331330486910",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "1330486910",
+"name": "医療法人社団華清会　銀座アストラ歯科クリニック曙橋",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1331330486993",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "1330486993",
+"name": "神楽坂シエル歯科・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1331330487017",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "1330487017",
+"name": "西新宿五丁目デンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1331330487033",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "1330487033",
+"name": "医療法人社団誓栄会　新宿駅東口デンタルクリニック新宿アオキビル医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1331330487066",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "1330487066",
+"name": "医療法人社団　旺誠会　ＴＯＫＹＯ　ＤＥＮＴＡＬ　ＯＦＦＩＣＥ",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1331330487090",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "1330487090",
+"name": "新宿都庁前歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1331330487132",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "1330487132",
+"name": "新宿Ｉ’ｓ歯科・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1331330487249",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "1330487249",
+"name": "山岸デンタルオフィス",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1331335724414",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "1335724414",
+"name": "医療法人社団悠翔会　悠翔会在宅クリニック新宿",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130716140",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130716140",
+"name": "リュウ歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130800270",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130800270",
+"name": "青木歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130803330",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130803330",
+"name": "仲俣歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130805770",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130805770",
+"name": "矢島歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130806100",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130806100",
+"name": "医療法人社団伸悠会　奥村歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130807080",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130807080",
+"name": "医療法人社団仁歯会　高橋歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130807790",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130807790",
+"name": "磯谷歯科診療所",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130808700",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130808700",
+"name": "医療法人社団弘宣会　鈴木歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130808830",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130808830",
+"name": "東京都立心身障害者口腔保健センター",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130809260",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130809260",
+"name": "青木第二歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130809390",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130809390",
+"name": "医療法人社団竹印　竹内歯科医療院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130809680",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130809680",
+"name": "医療法人社団喜友会　喜久井町歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130809970",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130809970",
+"name": "やとみ歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130810240",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130810240",
+"name": "医療法人社団將幸会　鈴木歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130810370",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130810370",
+"name": "医療法人社団秀飛会　優ビル歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130810400",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130810400",
+"name": "医療法人社団司洋会　司歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130810660",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130810660",
+"name": "入交歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130810950",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130810950",
+"name": "飯田橋なかしま歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130811090",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130811090",
+"name": "上杉歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130811250",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130811250",
+"name": "中西歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130811540",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130811540",
+"name": "西條歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130811960",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130811960",
+"name": "藤井歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130812260",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130812260",
+"name": "西崎歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130812390",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130812390",
+"name": "坂本歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130812710",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130812710",
+"name": "医療法人社団桜芳会　やよい歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130813010",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130813010",
+"name": "雨森歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130813270",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130813270",
+"name": "おざわ歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130813980",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130813980",
+"name": "水口歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130814280",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130814280",
+"name": "大塚歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130814570",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130814570",
+"name": "はただ歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130814730",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130814730",
+"name": "みうら歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130814860",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130814860",
+"name": "原野歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130815580",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130815580",
+"name": "曙橋歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130816170",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130816170",
+"name": "秋山歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130900590",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130900590",
+"name": "医療法人社団明暢会　河野歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130900620",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130900620",
+"name": "四谷歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130901050",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130901050",
+"name": "柳澤歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130901210",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130901210",
+"name": "菊池歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130902060",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130902060",
+"name": "医療法人社団正路会　すみれ歯科　新宿御苑前クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130903360",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130903360",
+"name": "長谷川歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130903810",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130903810",
+"name": "藤原歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130904240",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130904240",
+"name": "片倉歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130904530",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130904530",
+"name": "古木歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130904660",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130904660",
+"name": "医療法人社団恒歯会　郡司歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130905380",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130905380",
+"name": "柳川歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130905830",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130905830",
+"name": "松田歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130906260",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130906260",
+"name": "関歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130906680",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130906680",
+"name": "中西歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130907300",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130907300",
+"name": "奥野歯科・矯正歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130908020",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130908020",
+"name": "井村歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130908730",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130908730",
+"name": "島村歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130909740",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130909740",
+"name": "江波戸歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130909870",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130909870",
+"name": "野村歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130910010",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130910010",
+"name": "ヒロ歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130910720",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130910720",
+"name": "池田歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130911440",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130911440",
+"name": "医療法人社団啓友会　四谷三丁目歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130912160",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130912160",
+"name": "せいデンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130912610",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130912610",
+"name": "秋田歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130912740",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130912740",
+"name": "アコード歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130912870",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130912870",
+"name": "有田歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333130912900",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3130912900",
+"name": "久保田歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131000110",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131000110",
+"name": "スバル歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131000240",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131000240",
+"name": "小森矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131003140",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131003140",
+"name": "サイトウ歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131003300",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131003300",
+"name": "医療法人社団日本整美会　整美会矯正歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131004310",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131004310",
+"name": "百人町歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131005030",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131005030",
+"name": "医療法人社団橋本会　橋本歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131006200",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131006200",
+"name": "染谷歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131006880",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131006880",
+"name": "大島歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131007890",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131007890",
+"name": "柴田歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131008930",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131008930",
+"name": "足代歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131009360",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131009360",
+"name": "川中歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131011220",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131011220",
+"name": "植杉歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131011350",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131011350",
+"name": "医療法人社団歯友会　赤羽歯科（新宿）",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131011800",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131011800",
+"name": "医療法人社団翠聖会　新宿西口歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131012780",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131012780",
+"name": "浜田歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131012810",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131012810",
+"name": "医療法人社団　東京誠歯会　五十嵐歯科室",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131013240",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131013240",
+"name": "後藤歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131015420",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131015420",
+"name": "秋山歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131015550",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131015550",
+"name": "三珠歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131015710",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131015710",
+"name": "天祐堂歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131015840",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131015840",
+"name": "医療法人雄久会　新宿野村ビル歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131016140",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131016140",
+"name": "第二濱野歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131016690",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131016690",
+"name": "田口歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131018160",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131018160",
+"name": "村上歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131018290",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131018290",
+"name": "医療法人社団恵洋会　えばた歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131018610",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131018610",
+"name": "医療法人社団仁洋会　新大久保歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131019330",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131019330",
+"name": "落合歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131020990",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131020990",
+"name": "林歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131021450",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131021450",
+"name": "医療法人社団誠美会　木村歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131022040",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131022040",
+"name": "医療法人社団宏清会　新宿ＮＳビル歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131023630",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131023630",
+"name": "高橋歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131023760",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131023760",
+"name": "歯科もり",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131024800",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131024800",
+"name": "小西歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131025230",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131025230",
+"name": "石田歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131026080",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131026080",
+"name": "森歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131026110",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131026110",
+"name": "花田歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131027380",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131027380",
+"name": "医療法人社団創心会　坂本歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131027540",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131027540",
+"name": "中川歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131027670",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131027670",
+"name": "医療法人社団治恵会　古川歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131027830",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131027830",
+"name": "栗原歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131028710",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131028710",
+"name": "山形歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131028970",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131028970",
+"name": "医療法人社団兆済会",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131029010",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131029010",
+"name": "医療法人社団栄光会　冨岡歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131029300",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131029300",
+"name": "平山歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131029560",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131029560",
+"name": "医療法人社団昇歯会　すどう歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131029690",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131029690",
+"name": "きくち歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131030670",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131030670",
+"name": "豊ビル歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131030700",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131030700",
+"name": "竹村歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131030830",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131030830",
+"name": "庄司歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131031000",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131031000",
+"name": "中野歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131031130",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131031130",
+"name": "医療法人社団　塩谷歯科医院西早稲田診療所",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131031680",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131031680",
+"name": "医療法人社団研整会　西新宿歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131032010",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131032010",
+"name": "医療法人社団明悠会　サンデンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131032140",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131032140",
+"name": "医療法人社団優誠会　グリーンタワー歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131032300",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131032300",
+"name": "新宿３丁目歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131032560",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131032560",
+"name": "西早稲田歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131033020",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131033020",
+"name": "南保歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131033440",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131033440",
+"name": "医療法人社団　宝田歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131033600",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131033600",
+"name": "医療法人社団ＩＨＰ　高田馬場　新田歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131033990",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131033990",
+"name": "医療法人社団　イシカワ歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131034160",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131034160",
+"name": "医療法人社団　ＡＭＣ　デンタルワン西新宿６",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131034320",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131034320",
+"name": "西落合歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131034740",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131034740",
+"name": "新宿デンタルオフィス",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131035330",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131035330",
+"name": "医療法人社団隆美会　川口歯科診療所",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131035460",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131035460",
+"name": "医療法人社団仁美会　さとう矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131035880",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131035880",
+"name": "松井歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131036050",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131036050",
+"name": "タカベデンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131036180",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131036180",
+"name": "青木歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131036340",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131036340",
+"name": "モギ歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131037190",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131037190",
+"name": "穴沢歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131037220",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131037220",
+"name": "医療法人社団ＩＴＳ　東京オペラシティ歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131037350",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131037350",
+"name": "熊倉歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131037640",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131037640",
+"name": "マーレデンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131038100",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131038100",
+"name": "宮田歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131038360",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131038360",
+"name": "医療法人社団恒航会　細谷歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131039110",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131039110",
+"name": "エビナ歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131039660",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131039660",
+"name": "にえかわ歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131039790",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131039790",
+"name": "飯森歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333131039950",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3131039950",
+"name": "ひろき歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200000",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200000",
+"name": "医療法人社団瑞祥会　飯田橋矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200001",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200001",
+"name": "あいあいこどもとおとな歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200003",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200003",
+"name": "くじら歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200004",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200004",
+"name": "中井駅前歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200005",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200005",
+"name": "神楽坂ヒルトップ歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200006",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200006",
+"name": "谷口歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200008",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200008",
+"name": "みどり歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200010",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200010",
+"name": "医療法人伊達デンタルクリニック　四谷見附矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200011",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200011",
+"name": "医療法人社団研整会　草間歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200012",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200012",
+"name": "新宿ちどり歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200013",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200013",
+"name": "医療法人社団恵美歯科医院　きむ歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200015",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200015",
+"name": "かとう歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200017",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200017",
+"name": "上落合歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200019",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200019",
+"name": "医療法人社団弘快会　新宿オークタワー歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200020",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200020",
+"name": "新宿フロントタワー歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200021",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200021",
+"name": "いしはら歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200022",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200022",
+"name": "プラム四谷歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200023",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200023",
+"name": "なみ歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200024",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200024",
+"name": "医療法人社団伸永会　東新宿歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200025",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200025",
+"name": "医療法人社団開成会　新宿大久保歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200026",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200026",
+"name": "医療法人社団　盛幸会　目白ヶ丘デンタルクリニック・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200029",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200029",
+"name": "ＳＫ歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200030",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200030",
+"name": "医療法人社団弘堂会　高田馬場駅前デンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200031",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200031",
+"name": "医療法人社団田中歯科クリニック　新宿イーストサイドスクエア歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200033",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200033",
+"name": "むとう歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200034",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200034",
+"name": "医療法人社団幸橙会　新宿オランジェ歯科・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200035",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200035",
+"name": "医療法人社団ブライトデンタルケア　高田馬場リボン歯科・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200036",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200036",
+"name": "新宿はま歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200037",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200037",
+"name": "医療法人社団オーラルデザイナー　ＯＤ新宿歯科・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200039",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200039",
+"name": "うえすぎ歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200042",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200042",
+"name": "初雁歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200043",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200043",
+"name": "湘南歯科クリニック新宿院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200044",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200044",
+"name": "医療法人社団ＬＯＶＥ＆ＴＥＥＴＨ　ＤＥＮＴＡＬ　ＴＡＮＩＺＡＷＡ",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200051",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200051",
+"name": "稲垣歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200053",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200053",
+"name": "新宿三丁目北歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200054",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200054",
+"name": "新田歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200055",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200055",
+"name": "ＭＯＤＯＯＮ　ＤＥＮＴＡＬ",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200056",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200056",
+"name": "トミヒサクロスデンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200060",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200060",
+"name": "医療法人社団真峰会　竹の子歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200061",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200061",
+"name": "医療法人社団健青会　銀座青山Ｙｏｕ矯正歯科新宿医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200062",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200062",
+"name": "松山矯正歯科新宿御苑クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200063",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200063",
+"name": "医療法人社団香徳会　シープデンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200064",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200064",
+"name": "マンダリンデンタルオフィス",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200067",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200067",
+"name": "西新宿歯科ＴＯＹＯクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200068",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200068",
+"name": "牛込たかむら歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200071",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200071",
+"name": "医療法人社団四つ葉クローバーデンタルオフィス新宿",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200073",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200073",
+"name": "医療法人社団渋谷矯正歯科　　新宿歯科・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200074",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200074",
+"name": "予防と歯ならび子どもと家族の歯医者さん",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200075",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200075",
+"name": "ハニー歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200076",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200076",
+"name": "医療法人社団世航会　西新宿デンタルオフィス東京",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200080",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200080",
+"name": "タスクデンタルオフィス",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200081",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200081",
+"name": "川村歯科医院四谷三丁目",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200083",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200083",
+"name": "フォレストデンタル",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200085",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200085",
+"name": "四ツ谷デンタルオフィス",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200086",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200086",
+"name": "宇井歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200087",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200087",
+"name": "新宿駅前歯医者・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200088",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200088",
+"name": "医療法人社団裕久会　銀座デンタルホワイト　新宿マルイアネックス院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200089",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200089",
+"name": "西新宿五丁目くるみ歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200092",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200092",
+"name": "落合駅前歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200094",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200094",
+"name": "医療法人社団優仁会　黒川歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200095",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200095",
+"name": "医療法人フェネスト　歯科タケダクリニック新宿",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200096",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200096",
+"name": "目白マリア歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200097",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200097",
+"name": "医療法人社団京和会　新宿ＫＵ歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200098",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200098",
+"name": "グレース信濃町歯科・内科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200099",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200099",
+"name": "医療法人社団ＭＥＤＩＱＯＬ　ＥＢＭデンタルクリニックよつや",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200100",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200100",
+"name": "牛込パーククリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200101",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200101",
+"name": "医療法人社団徳誠会　江戸川橋ＣＴ歯科・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200105",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200105",
+"name": "コモレ四谷デンタル",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200107",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200107",
+"name": "新宿セントラルパーク歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200109",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200109",
+"name": "新日本歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200110",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200110",
+"name": "医療法人社団二木会　西落合ニキデンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200111",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200111",
+"name": "医療法人社団プレゼンス　新宿ハプラス歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200114",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200114",
+"name": "ＡＯデンタルクリニック牛込神楽坂",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200115",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200115",
+"name": "廣瀬歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200119",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200119",
+"name": "早稲田矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200121",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200121",
+"name": "医療法人社団真由会　飯田橋ラムラ歯科・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200122",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200122",
+"name": "目白デンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200123",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200123",
+"name": "医療法人社団誓栄会　千賀デンタルクリニック新宿東口医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200124",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200124",
+"name": "医療法人社団真梨会　新宿ホワイトクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200126",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200126",
+"name": "歯科ハミール高田８８",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200127",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200127",
+"name": "ラ・トゥール新宿歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200129",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200129",
+"name": "牛込柳町歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200131",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200131",
+"name": "医療法人社団真仁心会　しんみ歯科高田馬場",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200133",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200133",
+"name": "医療法人社団東興会　新宿駅前サイナス歯科・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200139",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200139",
+"name": "医療法人社団輝心会　新宿駅前ブラート歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200140",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200140",
+"name": "東京新宿矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200141",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200141",
+"name": "ＳＫ新宿歌舞伎町美容外科・歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200142",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200142",
+"name": "ＡＬＢＡ歯科＆矯正歯科新宿マルイ",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200145",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200145",
+"name": "Ｗｈｉｔｅ　Ｄｅｅｒ　Ｄｅｎｔａｌ　Ｏｆｆｉｃｅ",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200148",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200148",
+"name": "市ヶ谷Ｉ’Ｓ歯科・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200150",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200150",
+"name": "アポロデンタルクリニック西新宿",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200151",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200151",
+"name": "サファイアデンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200153",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200153",
+"name": "東京神楽坂歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200154",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200154",
+"name": "オリーブ歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200155",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200155",
+"name": "西落合リーフ歯科・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200157",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200157",
+"name": "医療法人社団育秀会　早稲田駅前歯科矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200158",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200158",
+"name": "新宿通り歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200410",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200410",
+"name": "北川歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136200700",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136200700",
+"name": "番田歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136201130",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136201130",
+"name": "小島歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136201550",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136201550",
+"name": "舘崎歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136201680",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136201680",
+"name": "医療法人社団有心会　クリア歯科新宿モノリス院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136201710",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136201710",
+"name": "神楽坂よしだ歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136202010",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136202010",
+"name": "新宿ウエストゲート歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136202270",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136202270",
+"name": "アルスデンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136202560",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136202560",
+"name": "大坪デンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136203280",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136203280",
+"name": "久保田歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136203440",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136203440",
+"name": "岸本歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136203600",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136203600",
+"name": "ひまわりデンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136203860",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136203860",
+"name": "ウエストデンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136204160",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136204160",
+"name": "福井歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136204580",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136204580",
+"name": "石井矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136204740",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136204740",
+"name": "フカダデンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136204870",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136204870",
+"name": "平岡矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136204900",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136204900",
+"name": "医療法人社団マリア会　新宿ホワイトホワイトデンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136205040",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136205040",
+"name": "医療法人社団聖悠会　新宿新都心歯科口腔外科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136205170",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136205170",
+"name": "医療法人社団　エスアンドシー　澤田デンタルオフィス",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136205200",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136205200",
+"name": "伊藤歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136205750",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136205750",
+"name": "医療法人スワン会新宿スワン歯科・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136205910",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136205910",
+"name": "医療法人社団愛歯会　愛歯会デンタルオフィス",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136206050",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136206050",
+"name": "さとう歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136206180",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136206180",
+"name": "うえの歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136206210",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136206210",
+"name": "よつや通り歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136206630",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136206630",
+"name": "哲学堂デンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136206890",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136206890",
+"name": "わたなべ歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136207480",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136207480",
+"name": "医療法人社団皓志会　コンフォガーデン歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136207510",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136207510",
+"name": "新宿歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136207640",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136207640",
+"name": "医療法人社団ＫＯＣ　神楽坂矯正歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136207770",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136207770",
+"name": "医療法人社団ＭＥＤＩＱＯＬ　ＥＢＭデンタルクリニック神楽坂",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136207930",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136207930",
+"name": "早稲田の杜　歯科室",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136208070",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136208070",
+"name": "医療法人社団参仁会　佐藤歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136208230",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136208230",
+"name": "医療法人社団秀心会　小滝橋歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136208490",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136208490",
+"name": "ふれあい歯科ごとう",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136208810",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136208810",
+"name": "医療法人社団　白正会　ティースアートデンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136209530",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136209530",
+"name": "平瀬歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136209950",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136209950",
+"name": "医療法人社団歯友会　赤羽歯科（信濃町）",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136210060",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136210060",
+"name": "成子坂歯科イムラクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136210190",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136210190",
+"name": "川又歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136210220",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136210220",
+"name": "佐藤歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136210350",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136210350",
+"name": "タムラタイチ歯科診療所",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136210640",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136210640",
+"name": "シンデンタルオフィス",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136210930",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136210930",
+"name": "きくたけ歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136211070",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136211070",
+"name": "医療法人社団真歯会　常盤矯正歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136211100",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136211100",
+"name": "医療法人社団四瑛会　新宿パークタワー歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136211360",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136211360",
+"name": "エーアンドケー江戸川橋デンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136211780",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136211780",
+"name": "アヤデンタルオフィス",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136211940",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136211940",
+"name": "エムズ歯科クリニック下落合",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136212240",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136212240",
+"name": "ウェルネス歯科高田馬場",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136212400",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136212400",
+"name": "新宿すわ歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136212790",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136212790",
+"name": "ファーストデンタル四谷三丁目",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136213090",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136213090",
+"name": "医療法人社団新宿ブライト歯科医院　新宿ブライト歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136213120",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136213120",
+"name": "すずき歯科診療所",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136213250",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136213250",
+"name": "愛生歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136213670",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136213670",
+"name": "かず歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136213830",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136213830",
+"name": "医療法人社団大耕会　エンパイア歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214000",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214000",
+"name": "医療法人社団　櫻会　ハリウッド・スマイル矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214130",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214130",
+"name": "医療法人社団は・匠会　四谷三栄町歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214260",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214260",
+"name": "稲葉歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214551",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214551",
+"name": "さとみデンタルオフィス",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214681",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214681",
+"name": "市ヶ谷．歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214682",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214682",
+"name": "藤江歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214683",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214683",
+"name": "医療法人社団ＭＥＤＩＱＯＬ　曙橋駅前スマイル歯科・矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214684",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214684",
+"name": "西新宿十二社歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214685",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214685",
+"name": "医療法人社団大門デンタルケア　牛込神楽坂デンタルオフィス",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214687",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214687",
+"name": "ウェル西新宿デンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214688",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214688",
+"name": "四谷グリーン歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214691",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214691",
+"name": "ひろい歯科・すさみ矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214695",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214695",
+"name": "医療法人社団皆星会　Ｉデンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214699",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214699",
+"name": "いなげ歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214706",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214706",
+"name": "市ヶ谷防衛省前歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214707",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214707",
+"name": "新宿イーストデンタルオフィス",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136214708",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136214708",
+"name": "前島歯科医院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136410280",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136410280",
+"name": "青木歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333136600690",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3136600690",
+"name": "医療法人社団康志会　神楽坂わたなべ歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333139900027",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3139900027",
+"name": "東京都職員共済組合シティ・ホール診療所",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333139900060",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3139900060",
+"name": "医療法人社団千美会　美容外科・歯科新宿ガーデンクリニック新宿院",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333139901170",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3139901170",
+"name": "医療法人社団泉晶会　飯田橋内科歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1333139908720",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "3139908720",
+"name": "特定医療法人研精会　はらまちクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1335139901720",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "5139901720",
+"name": "ミライデンタルクリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1335139903590",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "5139903590",
+"name": "新宿駅前矯正歯科クリニック",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+},
+{
+"id": "1335139904450",
+"pref": "13",
+"kbn": "3",
+"kikanCd": "5139904450",
+"name": "新宿アミリア矯正歯科",
+"city_code": "13104",
+"csv": "03-1_dental_facility_info"
+}
+]
