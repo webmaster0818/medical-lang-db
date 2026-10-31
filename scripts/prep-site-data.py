@@ -181,8 +181,23 @@ def main():
             "site": site,
         })
 
+    # 地域：住所の先頭（都道府県＋市区町村）を data/geo/municipalities.json（日本郵便）と突き合わせ、URL 名を決める
+    muni = json.load(open(ROOT / "data" / "geo" / "municipalities.json"))
+    muni.sort(key=lambda m: -len(m["prefJa"] + m["cityJa"]))
+    areas = {}
+    for x in out:
+        m = next((m for m in muni if x["addressJa"].startswith(m["prefJa"] + m["cityJa"])), None)
+        if not m:
+            raise SystemExit(f"市区町村が分かりません: {x['id']} {x['addressJa']}")
+        a = areas.setdefault(x["cityCode"], {"prefCode": x["prefCode"], "prefSlug": m["prefSlug"], "cityCode": x["cityCode"],
+                                             "citySlug": m["citySlug"], "prefJa": m["prefJa"], "cityJa": m["cityJa"]})
+        if a["cityJa"] != m["cityJa"]:
+            raise SystemExit(f"同じ市区町村コードで名前が違います: {x['cityCode']} {a['cityJa']} / {m['cityJa']}")
+
     OUT.mkdir(parents=True, exist_ok=True)
-    json.dump(out, open(OUT / "facilities-13104.json", "w"), ensure_ascii=False)
+    json.dump(out, open(OUT / "facilities.json", "w"), ensure_ascii=False)
+    json.dump(sorted(areas.values(), key=lambda a: a["cityCode"]), open(OUT / "areas.json", "w"), ensure_ascii=False, indent=1)
+    print(len(areas), "areas")
     json.dump({k: v for k, v in dept_dict.items()}, open(OUT / "departments.json", "w"), ensure_ascii=False, indent=1)
     print(len(out), "facilities")
     for sl in SITE_LANGS:

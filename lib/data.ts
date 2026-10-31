@@ -1,4 +1,5 @@
-import facilitiesShinjuku from "@/data/site/facilities-13104.json";
+import facilitiesData from "@/data/site/facilities.json";
+import areasData from "@/data/site/areas.json";
 import departments from "@/data/site/departments.json";
 import dictionary from "@/data/dict/dictionary.json";
 import { READY, UI } from "./ui";
@@ -58,9 +59,10 @@ export interface Area {
   prefJa: string;
   cityJa: string;
 }
-export const AREAS: Area[] = [{ prefCode: "13", prefSlug: "tokyo", cityCode: "13104", citySlug: "shinjuku", prefJa: "東京都", cityJa: "新宿区" }];
+// 施設のある市区町村だけ（scripts/prep-site-data.py が作る。URL 名は日本郵便のローマ字データから）
+export const AREAS: Area[] = areasData;
 
-const ALL = facilitiesShinjuku as unknown as SiteFacility[];
+const ALL = facilitiesData as unknown as SiteFacility[];
 
 export function facilitiesFor(lang: SiteLang, cityCode?: string): SiteFacility[] {
   return ALL.filter((f) => f.site[lang] && (!cityCode || f.cityCode === cityCode)).sort(
