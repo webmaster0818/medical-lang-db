@@ -36,15 +36,36 @@ EXACT = {
     "美容皮膚科": "皮膚科",
     "小児外科": "外科",
 }
+# 親の科の下位・旧称にあたる科（taro-2 の分類案 2026-11-01。訳ではなく分類）
+SUB = {
+    "アレルギー科": ["内科"],
+    "リウマチ科": ["内科"],
+    "睡眠時無呼吸外来": ["内科"],
+    "男性泌尿器科": ["泌尿器科"],
+    "腎臓・泌尿器科": ["泌尿器科", "内科"],
+    "乳腺科": ["外科"],
+    "内分泌外科（甲状腺外科）": ["外科"],
+    "児童精神科": ["精神科"],
+    "老年精神科": ["精神科"],
+    "神経科": ["精神科"],
+    "小児眼科": ["眼科", "小児科"],
+    "小児皮膚科": ["皮膚科", "小児科"],
+    "気管食道・耳鼻いんこう科": ["耳鼻咽喉科"],
+    "頭頸部・耳鼻いんこう科": ["耳鼻咽喉科"],
+}
+# 診療科ではない欄（「該当なし」の意味）
+NOT_DEPT = {"標榜科目以外"}
 
 
 def dept_group(ja: str, groups: set) -> list:
+    if ja == "産婦人科":  # 産科・婦人科のページに載せる（産婦人科の訳は施設ページの科名に使う）
+        return ["産科", "婦人科"]
     if ja in groups:
         return [ja]
     if ja in EXACT:
         return [EXACT[ja]]
-    if ja == "産婦人科":
-        return ["産科", "婦人科"]
+    if ja in SUB:
+        return [g for g in SUB[ja] if g in groups]
     if "歯科" in ja:
         return ["歯科"]
     if ja == "美容外科":
@@ -120,10 +141,12 @@ def main():
         depts = []
         seen = set()
         for h in f["dept_hours"]:
-            if h["dept"] in seen:
-                continue
-            seen.add(h["dept"])
-            depts.append({"ja": h["dept"], "groups": dept_group(h["dept"], groups), "hours": hours_of(h)})
+            # 1つの欄に複数の科が入っていることがある（「総合診療科、渡航者医療センター、感染症科…」）
+            for ja in [x.strip() for x in re.split(r"[、，,]", h["dept"]) if x.strip()]:
+                if ja in seen or ja in NOT_DEPT:
+                    continue
+                seen.add(ja)
+                depts.append({"ja": ja, "groups": dept_group(ja, groups), "hours": hours_of(h)})
         spoken = {}
         # 同じ言語に医療情報ネットの行と D-5 の行が別にある場合は、良い方の tier を採る
         for r in sorted(lrows, key=lambda r: TIER_ORDER[r["tier"]], reverse=True):

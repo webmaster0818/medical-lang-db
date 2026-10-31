@@ -92,7 +92,10 @@ export function deptName(ja: string, lang: SiteLang): string | null {
 
 /** 辞書に訳が無い診療科は日本語のまま出す（出典のない訳はしない） */
 export function deptLabel(ja: string, lang: SiteLang): string {
-  return deptName(ja, lang) ?? ja;
+  const t = deptName(ja, lang);
+  // 英語は出典によって文中の書き方（plastic surgery）と見出しの書き方（Internal Medicine）が混ざるので、見出しの形にそろえる
+  if (t && lang === "en") return t.replace(/\b([a-z])/g, (c) => c.toUpperCase()).replace(/\b(And|Of)\b/g, (w) => w.toLowerCase());
+  return t ?? ja;
 }
 
 type DictRow = { kind: string; value_ja: string; lang: string; text: string; status: string };

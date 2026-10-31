@@ -126,7 +126,8 @@ export default async function ClinicPage({ params }: { params: Promise<P> }) {
               {[...grouped, ...others].map((d) => (
                 <tr key={d.ja} className="border-b border-line/60 align-top">
                   <th className="py-2 pr-2 text-left font-bold">
-                    {d.groups.length ? deptLabel(d.groups[0], lang) : null}
+                    {/* 科名そのものに出典つきの訳があればそれを、無ければ親の科の訳を出す（産婦人科 → Obstetrics and Gynecology） */}
+                    {deptLabel(d.ja, lang) !== d.ja ? deptLabel(d.ja, lang) : d.groups.length ? deptLabel(d.groups[0], lang) : null}
                     <span className="block font-normal text-ink/60" lang="ja">
                       {d.ja}
                     </span>

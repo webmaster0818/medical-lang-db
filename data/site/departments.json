@@ -209,12 +209,12 @@
    "src": "https://www.jnto.go.jp/emergency/kor/mi_guide.html"
   },
   "zh-hans": {
-   "text": "整形外科",
-   "src": "https://www.jnto.go.jp/emergency/chs/mi_guide.html"
+   "text": "骨科",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
   },
   "zh-hant": {
-   "text": "整形外科",
-   "src": "https://www.jnto.go.jp/emergency/chc/mi_guide.html"
+   "text": "骨科",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_h/department"
   },
   "vi": {
    "text": "Khoa chấn thương chỉnh hình",
@@ -293,6 +293,14 @@
   "zh-hant": {
    "text": "產科",
    "src": "https://www.jnto.go.jp/emergency/chc/mi_guide.html"
+  },
+  "vi": {
+   "text": "Khoa sản",
+   "src": "https://www.moj.go.jp/isa/support/portal/guidebook_all.html"
+  },
+  "pt": {
+   "text": "Obstetrícia",
+   "src": "https://www.moj.go.jp/isa/support/portal/guidebook_all.html"
   }
  },
  "婦人科": {
@@ -347,6 +355,22 @@
   "pt": {
    "text": "Ginecologia e Obstetrícia",
    "src": "https://kifjp.org/medical/portuguese/"
+  },
+  "en": {
+   "text": "Obstetrics and Gynecology",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
+  },
+  "ko": {
+   "text": "산부인과",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
+  },
+  "zh-hans": {
+   "text": "妇产科",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
+  },
+  "zh-hant": {
+   "text": "婦產科",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_h/department"
   }
  },
  "形成外科": {
@@ -354,9 +378,17 @@
    "text": "plastic surgery",
    "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_eng"
   },
+  "ko": {
+   "text": "성형외과",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_kor/department"
+  },
   "zh-hant": {
    "text": "整形外科",
    "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_h"
+  },
+  "zh-hans": {
+   "text": "整形外科",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_k/department"
   }
  },
  "神経内科": {
@@ -364,9 +396,25 @@
    "text": "neurology",
    "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_eng"
   },
+  "ko": {
+   "text": "신경내과",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
+  },
   "zh-hant": {
    "text": "神經內科",
    "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_h"
+  },
+  "zh-hans": {
+   "text": "神经内科",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
+  },
+  "vi": {
+   "text": "Thần kinh học",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
+  },
+  "pt": {
+   "text": "Neurologia",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
   }
  },
  "消化器内科": {
@@ -374,9 +422,25 @@
    "text": "gastroenterology",
    "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_eng"
   },
+  "ko": {
+   "text": "소화기내과",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_kor/department"
+  },
   "zh-hant": {
    "text": "肝膽胃腸科",
    "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_h"
+  },
+  "zh-hans": {
+   "text": "消化内科",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_k/department"
+  },
+  "vi": {
+   "text": "Tiêu hóa",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
+  },
+  "pt": {
+   "text": "Gastroenterologia",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
   }
  },
  "循環器内科": {
@@ -384,9 +448,25 @@
    "text": "Cardiology",
    "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_eng"
   },
+  "ko": {
+   "text": "순환기내과",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_kor/department"
+  },
   "zh-hant": {
    "text": "心臟血管內科",
    "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_h"
+  },
+  "zh-hans": {
+   "text": "心血管内科",
+   "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_k/department"
+  },
+  "vi": {
+   "text": "Y học tim mạch",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
+  },
+  "pt": {
+   "text": "Cardiologia",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
   }
  },
  "呼吸器内科": {
@@ -394,9 +474,25 @@
    "text": "Respiratory medicine",
    "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_eng"
   },
+  "ko": {
+   "text": "호흡기내과",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
+  },
   "zh-hant": {
    "text": "胸腔內科",
    "src": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_ch_h"
+  },
+  "zh-hans": {
+   "text": "呼吸内科",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
+  },
+  "vi": {
+   "text": "Y học hô hấp",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
+  },
+  "pt": {
+   "text": "Pneumologia",
+   "src": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html"
   }
  }
 }
