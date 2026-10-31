@@ -829,20 +829,13 @@
   "kind": "department",
   "value_ja": "精神科",
   "lang": "pt",
-  "text": "Psiquiatría",
-  "source_url": "https://kifjp.org/medical/portuguese/",
-  "source_id": "kifjp",
-  "source_text": "Psiquiatría",
-  "status": "要確認",
-  "source_note": "多言語医療問診票の「診療科目から探す」一覧で日本語と並記されている訳。 ★もう一つの公的出典では「Psiquiatria」（mhlw-ml）。表記が違うのでどちらを使うか決めてください。（事実として：多言語医療問診票のスペイン語版も同じ「Psiquiatría」で、ポルトガル語版がスペイン語版と同じ綴りになっている。厚労省版は「Psiquiatria」。）",
-  "alt": [
-   {
-    "text": "Psiquiatria",
-    "source_id": "mhlw-ml",
-    "source_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumei-ml.html",
-    "source_text": "不安 □ Questionário de Psiquiatria"
-   }
-  ]
+  "text": "Psiquiatria",
+  "source_url": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/kokusai/setsumeisiryo/dl/pr20.pdf",
+  "source_id": "mhlw-ml-pr20",
+  "source_text": "Questionário de Psiquiatria",
+  "status": "実測",
+  "source_note": "厚労省「外国人向け多言語説明資料（20）精神科 問診票」ポルトガル語版。旧出典 kifjp は「Psiquiatría」（スペイン語の綴り）だったため差し替え（taro-2 T6・2026-11-01 tomomi-2 がPDFで確認）",
+  "alt": []
  },
  {
   "kind": "department",

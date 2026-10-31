@@ -122,6 +122,11 @@ def main():
     rows = json.load(open(ING / "merged_facility_language.json"))
     dic = json.load(open(ROOT / "data" / "dict" / "dictionary.json"))
 
+    # ポルトガル語にスペイン語の綴りが混ざっていないか（出典の誤記：kifjp の Psiquiatría、厚労省の Neurocirugia）
+    es = [r for r in dic if r["lang"] == "pt" and r["text"] and re.search(r"ía\b|cirugia|ología|\by\b", r["text"])]
+    if es:
+        raise SystemExit("ポルトガル語にスペイン語の綴りがあります: " + ", ".join(f"{r['value_ja']}={r['text']}" for r in es))
+
     dept_dict = {}
     for r in dic:
         if r["kind"] == "department" and r["text"]:
