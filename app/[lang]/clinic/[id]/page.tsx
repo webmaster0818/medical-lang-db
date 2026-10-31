@@ -98,7 +98,14 @@ export default async function ClinicPage({ params }: { params: Promise<P> }) {
             </li>
           ))}
         </ul>
-        {f.translationDevice && <p className="mt-2 text-sm">✓ {t.translationDevice}</p>}
+        {f.translationDevice && (
+          <p className="mt-2 text-sm">
+            ✓ {t.translationDevice}
+            <span className="block text-xs text-ink/60">
+              {t.sources}: {f.translationDeviceSources.map((s) => (s === "mhlw" ? t.srcMhlwNet : t.srcD5)).join(" / ")}
+            </span>
+          </p>
+        )}
       </section>
 
       <section>

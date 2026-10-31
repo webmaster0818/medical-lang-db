@@ -35,6 +35,7 @@ export interface SiteFacility {
   lng: number | null;
   updated: string | null;
   translationDevice: boolean;
+  translationDeviceSources: ("mhlw" | "d5")[];
   cards: string[];
   emergencyJa: string[];
   jmip: boolean;

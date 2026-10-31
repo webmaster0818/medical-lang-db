@@ -169,7 +169,9 @@ def main():
             "lat": float(f["lat"]) if f.get("lat") else None,
             "lng": float(f["lng"]) if f.get("lng") else None,
             "updated": f["source_mhlw_updated"],
-            "translationDevice": f["translation_device"] == "可能",
+            "translationDevice": bool(f.get("translation_device_sources")),
+            # 翻訳機の出典（mhlw=医療情報ネット／d5=厚労省の受入医療機関リスト）。画面では出典ごとに示す
+            "translationDeviceSources": f.get("translation_device_sources") or [],
             "cards": cards(f["cashless"]["brands"]),
             "emergencyJa": f["emergency"],
             "jmip": f["jmip"],

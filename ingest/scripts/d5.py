@@ -18,6 +18,21 @@ LANG = [
     (r'\bKM\b|クメール', 'km'), (r'\bMS\b|マレー語', 'ms'), (r'ウクライナ語', 'uk'), (r'ペルシア語|ペルシャ語', 'fa'),
 ]
 DEVICE = re.compile(r'翻訳機|翻訳システム|KOTOBAL|ポケトーク|音声翻訳|多言語対応音声|翻訳アプリ|VoiceBiz|翻訳器', re.I)
+# 2026-10-31 追加（tomomi-2 決定）：D-5 全国38シートの記述から、翻訳機・翻訳アプリを指す語を足す。
+# DEVICE（旧）は遠隔通訳・人の対応の判定に従来どおり使い（○・◎は動かさない）、DEVICE_ALL は「翻訳機あり」の判定だけに使う
+DEVICE_ADD = re.compile(r'翻訳端末|端末の利用|翻訳ソフト|通訳ソフト|翻訳ツール|通訳ツール|多言語ツール|多言語対応ツール|コミュニケーションツール|'
+                        r'機械翻訳|機械通訳|機械・アプリ|自動翻訳|AI翻訳|AI通訳|AIを用いた|\(AI\)翻訳|翻訳エディタ|'
+                        r'通訳アプリ|通約アプリ|アプリ翻訳|アプリを使|アプリにて|アプリによる|アプリで|アプリの|スマートフォンアプリ|アプリケーション|外国語アプリ|専用アプリ|翻訳系アプリ|'
+                        r'Goo?gle翻訳|Goole翻訳|DeepL|ChatGPT|VoiceTra|Voice Tra|ボイストラ|POCKETALK|POKETALK|POCKTALK|pocketalk|Buddycom翻訳|ドコツー|Talk-Trans|'
+                        r'スマホ翻訳|スマホ通訳|スマートフォン翻訳|スマートフォンによる|スマホによる翻訳|スマホを利用した翻訳|スマートフォン通訳|iPhone内アプリ|'
+                        r'音声通訳|通訳機|翻訳期|翻訳機器|通訳機器|翻訳タブレット|翻訳用タブレット|タブレット(端末)?(を利用した|による|を使用した|の)?(機械)?翻訳|'
+                        r'タブレットによる翻訳|ipad通訳|iPad通訳|iPad翻訳|iPadの翻訳|ipad\(VoiceTra\)|医療翻訳ツール', re.I)
+# 否定の書き方（「翻訳機なし」「使用していません」等）は翻訳機ありにしない
+DEVICE_NEG = re.compile(r'(翻訳機|翻訳器|翻訳|アプリ|端末|ツール|ポケトーク)(は|を|の)?(なし|無し|ありません|ない|不可|使用していません|使用しておりません|利用していません|未導入|未設置|導入していません)')
+# 医師がその言語で対応する記述（「対話可能な医師による対応:EN」「英語を話せる医師による外来」等）
+DOCTOR = re.compile(r'(対話可能な|対応可能な|話せる|が話せる|の話せる)?(歯科)?医師(等|及び|と)?(による|が|の|対応|常駐|が常勤|外来)')
+DOCTOR_STOP = re.compile(r'翻訳|端末|アプリ|機械|タブレット|職員|事務員|スタッフ|ボランティア|通訳可能な|ツール|電話')
+
 MANY = re.compile(r'(\d{2,})言語|多言語')
 REMOTE = re.compile(r'タブレット|テレビ電話|ビデオ通話|電話通訳|遠隔|オンライン通訳|通訳サービス|提携|メディフォン|mediphone', re.I)
 
@@ -28,6 +43,28 @@ def langs_in(s):
     for pat, code in LANG:
         if re.search(pat, s) and code not in out: out.append(code)
     return out
+
+
+def doctor_langs(t):
+    """医師がその言語で対応する記述から言語を取り出す。言語名は医師の語の前後（他の方法の語まで）に書かれたものだけを数える"""
+    t = unicodedata.normalize('NFKC', str(t or ''))
+    out = []
+    for m in DOCTOR.finditer(t):
+        if not re.search(r'話せる|対話可能|対応可能|による対応|による外来|医師対応|医師が対応|医師の対応|診察医師|診療医師|英語対応|常駐|常勤|医師による通訳|医師の一部', t[max(0, m.start()-12):m.end()+8]):
+            continue
+        before = re.split(r'[、,\n]|翻訳|端末|アプリ|職員|スタッフ', t[max(0, m.start()-12):m.start()])[-1]
+        after = t[m.end():m.end()+40]
+        stop = DOCTOR_STOP.search(after)
+        if stop: after = after[:stop.start()]
+        for x in langs_in(before) + langs_in(after):
+            if x not in out: out.append(x)
+    return out
+
+
+def device_all(t):
+    t = unicodedata.normalize('NFKC', str(t or ''))
+    if DEVICE_NEG.search(t): return False
+    return bool(DEVICE.search(t) or DEVICE_ADD.search(t))
 
 
 def norm_name(s):
@@ -57,7 +94,8 @@ def load(xlsx, sheet='13.東京都', addr_kw=None):
                 t = str(r[txt] or '')
                 tl = langs_in(t)
                 meth[key] = dict(text=t.strip() or None, langs=tl or langs, langs_explicit=bool(tl),
-                                 device=bool(DEVICE.search(t)), remote=bool(REMOTE.search(t)), many=bool(MANY.search(t)))
+                                 device=bool(DEVICE.search(t)), device_all=device_all(t), device_neg=bool(DEVICE_NEG.search(unicodedata.normalize('NFKC', t))),
+                                 doctor_langs=doctor_langs(t), remote=bool(REMOTE.search(t)), many=bool(MANY.search(t)))
         for m in meth.values():  # 対応言語の列が空でも、方法の欄に書かれた言語は対応言語に含める
             for x in m['langs']:
                 if x not in langs: langs.append(x)

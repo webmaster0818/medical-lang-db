@@ -12,6 +12,11 @@ HUMAN_KW = re.compile(r'通訳|スタッフ|ネイティブ|医師|看護師|職
 SITE_LANG = {  # サイトの言語版 ← 話す言語。中国語の2版は、北京語(zh)を両方に、台湾語・広東語を繁体字版に出す
     'en': ['en'], 'ko': ['ko'], 'zh-hans': ['zh'], 'zh-hant': ['zh', 'zh-tw', 'yue'], 'vi': ['vi'], 'pt': ['pt']}
 TIER_ORDER = {'◎': 0, '○': 1, '△': 2, '―': 3}
+D5_SOURCE = dict(  # D-5 の版（2026-10-30 確認）
+    title='外国人患者を受け入れる医療機関の情報を取りまとめたリスト（厚生労働省・観光庁）',
+    page='https://www.mhlw.go.jp/stf/newpage_05774.html', file='https://www.mhlw.go.jp/content/10800000/001753496.xlsx',
+    published='2026-06-30', last_partial_update='2026-09-30（一部変更：北海道・京都府・広島県）。東京都は2026-08-06の一部変更に含まれる',
+    file_last_modified='2026-09-30T01:00:44Z', downloaded='2026-10-29', size_bytes=1935477)
 
 
 def readjsonl(p):
@@ -53,7 +58,10 @@ def tier_for(fac, nl, d, lang):
     d_human = human_ok('interpreter') or human_ok('coordinator')
     d_remote = any(d_has(k) and meth[k]['remote'] and not meth[k]['device'] for k in ('interpreter', 'coordinator', 'dept')) \
         or (d_has('remote') and not meth['remote']['device'])
-    d_device = any(meth.get(k, {}).get('device') and lang in meth[k]['langs'] for k in ('remote', 'other'))
+    # 2026-10-31：翻訳機の記述は D-5 の全ての欄から拾い、判定語も増やした（device_all）。遠隔通訳・人の対応の判定は従来の語のまま
+    d_device = any(meth.get(k, {}).get('device_all') and lang in meth[k]['langs'] for k in ('dept', 'coordinator', 'interpreter', 'remote', 'other'))
+    # 2026-10-31：「対話可能な医師による対応：EN」のように、医師がその言語で対応すると書かれた言語は人の対応として◎
+    d_doctor = any(lang in m.get('doctor_langs', []) for m in meth.values())
     d_listed = bool(d) and lang in d['langs']
     n_status = (nl or {}).get('status')
     n_device = fac.get('translation_device') == '可能' if fac else False
@@ -64,6 +72,7 @@ def tier_for(fac, nl, d, lang):
     n_lang_detail = bool(nl and (nl.get('phone_foreign') or nl.get('hours') or nl.get('days')))
 
     if d_human: basis.append('D5:医療通訳者/コーディネーター'); return '◎', basis
+    if d_doctor: basis.append('D5:その言語で対応する医師'); return '◎', basis
     if n_status == 'accepted':
         overclaim = accepted_n >= OVERCLAIM_N and n_device
         if not overclaim:
@@ -77,7 +86,7 @@ def tier_for(fac, nl, d, lang):
     if n_status == 'accepted':  # 多言語に付けた受入可能
         return '△', basis + ['翻訳機前提とみなす']
     if n_device or d_device:
-        basis.append('翻訳機あり'); return '△', basis
+        basis.append('翻訳機あり（' + '・'.join(x for x, ok in (('ナビイ', n_device), ('D5', d_device)) if ok) + '）'); return '△', basis
     basis.append('記載のみ'); return '―', basis
 
 
@@ -93,7 +102,14 @@ def main():
 
     M = match(F, D)
     d_by_f = {m['facility_id']: m['d5'] for m in M if m['facility_id']}
-    d5_only = [m['d5'] for m in M if not m['facility_id']]
+    d5_only = []
+    for m in M:  # D-5 内の重複（同じ電話番号の別表記。例：Ａｏｉ歯科医院／アオイ歯科医院）は1件にまとめる
+        if m['facility_id']: continue
+        d = m['d5']; key = D5.norm_tel(d['tel'])  # 住所は表記ゆれが大きい（「4-15-21」と「4丁目１５－２１」）ため電話番号で判定
+        dup = next((x for x in d5_only if x['_key'] == key), None)
+        if dup:
+            dup.setdefault('aliases', []).append(d['d5_name']); continue
+        d['_key'] = key; d5_only.append(d)
 
     rows = []
     keys = set()
@@ -111,11 +127,16 @@ def main():
     for d in d5_only:
         for lg in d['langs']:
             t, b = tier_for(None, None, d, lg)
-            rows.append(dict(facility_id='d5:' + d['d5_name'], lang=lg, tier=t, basis=b, source='d5'))
+            rows.append(dict(facility_id='d5:' + D5.norm_tel(d['tel']), name=d['d5_name'], aliases=d.get('aliases', []), address=d['address'],
+                             tel=d['tel'], lang=lg, tier=t, basis=b, source='d5', page='一覧のみ（厚労省リストのみ）',
+                             translation_device_sources=['d5'] if any(m.get('device_all') for m in d['methods'].values()) else []))
 
     # 施設側に D-5 の情報を足す
     for fid, f in byF.items():
         d = d_by_f.get(fid)
+        d_dev = [dict(field=k, text=m['text']) for k, m in ((d or {}).get('methods') or {}).items() if m.get('device_all')]
+        f['translation_device_sources'] = [x for x, ok in (('mhlw', f.get('translation_device') == '可能'), ('d5', bool(d_dev))) if ok]
+        f['translation_device_d5'] = d_dev or None
         f['d5'] = None if not d else dict(name=d['d5_name'], name_en=d['d5_name_en'], cards=d['cards'], h24=d['h24'], jmip=d['jmip'],
                                           category=d['category'], emergency=d['emergency'], hours=d['hours'])
         f['langs_tier'] = {r['lang']: r['tier'] for r in rows if r['facility_id'] == fid}
@@ -132,7 +153,8 @@ def main():
     st = dict(
         facilities=len(F), by_kind=collections.Counter(f['kikan_kbn'] for f in F),
         with_foreign_lang_mhlw=len(fl_langs),
-        d5_rows=len(D), d5_matched=sum(1 for m in M if m['facility_id']), d5_only=[d['d5_name'] for d in d5_only],
+        d5_source=D5_SOURCE,
+        d5_rows=len(D), d5_matched=sum(1 for m in M if m['facility_id']), d5_only=[dict(name=d['d5_name'], aliases=d.get('aliases', []), tel=d['tel']) for d in d5_only],
         match_how=collections.Counter(m['how'] for m in M if m['how']),
         mhlw_only=len(fl_langs - set(d_by_f)), both=len(fl_langs & set(d_by_f)),
         d5_matched_but_no_mhlw_lang=[byF[f]['name_ja'] for f in d_by_f if f not in fl_langs],
