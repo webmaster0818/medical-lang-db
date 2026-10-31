@@ -30,11 +30,17 @@ DEVICE_ADD = re.compile(r'翻訳端末|端末の利用|翻訳ソフト|通訳ソ
 # 否定の書き方（「翻訳機なし」「使用していません」等）は翻訳機ありにしない
 DEVICE_NEG = re.compile(r'(翻訳機|翻訳器|翻訳|アプリ|端末|ツール|ポケトーク)(は|を|の)?(なし|無し|ありません|ない|不可|使用していません|使用しておりません|利用していません|未導入|未設置|導入していません)')
 # 医師がその言語で対応する記述（「対話可能な医師による対応:EN」「英語を話せる医師による外来」等）
-DOCTOR = re.compile(r'(対話可能な|対応可能な|話せる|が話せる|の話せる)?(歯科)?医師(等|及び|と)?(による|が|の|対応|常駐|が常勤|外来)')
-DOCTOR_STOP = re.compile(r'翻訳|端末|アプリ|機械|タブレット|職員|事務員|スタッフ|ボランティア|通訳可能な|ツール|電話')
+DOCTOR = re.compile(r'(対話可能な|対応可能な|話せる|が話せる|の話せる)?(歯科)?医師(等|及び|と)?(による|が|の|対応|常駐|が常勤|外来|\(|（|\s|$)')
+DOCTOR_STOP = re.compile(r'翻訳|端末|アプリ|機械|タブレット|職員|事務員|スタッフ|ボランティア|通訳可能な|ツール|電話|筆談|問診|看護|薬剤師|。|\(\d\)|（\d）|[②③④]')
+LANG_ONLY_REST = re.compile(r'[をがのとで・\s]|及び|および|語')
 
 MANY = re.compile(r'(\d{2,})言語|多言語')
-REMOTE = re.compile(r'タブレット|テレビ電話|ビデオ通話|電話通訳|遠隔|オンライン通訳|通訳サービス|提携|メディフォン|mediphone', re.I)
+REMOTE = re.compile(r'タブレット|テレビ電話|ビデオ通話|電話通訳|遠隔|オンライン通訳|通訳サービス|提携|メディフォン|mediphone|映像|ビデオ|みえる通訳|見える通訳', re.I)
+# 2026-10-31 v2（tomomi-2 指摘1）：人の遠隔通訳（映像・遠隔・ビデオ・テレビ電話・みえる通訳）で、機械・翻訳の語がない記述は翻訳機にしない
+REMOTE_HUMAN = re.compile(r'映像|遠隔|ビデオ|テレビ電話|みえる通訳|見える通訳')
+DEVICE_STRONG = re.compile(r'機械|翻訳|POCKETALK|POKETALK|POCKTALK|ポケトーク|KOTOBAL|音声通訳|通訳機|AI', re.I)
+# 人の遠隔通訳だと明確な語（翻訳機の記述と並んでいても○の根拠にする）
+REMOTE_STRONG = re.compile(r'電話通訳|電話医療通訳|医療通訳サービス|テレビ電話|映像|ビデオ|みえる通訳|見える通訳|メディフォン|mediphone|コールセンター|遠隔', re.I)
 
 
 def langs_in(s):
@@ -50,9 +56,22 @@ def doctor_langs(t):
     t = unicodedata.normalize('NFKC', str(t or ''))
     out = []
     for m in DOCTOR.finditer(t):
-        if not re.search(r'話せる|対話可能|対応可能|による対応|による外来|医師対応|医師が対応|医師の対応|診察医師|診療医師|英語対応|常駐|常勤|医師による通訳|医師の一部', t[max(0, m.start()-12):m.end()+8]):
+        if not re.search(r'話せる|片言|対話可能|対応可能|による対応|による外来|医師対応|医師が対応|医師の対応|診察医師|診療医師|英語対応|常駐|常勤|医師による通訳|医師の一部', t[max(0, m.start()-12):m.end()+8]):
             continue
-        before = re.split(r'[、,\n]|翻訳|端末|アプリ|職員|スタッフ', t[max(0, m.start()-12):m.start()])[-1]
+        # 医師の語の直前：「英語、北京語、台湾語を話せる医師」のように読点で並ぶ言語名はさかのぼって全部拾う（v2・指摘3）
+        seg = re.split(r'[。\n:：/／]', t[max(0, m.start()-40):m.start()])[-1]
+        toks = seg.split('、'); keep = []
+        for i, tok in enumerate(reversed(toks)):
+            rest = tok
+            for pat, _ in LANG: rest = re.sub(pat, '', rest)
+            if i == 0 and not langs_in(tok): break  # 医師の語の直前に言語名がなければ、前の言語は別の方法（職員など）のもの
+            if i == 0 or not LANG_ONLY_REST.sub('', rest):
+                if i > 0 and not langs_in(tok): break
+                keep.append(tok)
+                if LANG_ONLY_REST.sub('', rest) and i > 0: break
+            else: break
+        before = '、'.join(reversed(keep))
+        if re.search(r'筆談', before): before = ''
         after = t[m.end():m.end()+40]
         stop = DOCTOR_STOP.search(after)
         if stop: after = after[:stop.start()]
@@ -64,6 +83,7 @@ def doctor_langs(t):
 def device_all(t):
     t = unicodedata.normalize('NFKC', str(t or ''))
     if DEVICE_NEG.search(t): return False
+    if REMOTE_HUMAN.search(t) and not DEVICE_STRONG.search(t): return False
     return bool(DEVICE.search(t) or DEVICE_ADD.search(t))
 
 
@@ -95,7 +115,7 @@ def load(xlsx, sheet='13.東京都', addr_kw=None):
                 tl = langs_in(t)
                 meth[key] = dict(text=t.strip() or None, langs=tl or langs, langs_explicit=bool(tl),
                                  device=bool(DEVICE.search(t)), device_all=device_all(t), device_neg=bool(DEVICE_NEG.search(unicodedata.normalize('NFKC', t))),
-                                 doctor_langs=doctor_langs(t), remote=bool(REMOTE.search(t)), many=bool(MANY.search(t)))
+                                 doctor_langs=doctor_langs(t), remote_strong=bool(REMOTE_STRONG.search(unicodedata.normalize('NFKC', t))), remote=bool(REMOTE.search(t)), many=bool(MANY.search(t)))
         for m in meth.values():  # 対応言語の列が空でも、方法の欄に書かれた言語は対応言語に含める
             for x in m['langs']:
                 if x not in langs: langs.append(x)

@@ -54,10 +54,15 @@ def tier_for(fac, nl, d, lang):
         return bool(m) and lang in m['langs']
     # 人の欄（通訳者・コーディネーター・専門部署）でも、本文がタブレット・電話通訳・提携の通訳サービスなら遠隔通訳として扱う
     # 専門部署の有無は、その言語を話せるかの裏付けにしない。コーディネーターは言語が明記された場合だけ数える
-    human_ok = lambda k: d_has(k) and not meth[k]['remote'] and not meth[k]['device'] and (k == 'interpreter' or meth[k]['langs_explicit'])
+    # v2（tomomi-2 指摘4）：人の欄でも翻訳機の記述（device_all）なら人の対応にしない（△・出典D5）
+    human_ok = lambda k: d_has(k) and not meth[k]['remote'] and not meth[k]['device_all'] and (k == 'interpreter' or meth[k]['langs_explicit'])
     d_human = human_ok('interpreter') or human_ok('coordinator')
-    d_remote = any(d_has(k) and meth[k]['remote'] and not meth[k]['device'] for k in ('interpreter', 'coordinator', 'dept')) \
-        or (d_has('remote') and not meth['remote']['device'])
+    # v2（tomomi-2 指摘1・4）：遠隔通訳は「人の遠隔通訳と明確な語」があれば翻訳機の記述と並んでいても○。それ以外は翻訳機の記述（device_all）がない場合だけ。
+    # 「その他」欄は、人の遠隔通訳と明確な語がある場合だけ数える
+    rem = lambda k: d_has(k) and (meth[k]['remote_strong'] or (meth[k]['remote'] and not meth[k]['device_all']))
+    # 遠隔通訳の欄そのものは、本文が言語と時間だけでも遠隔通訳（従来どおり）。翻訳機だけが書かれている場合を除く
+    rem_col = d_has('remote') and (meth['remote']['remote_strong'] or not meth['remote']['device_all'])
+    d_remote = any(rem(k) for k in ('interpreter', 'coordinator', 'dept')) or rem_col or (d_has('other') and meth['other']['remote_strong'])
     # 2026-10-31：翻訳機の記述は D-5 の全ての欄から拾い、判定語も増やした（device_all）。遠隔通訳・人の対応の判定は従来の語のまま
     d_device = any(meth.get(k, {}).get('device_all') and lang in meth[k]['langs'] for k in ('dept', 'coordinator', 'interpreter', 'remote', 'other'))
     # 2026-10-31：「対話可能な医師による対応：EN」のように、医師がその言語で対応すると書かれた言語は人の対応として◎
