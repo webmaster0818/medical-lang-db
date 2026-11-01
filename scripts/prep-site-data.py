@@ -7,6 +7,7 @@
 """
 import json
 import re
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -212,15 +213,27 @@ def main():
     # 地域：住所の先頭（都道府県＋市区町村）を data/geo/municipalities.json（日本郵便）と突き合わせ、URL 名を決める
     muni = json.load(open(ROOT / "data" / "geo" / "municipalities.json"))
     muni.sort(key=lambda m: -len(m["prefJa"] + m["cityJa"]))
-    areas = {}
+    # 取得元の一覧の市区町村コードと住所が食い違う施設がある（例：新宿区の一覧に載る千代田区の施設）。住所を正とし、
+    # コードはその市区町村の施設で最も多いコードに直す
+    found = []
     for x in out:
         m = next((m for m in muni if x["addressJa"].startswith(m["prefJa"] + m["cityJa"])), None)
         if not m:
             raise SystemExit(f"市区町村が分かりません: {x['id']} {x['addressJa']}")
-        a = areas.setdefault(x["cityCode"], {"prefCode": x["prefCode"], "prefSlug": m["prefSlug"], "cityCode": x["cityCode"],
-                                             "citySlug": m["citySlug"], "prefJa": m["prefJa"], "cityJa": m["cityJa"]})
+        found.append(m)
+    codes = {}
+    for x, m in zip(out, found):
+        codes.setdefault((m["prefJa"], m["cityJa"]), Counter())[x["cityCode"]] += 1
+    areas = {}
+    for x, m in zip(out, found):
+        code = codes[(m["prefJa"], m["cityJa"])].most_common(1)[0][0]
+        if x["cityCode"] != code:
+            print(f"市区町村コードを住所に合わせました: {x['id']} {x['nameJa']} {x['cityCode']}→{code}（{x['addressJa']}）")
+            x["cityCode"] = code
+        a = areas.setdefault(code, {"prefCode": x["prefCode"], "prefSlug": m["prefSlug"], "cityCode": code,
+                                    "citySlug": m["citySlug"], "prefJa": m["prefJa"], "cityJa": m["cityJa"]})
         if a["cityJa"] != m["cityJa"]:
-            raise SystemExit(f"同じ市区町村コードで名前が違います: {x['cityCode']} {a['cityJa']} / {m['cityJa']}")
+            raise SystemExit(f"同じ市区町村コードで名前が違います: {code} {a['cityJa']} / {m['cityJa']}")
 
     OUT.mkdir(parents=True, exist_ok=True)
     json.dump(out, open(OUT / "facilities.json", "w"), ensure_ascii=False)

@@ -2,9 +2,65 @@
  {
   "prefCode": "13",
   "prefSlug": "tokyo",
+  "cityCode": "13101",
+  "citySlug": "chiyoda",
+  "prefJa": "東京都",
+  "cityJa": "千代田区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13102",
+  "citySlug": "chuo",
+  "prefJa": "東京都",
+  "cityJa": "中央区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13103",
+  "citySlug": "minato",
+  "prefJa": "東京都",
+  "cityJa": "港区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
   "cityCode": "13104",
   "citySlug": "shinjuku",
   "prefJa": "東京都",
   "cityJa": "新宿区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13105",
+  "citySlug": "bunkyo",
+  "prefJa": "東京都",
+  "cityJa": "文京区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13106",
+  "citySlug": "taito",
+  "prefJa": "東京都",
+  "cityJa": "台東区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13107",
+  "citySlug": "sumida",
+  "prefJa": "東京都",
+  "cityJa": "墨田区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13108",
+  "citySlug": "koto",
+  "prefJa": "東京都",
+  "cityJa": "江東区"
  }
 ]
