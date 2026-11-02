@@ -57,6 +57,9 @@ export default async function LangLayout({ children, params }: { children: React
             <p>
               {t.sources}: {t.srcMhlwNet} / {t.srcD5}
             </p>
+            <p>
+              <Link href={`/${lang}/contact/`}>お問い合わせ / Contact</Link>
+            </p>
           </div>
         </footer>
       </body>
