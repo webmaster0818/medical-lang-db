@@ -135,6 +135,9 @@ def main():
     # 親の科は英語の訳（JNTO・東京都）がある科だけ。産婦人科は英語の訳がないため産科＋婦人科に分ける
     groups = {k for k, v in dept_dict.items() if "en" in v}
 
+    # 掲載の取り下げを受けた施設は出さない（data/policy/hidden.json）
+    hidden = {h["facility_id"] for h in json.load(open(ROOT / "data" / "policy" / "hidden.json"))["hidden"]}
+
     by_fac = {}
     for r in rows:
         by_fac.setdefault(r["facility_id"], []).append(r)
@@ -142,7 +145,7 @@ def main():
     out = []
     for f in fac:
         lrows = by_fac.get(f["id"])
-        if not lrows:
+        if not lrows or f["id"] in hidden:
             continue
         depts = []
         seen = set()
@@ -240,7 +243,7 @@ def main():
     json.dump(sorted(areas.values(), key=lambda a: a["cityCode"]), open(OUT / "areas.json", "w"), ensure_ascii=False, indent=1)
     print(len(areas), "areas")
     json.dump({k: v for k, v in dept_dict.items()}, open(OUT / "departments.json", "w"), ensure_ascii=False, indent=1)
-    print(len(out), "facilities")
+    print(len(out), "facilities", f"（取り下げで非表示 {len(hidden)}）")
     for sl in SITE_LANGS:
         c = {}
         for x in out:
