@@ -147,6 +147,10 @@ def main():
         lrows = by_fac.get(f["id"])
         if not lrows or f["id"] in hidden:
             continue
+        # 厚労省の受入医療機関リスト（D-5）にだけ載る施設（id「d5:電話番号」）は、医療情報ネットの詳細（科・時間・種別）が無い。
+        # ページの形を決めるまで出さない（2026-11-03 T9）
+        if "kikan_kbn" not in f:
+            continue
         depts = []
         seen = set()
         for h in f["dept_hours"]:

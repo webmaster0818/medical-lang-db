@@ -62,5 +62,125 @@
   "citySlug": "koto",
   "prefJa": "東京都",
   "cityJa": "江東区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13109",
+  "citySlug": "shinagawa",
+  "prefJa": "東京都",
+  "cityJa": "品川区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13110",
+  "citySlug": "meguro",
+  "prefJa": "東京都",
+  "cityJa": "目黒区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13111",
+  "citySlug": "ota",
+  "prefJa": "東京都",
+  "cityJa": "大田区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13112",
+  "citySlug": "setagaya",
+  "prefJa": "東京都",
+  "cityJa": "世田谷区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13113",
+  "citySlug": "shibuya",
+  "prefJa": "東京都",
+  "cityJa": "渋谷区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13114",
+  "citySlug": "nakano",
+  "prefJa": "東京都",
+  "cityJa": "中野区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13115",
+  "citySlug": "suginami",
+  "prefJa": "東京都",
+  "cityJa": "杉並区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13116",
+  "citySlug": "toshima",
+  "prefJa": "東京都",
+  "cityJa": "豊島区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13117",
+  "citySlug": "kita",
+  "prefJa": "東京都",
+  "cityJa": "北区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13118",
+  "citySlug": "arakawa",
+  "prefJa": "東京都",
+  "cityJa": "荒川区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13119",
+  "citySlug": "itabashi",
+  "prefJa": "東京都",
+  "cityJa": "板橋区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13120",
+  "citySlug": "nerima",
+  "prefJa": "東京都",
+  "cityJa": "練馬区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13121",
+  "citySlug": "adachi",
+  "prefJa": "東京都",
+  "cityJa": "足立区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13122",
+  "citySlug": "katsushika",
+  "prefJa": "東京都",
+  "cityJa": "葛飾区"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13123",
+  "citySlug": "edogawa",
+  "prefJa": "東京都",
+  "cityJa": "江戸川区"
  }
 ]
