@@ -64,6 +64,11 @@ export const AREAS: Area[] = areasData;
 
 const ALL = facilitiesData as unknown as SiteFacility[];
 
+/** 単独の施設ページを持つか（「―」の言語は一覧のカードだけ） */
+export function hasPage(f: SiteFacility, lang: SiteLang): boolean {
+  return f.site[lang]?.tier !== "D";
+}
+
 export function facilitiesFor(lang: SiteLang, cityCode?: string): SiteFacility[] {
   return ALL.filter((f) => f.site[lang] && (!cityCode || f.cityCode === cityCode)).sort(
     (a, b) =>

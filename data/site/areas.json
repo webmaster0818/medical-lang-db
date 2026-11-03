@@ -184,6 +184,150 @@
   "cityJa": "江戸川区"
  },
  {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14101",
+  "citySlug": "yokohama-tsurumi",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市鶴見区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14102",
+  "citySlug": "yokohama-kanagawa",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市神奈川区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14103",
+  "citySlug": "yokohama-nishi",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市西区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14104",
+  "citySlug": "yokohama-naka",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市中区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14105",
+  "citySlug": "yokohama-minami",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市南区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14106",
+  "citySlug": "yokohama-hodogaya",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市保土ケ谷区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14107",
+  "citySlug": "yokohama-isogo",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市磯子区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14108",
+  "citySlug": "yokohama-kanazawa",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市金沢区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14109",
+  "citySlug": "yokohama-kohoku",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市港北区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14110",
+  "citySlug": "yokohama-totsuka",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市戸塚区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14111",
+  "citySlug": "yokohama-konan",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市港南区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14112",
+  "citySlug": "yokohama-asahi",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市旭区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14113",
+  "citySlug": "yokohama-midori",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市緑区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14114",
+  "citySlug": "yokohama-seya",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市瀬谷区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14115",
+  "citySlug": "yokohama-sakae",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市栄区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14116",
+  "citySlug": "yokohama-izumi",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市泉区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14117",
+  "citySlug": "yokohama-aoba",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市青葉区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14118",
+  "citySlug": "yokohama-tsuzuki",
+  "prefJa": "神奈川県",
+  "cityJa": "横浜市都筑区"
+ },
+ {
   "prefCode": "27",
   "prefSlug": "osaka",
   "cityCode": "27102",

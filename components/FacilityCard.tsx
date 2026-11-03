@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { deptLabel, type SiteFacility, type SiteLang } from "@/lib/data";
+import { deptLabel, hasPage, type SiteFacility, type SiteLang } from "@/lib/data";
 import { ui } from "@/lib/ui";
 import { TierBadge } from "./TierBadge";
 import { OpenNow } from "./OpenNow";
@@ -16,11 +16,22 @@ export function FacilityCard({ f, lang }: { f: SiteFacility; lang: SiteLang }) {
         <OpenNow hours={f.depts.map((d) => d.hours)} open={t.openNow} closed={t.closedNow} />
       </div>
       <h3 className="mt-2 text-lg font-bold">
-        <Link href={`/${lang}/clinic/${f.id}/`}>{f.nameEn ?? f.nameJa}</Link>
+        {hasPage(f, lang) ? <Link href={`/${lang}/clinic/${f.id}/`}>{f.nameEn ?? f.nameJa}</Link> : (f.nameEn ?? f.nameJa)}
       </h3>
       <p className="text-sm text-ink/70" lang="ja">
         {f.nameJa}
       </p>
+      {!hasPage(f, lang) && (
+        <p className="mt-1 text-sm text-ink/70">
+          <span lang="ja">{f.addressJa}</span>
+          {f.phone && (
+            <>
+              {" · "}
+              {t.phone}: <a href={`tel:${f.phone}`}>{f.phone}</a>
+            </>
+          )}
+        </p>
+      )}
       {groups.length > 0 && (
         <p className="mt-2 text-sm">{groups.map((g) => deptLabel(g, lang)).join(" · ")}</p>
       )}

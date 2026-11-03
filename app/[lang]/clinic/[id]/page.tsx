@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { AREAS, LANGS, TIER_RANK, deptLabel, facilitiesFor, facility, mhlwUrl, placeName, type Day, type SiteLang } from "@/lib/data";
+import { AREAS, LANGS, TIER_RANK, deptLabel, facilitiesFor, facility, hasPage, mhlwUrl, placeName, type Day, type SiteLang } from "@/lib/data";
 import { langName, ui } from "@/lib/ui";
 import { robots } from "@/lib/robots";
 import { TierBadge } from "@/components/TierBadge";
@@ -11,7 +11,9 @@ type P = { lang: string; id: string };
 const DAYS: Day[] = ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "hol"];
 
 export function generateStaticParams() {
-  return LANGS.flatMap((lang) => facilitiesFor(lang).map((f) => ({ lang, id: f.id })));
+  // 「―」（言語の記載だけ）の施設は単独ページを作らず、地域・診療科の一覧のカードに住所と電話を載せる
+  // （中身の薄いページを量産しない：writing-standards §9／CF Pages のファイル上限。2026-11-04）
+  return LANGS.flatMap((lang) => facilitiesFor(lang).filter((f) => hasPage(f, lang)).map((f) => ({ lang, id: f.id })));
 }
 
 export async function generateMetadata({ params }: { params: Promise<P> }): Promise<Metadata> {
