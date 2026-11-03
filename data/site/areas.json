@@ -328,6 +328,134 @@
   "cityJa": "横浜市都筑区"
  },
  {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23101",
+  "citySlug": "nagoya-chikusa",
+  "prefJa": "愛知県",
+  "cityJa": "名古屋市千種区"
+ },
+ {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23102",
+  "citySlug": "nagoya-higashi",
+  "prefJa": "愛知県",
+  "cityJa": "名古屋市東区"
+ },
+ {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23103",
+  "citySlug": "nagoya-kita",
+  "prefJa": "愛知県",
+  "cityJa": "名古屋市北区"
+ },
+ {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23104",
+  "citySlug": "nagoya-nishi",
+  "prefJa": "愛知県",
+  "cityJa": "名古屋市西区"
+ },
+ {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23105",
+  "citySlug": "nagoya-nakamura",
+  "prefJa": "愛知県",
+  "cityJa": "名古屋市中村区"
+ },
+ {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23106",
+  "citySlug": "nagoya-naka",
+  "prefJa": "愛知県",
+  "cityJa": "名古屋市中区"
+ },
+ {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23107",
+  "citySlug": "nagoya-showa",
+  "prefJa": "愛知県",
+  "cityJa": "名古屋市昭和区"
+ },
+ {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23108",
+  "citySlug": "nagoya-mizuho",
+  "prefJa": "愛知県",
+  "cityJa": "名古屋市瑞穂区"
+ },
+ {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23109",
+  "citySlug": "nagoya-atsuta",
+  "prefJa": "愛知県",
+  "cityJa": "名古屋市熱田区"
+ },
+ {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23110",
+  "citySlug": "nagoya-nakagawa",
+  "prefJa": "愛知県",
+  "cityJa": "名古屋市中川区"
+ },
+ {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23111",
+  "citySlug": "nagoya-minato",
+  "prefJa": "愛知県",
+  "cityJa": "名古屋市港区"
+ },
+ {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23112",
+  "citySlug": "nagoya-minami",
+  "prefJa": "愛知県",
+  "cityJa": "名古屋市南区"
+ },
+ {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23113",
+  "citySlug": "nagoya-moriyama",
+  "prefJa": "愛知県",
+  "cityJa": "名古屋市守山区"
+ },
+ {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23114",
+  "citySlug": "nagoya-midori",
+  "prefJa": "愛知県",
+  "cityJa": "名古屋市緑区"
+ },
+ {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23115",
+  "citySlug": "nagoya-meito",
+  "prefJa": "愛知県",
+  "cityJa": "名古屋市名東区"
+ },
+ {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23116",
+  "citySlug": "nagoya-tempaku",
+  "prefJa": "愛知県",
+  "cityJa": "名古屋市天白区"
+ },
+ {
   "prefCode": "27",
   "prefSlug": "osaka",
   "cityCode": "27102",
