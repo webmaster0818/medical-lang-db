@@ -182,5 +182,253 @@
   "citySlug": "edogawa",
   "prefJa": "東京都",
   "cityJa": "江戸川区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27102",
+  "citySlug": "osaka-miyakojima",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市都島区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27103",
+  "citySlug": "osaka-fukushima",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市福島区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27104",
+  "citySlug": "osaka-konohana",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市此花区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27106",
+  "citySlug": "osaka-nishi",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市西区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27107",
+  "citySlug": "osaka-minato",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市港区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27108",
+  "citySlug": "osaka-taisho",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市大正区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27109",
+  "citySlug": "osaka-tennoji",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市天王寺区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27111",
+  "citySlug": "osaka-naniwa",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市浪速区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27113",
+  "citySlug": "osaka-nishiyodogawa",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市西淀川区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27114",
+  "citySlug": "osaka-higashiyodogawa",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市東淀川区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27115",
+  "citySlug": "osaka-higashinari",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市東成区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27116",
+  "citySlug": "osaka-ikuno",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市生野区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27117",
+  "citySlug": "osaka-asahi",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市旭区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27118",
+  "citySlug": "osaka-joto",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市城東区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27119",
+  "citySlug": "osaka-abeno",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市阿倍野区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27120",
+  "citySlug": "osaka-sumiyoshi",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市住吉区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27121",
+  "citySlug": "osaka-higashisumiyoshi",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市東住吉区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27122",
+  "citySlug": "osaka-nishinari",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市西成区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27123",
+  "citySlug": "osaka-yodogawa",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市淀川区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27124",
+  "citySlug": "osaka-tsurumi",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市鶴見区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27125",
+  "citySlug": "osaka-suminoe",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市住之江区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27126",
+  "citySlug": "osaka-hirano",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市平野区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27127",
+  "citySlug": "osaka-kita",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市北区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27128",
+  "citySlug": "osaka-chuo",
+  "prefJa": "大阪府",
+  "cityJa": "大阪市中央区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27141",
+  "citySlug": "sakai-sakai",
+  "prefJa": "大阪府",
+  "cityJa": "堺市堺区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27142",
+  "citySlug": "sakai-naka",
+  "prefJa": "大阪府",
+  "cityJa": "堺市中区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27143",
+  "citySlug": "sakai-higashi",
+  "prefJa": "大阪府",
+  "cityJa": "堺市東区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27144",
+  "citySlug": "sakai-nishi",
+  "prefJa": "大阪府",
+  "cityJa": "堺市西区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27145",
+  "citySlug": "sakai-minami",
+  "prefJa": "大阪府",
+  "cityJa": "堺市南区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27146",
+  "citySlug": "sakai-kita",
+  "prefJa": "大阪府",
+  "cityJa": "堺市北区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27147",
+  "citySlug": "sakai-mihara",
+  "prefJa": "大阪府",
+  "cityJa": "堺市美原区"
  }
 ]
