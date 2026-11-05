@@ -1,5 +1,13 @@
 [
  {
+  "prefCode": "11",
+  "prefSlug": "saitama",
+  "cityCode": "11203",
+  "citySlug": "kawaguchi",
+  "prefJa": "埼玉県",
+  "cityJa": "川口市"
+ },
+ {
   "prefCode": "13",
   "prefSlug": "tokyo",
   "cityCode": "13101",
@@ -326,6 +334,62 @@
   "citySlug": "yokohama-tsuzuki",
   "prefJa": "神奈川県",
   "cityJa": "横浜市都筑区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14131",
+  "citySlug": "kawasaki-kawasaki",
+  "prefJa": "神奈川県",
+  "cityJa": "川崎市川崎区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14132",
+  "citySlug": "kawasaki-saiwai",
+  "prefJa": "神奈川県",
+  "cityJa": "川崎市幸区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14133",
+  "citySlug": "kawasaki-nakahara",
+  "prefJa": "神奈川県",
+  "cityJa": "川崎市中原区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14134",
+  "citySlug": "kawasaki-takatsu",
+  "prefJa": "神奈川県",
+  "cityJa": "川崎市高津区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14135",
+  "citySlug": "kawasaki-tama",
+  "prefJa": "神奈川県",
+  "cityJa": "川崎市多摩区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14136",
+  "citySlug": "kawasaki-miyamae",
+  "prefJa": "神奈川県",
+  "cityJa": "川崎市宮前区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14137",
+  "citySlug": "kawasaki-asao",
+  "prefJa": "神奈川県",
+  "cityJa": "川崎市麻生区"
  },
  {
   "prefCode": "23",
