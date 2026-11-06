@@ -16,7 +16,8 @@ rsync -a --delete --exclude .git --exclude functions --exclude '__next*.txt' --e
 find "$DEPLOY" -path "$DEPLOY/.git" -prune -o -type f -name index.txt -print -delete | wc -l | xargs echo "index.txt removed:"
 n=$(find "$DEPLOY" -path "$DEPLOY/.git" -prune -o -type f -print | wc -l | tr -d ' ')
 echo "files $n"
-if [ "$n" -gt 19500 ]; then echo "CF Pages の2万ファイル上限に近いので止めます"; exit 1; fi
+# 2026-11-06 MediaXAI が Workers Paid（$5/月）に切り替え → 上限は2万から10万ファイル。初めて2万を超えるデプロイは CF の check-run で成否を必ず確認する
+if [ "$n" -gt 98000 ]; then echo "CF Pages の10万ファイル上限に近いので止めます"; exit 1; fi
 cd "$DEPLOY"
 git add -A
 git commit -qm "${1:-Update}" || { echo "変更なし"; exit 0; }
