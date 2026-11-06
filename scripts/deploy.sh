@@ -6,7 +6,8 @@ cd "$(dirname "$0")/.."
 DEPLOY="$(cd ../medical-lang-db-deploy && pwd)"
 npm run build
 total=$(find out -name '*.html' | wc -l | tr -d ' ')
-noidx=$(grep -l 'name="robots" content="noindex' $(find out -name '*.html') | wc -l | tr -d ' ')
+# ページ数が増えると $(find …) を grep に渡す形は Argument list too long で落ちる（T14 で発生）→ -exec … + で分けて渡す
+noidx=$(find out -name '*.html' -exec grep -l 'name="robots" content="noindex' {} + | wc -l | tr -d ' ')
 echo "noindex $noidx / $total"
 if [ "$noidx" != "$total" ]; then echo "noindex が無いページがあります。止めます"; exit 1; fi
 # index.txt（画面遷移用のデータ）は送らない。CF Pages は1デプロイ2万ファイルまでで、23区で超えた（2026-11-03）。無くても通常のページ読み込みになるだけ
