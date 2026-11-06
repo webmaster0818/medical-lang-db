@@ -392,6 +392,30 @@
   "cityJa": "川崎市麻生区"
  },
  {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14151",
+  "citySlug": "sagamihara-midori",
+  "prefJa": "神奈川県",
+  "cityJa": "相模原市緑区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14152",
+  "citySlug": "sagamihara-chuo",
+  "prefJa": "神奈川県",
+  "cityJa": "相模原市中央区"
+ },
+ {
+  "prefCode": "14",
+  "prefSlug": "kanagawa",
+  "cityCode": "14153",
+  "citySlug": "sagamihara-minami",
+  "prefJa": "神奈川県",
+  "cityJa": "相模原市南区"
+ },
+ {
   "prefCode": "23",
   "prefSlug": "aichi",
   "cityCode": "23101",
@@ -518,6 +542,14 @@
   "citySlug": "nagoya-tempaku",
   "prefJa": "愛知県",
   "cityJa": "名古屋市天白区"
+ },
+ {
+  "prefCode": "23",
+  "prefSlug": "aichi",
+  "cityCode": "23201",
+  "citySlug": "toyohashi",
+  "prefJa": "愛知県",
+  "cityJa": "豊橋市"
  },
  {
   "prefCode": "27",
@@ -766,5 +798,29 @@
   "citySlug": "sakai-mihara",
   "prefJa": "大阪府",
   "cityJa": "堺市美原区"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27203",
+  "citySlug": "toyonaka",
+  "prefJa": "大阪府",
+  "cityJa": "豊中市"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27205",
+  "citySlug": "suita",
+  "prefJa": "大阪府",
+  "cityJa": "吹田市"
+ },
+ {
+  "prefCode": "27",
+  "prefSlug": "osaka",
+  "cityCode": "27227",
+  "citySlug": "higashiosaka",
+  "prefJa": "大阪府",
+  "cityJa": "東大阪市"
  }
 ]
