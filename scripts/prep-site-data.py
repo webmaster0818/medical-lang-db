@@ -224,7 +224,9 @@ def main():
     # コードはその市区町村の施設で最も多いコードに直す
     found = []
     for x in out:
-        m = next((m for m in muni if x["addressJa"].startswith(m["prefJa"] + m["cityJa"])), None)
+        # 住所の県と市の間に空白が入っている施設がある（さいたま市 T15「埼玉県 さいたま市浦和区…」）。突き合わせは空白を除いて行う
+        addr = re.sub(r"[ 　]", "", x["addressJa"])
+        m = next((m for m in muni if addr.startswith(m["prefJa"] + m["cityJa"])), None)
         if not m:
             raise SystemExit(f"市区町村が分かりません: {x['id']} {x['addressJa']}")
         found.append(m)

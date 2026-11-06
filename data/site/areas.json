@@ -2,6 +2,86 @@
  {
   "prefCode": "11",
   "prefSlug": "saitama",
+  "cityCode": "11101",
+  "citySlug": "saitama-nishi",
+  "prefJa": "埼玉県",
+  "cityJa": "さいたま市西区"
+ },
+ {
+  "prefCode": "11",
+  "prefSlug": "saitama",
+  "cityCode": "11102",
+  "citySlug": "saitama-kita",
+  "prefJa": "埼玉県",
+  "cityJa": "さいたま市北区"
+ },
+ {
+  "prefCode": "11",
+  "prefSlug": "saitama",
+  "cityCode": "11103",
+  "citySlug": "saitama-omiya",
+  "prefJa": "埼玉県",
+  "cityJa": "さいたま市大宮区"
+ },
+ {
+  "prefCode": "11",
+  "prefSlug": "saitama",
+  "cityCode": "11104",
+  "citySlug": "saitama-minuma",
+  "prefJa": "埼玉県",
+  "cityJa": "さいたま市見沼区"
+ },
+ {
+  "prefCode": "11",
+  "prefSlug": "saitama",
+  "cityCode": "11105",
+  "citySlug": "saitama-chuo",
+  "prefJa": "埼玉県",
+  "cityJa": "さいたま市中央区"
+ },
+ {
+  "prefCode": "11",
+  "prefSlug": "saitama",
+  "cityCode": "11106",
+  "citySlug": "saitama-sakura",
+  "prefJa": "埼玉県",
+  "cityJa": "さいたま市桜区"
+ },
+ {
+  "prefCode": "11",
+  "prefSlug": "saitama",
+  "cityCode": "11107",
+  "citySlug": "saitama-urawa",
+  "prefJa": "埼玉県",
+  "cityJa": "さいたま市浦和区"
+ },
+ {
+  "prefCode": "11",
+  "prefSlug": "saitama",
+  "cityCode": "11108",
+  "citySlug": "saitama-minami",
+  "prefJa": "埼玉県",
+  "cityJa": "さいたま市南区"
+ },
+ {
+  "prefCode": "11",
+  "prefSlug": "saitama",
+  "cityCode": "11109",
+  "citySlug": "saitama-midori",
+  "prefJa": "埼玉県",
+  "cityJa": "さいたま市緑区"
+ },
+ {
+  "prefCode": "11",
+  "prefSlug": "saitama",
+  "cityCode": "11110",
+  "citySlug": "saitama-iwatsuki",
+  "prefJa": "埼玉県",
+  "cityJa": "さいたま市岩槻区"
+ },
+ {
+  "prefCode": "11",
+  "prefSlug": "saitama",
   "cityCode": "11203",
   "citySlug": "kawaguchi",
   "prefJa": "埼玉県",
