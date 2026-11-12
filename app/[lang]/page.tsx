@@ -1,11 +1,12 @@
 import Link from "next/link";
-import { AREAS, facilitiesFor, placeName, type SiteLang } from "@/lib/data";
+import { areasByPref, facilitiesFor, placeName, prefName, type SiteLang } from "@/lib/data";
 import { ui } from "@/lib/ui";
 import { TierLegend } from "@/components/TierBadge";
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = (await params) as { lang: SiteLang };
   const t = ui(lang);
+  const groups = areasByPref();
   return (
     <div className="space-y-8">
       <section>
@@ -14,21 +15,35 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       </section>
       <section>
         <h2 className="mb-3 text-xl font-bold">{t.searchByArea}</h2>
-        <ul className="grid gap-2 sm:grid-cols-2">
-          {AREAS.map((a) => (
-            <li key={a.cityCode}>
-              <Link
-                href={`/${lang}/${a.prefSlug}/${a.citySlug}/`}
-                className="block rounded border border-line bg-white p-4 no-underline hover:border-ink"
-              >
-                <span className="font-bold">{placeName(a, lang)}</span>
-                <span className="block text-sm text-ink/70">
-                  {t.count(facilitiesFor(lang, a.cityCode).length)}
-                </span>
-              </Link>
-            </li>
+        <nav className="mb-6 flex flex-wrap gap-x-3 gap-y-1 text-sm">
+          {groups.map((g) => (
+            <a key={g[0].prefCode} href={`#${g[0].prefSlug}`}>
+              {prefName(g[0], lang)}
+            </a>
           ))}
-        </ul>
+        </nav>
+        <div className="space-y-6">
+          {groups.map((g) => (
+            <section key={g[0].prefCode} id={g[0].prefSlug}>
+              <h3 className="mb-2 text-lg font-bold">{prefName(g[0], lang)}</h3>
+              <ul className="grid gap-2 sm:grid-cols-2">
+                {g.map((a) => (
+                  <li key={a.cityCode}>
+                    <Link
+                      href={`/${lang}/${a.prefSlug}/${a.citySlug}/`}
+                      className="block rounded border border-line bg-white p-4 no-underline hover:border-ink"
+                    >
+                      <span className="font-bold">{placeName(a, lang)}</span>
+                      <span className="block text-sm text-ink/70">
+                        {t.count(facilitiesFor(lang, a.cityCode).length)}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
+        </div>
       </section>
       <section>
         <h2 className="mb-3 text-xl font-bold">{t.howToRead}</h2>

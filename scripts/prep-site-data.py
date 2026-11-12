@@ -245,7 +245,17 @@ def main():
             raise SystemExit(f"同じ市区町村コードで名前が違います: {code} {a['cityJa']} / {m['cityJa']}")
 
     OUT.mkdir(parents=True, exist_ok=True)
-    json.dump(out, open(OUT / "facilities.json", "w"), ensure_ascii=False)
+    # 全国分を1ファイルにすると GitHub の上限（100MB）を超えるため都道府県ごとに分ける（2026-11-13・T17 時点で 79MB）
+    fdir = OUT / "facilities"
+    fdir.mkdir(exist_ok=True)
+    for old in fdir.glob("*.json"):
+        old.unlink()
+    by_pref = {}
+    for x in out:
+        by_pref.setdefault(x["prefCode"], []).append(x)
+    for pc, xs in sorted(by_pref.items()):
+        json.dump(xs, open(fdir / f"{pc}.json", "w"), ensure_ascii=False)
+    (OUT / "facilities.json").unlink(missing_ok=True)
     json.dump(sorted(areas.values(), key=lambda a: a["cityCode"]), open(OUT / "areas.json", "w"), ensure_ascii=False, indent=1)
     print(len(areas), "areas")
     json.dump({k: v for k, v in dept_dict.items()}, open(OUT / "departments.json", "w"), ensure_ascii=False, indent=1)

@@ -1,6 +1,6 @@
 // facilities.json は T17（2026-11-12・44,242施設・79MB）から import だと TypeScript の型推論がメモリ不足で落ちる。
 // ビルド時（サーバー側）にファイルとして読む。クライアント部品はこのファイルから型しか読まないので影響しない
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import areasData from "@/data/site/areas.json";
 import departments from "@/data/site/departments.json";
@@ -65,7 +65,12 @@ export interface Area {
 // 施設のある市区町村だけ（scripts/prep-site-data.py が作る。URL 名は日本郵便のローマ字データから）
 export const AREAS: Area[] = areasData;
 
-const ALL: SiteFacility[] = JSON.parse(readFileSync(join(process.cwd(), "data", "site", "facilities.json"), "utf8"));
+// 都道府県ごとのファイル（data/site/facilities/01.json …）。全国分の1ファイルは GitHub の 100MB 上限を超えるため分けた
+const FAC_DIR = join(process.cwd(), "data", "site", "facilities");
+const ALL: SiteFacility[] = readdirSync(FAC_DIR)
+  .filter((n) => n.endsWith(".json"))
+  .sort()
+  .flatMap((n) => JSON.parse(readFileSync(join(FAC_DIR, n), "utf8")) as SiteFacility[]);
 
 /** 単独の施設ページを持つか（「―」の言語は一覧のカードだけ） */
 export function hasPage(f: SiteFacility, lang: SiteLang): boolean {
@@ -113,6 +118,19 @@ const DICT = dictionary as DictRow[];
 export function placeName(a: Area, lang: SiteLang): string {
   const r = DICT.find((x) => (x.kind === "ward" || x.kind === "city") && x.value_ja === a.cityJa && x.lang === lang && x.status === "実測" && x.text);
   return r?.text ?? `${a.prefJa}${a.cityJa}`;
+}
+
+/** 都道府県名（辞書の prefecture・実測のみ。無ければ日本語） */
+export function prefName(a: Area, lang: SiteLang): string {
+  const r = DICT.find((x) => x.kind === "prefecture" && x.value_ja === a.prefJa && x.lang === lang && x.status === "実測" && x.text);
+  return r?.text ?? a.prefJa;
+}
+
+/** トップのエリア一覧用：都道府県ごとにまとめる（都道府県コード順） */
+export function areasByPref(): Area[][] {
+  const m = new Map<string, Area[]>();
+  for (const a of AREAS) m.set(a.prefCode, [...(m.get(a.prefCode) ?? []), a]);
+  return [...m.entries()].sort(([x], [y]) => x.localeCompare(y)).map(([, v]) => v);
 }
 
 export function deptSlug(ja: string): string {
