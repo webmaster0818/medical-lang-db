@@ -1,4 +1,7 @@
-import facilitiesData from "@/data/site/facilities.json";
+// facilities.json は T17（2026-11-12・44,242施設・79MB）から import だと TypeScript の型推論がメモリ不足で落ちる。
+// ビルド時（サーバー側）にファイルとして読む。クライアント部品はこのファイルから型しか読まないので影響しない
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import areasData from "@/data/site/areas.json";
 import departments from "@/data/site/departments.json";
 import dictionary from "@/data/dict/dictionary.json";
@@ -62,7 +65,7 @@ export interface Area {
 // 施設のある市区町村だけ（scripts/prep-site-data.py が作る。URL 名は日本郵便のローマ字データから）
 export const AREAS: Area[] = areasData;
 
-const ALL = facilitiesData as unknown as SiteFacility[];
+const ALL: SiteFacility[] = JSON.parse(readFileSync(join(process.cwd(), "data", "site", "facilities.json"), "utf8"));
 
 /** 単独の施設ページを持つか（「―」の言語は一覧のカードだけ） */
 export function hasPage(f: SiteFacility, lang: SiteLang): boolean {
