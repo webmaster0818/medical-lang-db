@@ -26,7 +26,7 @@ for ((s=1; s<N; s++)); do
   code=$(curl -s -o /dev/null -w '%{http_code}' -H "Authorization: Bearer $CF_TOKEN" "https://api.cloudflare.com/client/v4/accounts/$CF_ACC/pages/projects/$proj")
   if [ "$code" = "404" ]; then
     curl -s -X POST -H "Authorization: Bearer $CF_TOKEN" -H "Content-Type: application/json" \
-      -d "{\"name\":\"$proj\",\"production_branch\":\"main\"}" "https://api.cloudflare.com/client/v4/accounts/$CF_ACC/pages/projects" | grep -q '"success":true' || { echo "$proj を作れませんでした"; exit 1; }
+      -d "{\"name\":\"$proj\",\"production_branch\":\"main\"}" "https://api.cloudflare.com/client/v4/accounts/$CF_ACC/pages/projects" | grep -qE '"success": ?true' || { echo "$proj を作れませんでした"; exit 1; }
   fi
   # wrangler はリポの外（分割先ディレクトリ）から実行する。Next.js リポ内で動かすと設定を書き換える（memory: wrangler-project-create-rewrites-nextjs）
   (cd "$SHARDS/s$s" && CLOUDFLARE_API_TOKEN="$CF_TOKEN" CLOUDFLARE_ACCOUNT_ID="$CF_ACC" npx -y wrangler@3 pages deploy . --project-name "$proj" --branch main --commit-dirty=true) | tail -3
