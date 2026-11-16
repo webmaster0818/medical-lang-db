@@ -12,6 +12,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 ING = ROOT / "ingest" / "data" / "out"
+# out/ の後ろに足す納品（ingest/data/<名前>/ の merged_facility*.json）。T18 から out/ に結合せず、ここで読む。
+# 差し替え（T18b など）はディレクトリの中身を入れ替えるだけで済む。既存の施設と id が重なったら止める
+EXTRA = ["t18"]
 OUT = ROOT / "data" / "site"
 
 SITE_LANGS = {
@@ -121,6 +124,21 @@ def hours_of(h: dict) -> dict:
 def main():
     fac = json.load(open(ING / "merged_facility.json"))
     rows = json.load(open(ING / "merged_facility_language.json"))
+    for name in EXTRA:
+        d = ING.parent / name
+        add = json.load(open(d / "merged_facility.json"))
+        add_rows = json.load(open(d / "merged_facility_language.json"))
+        have = {f["id"] for f in fac}
+        dup = [f["id"] for f in add if f["id"] in have]
+        if dup:
+            raise SystemExit(f"{name}: 既存の施設と id が重なっています（{len(dup)}件）: {dup[:5]}")
+        ids = {f["id"] for f in add}
+        orphan = [r["facility_id"] for r in add_rows if r["facility_id"] not in ids]
+        if orphan:
+            raise SystemExit(f"{name}: 施設の無い言語の行があります（{len(orphan)}行）: {orphan[:5]}")
+        fac += add
+        rows += add_rows
+        print(f"{name}: +{len(add)} 施設 / +{len(add_rows)} 行")
     dic = json.load(open(ROOT / "data" / "dict" / "dictionary.json"))
 
     # ポルトガル語にスペイン語の綴りが混ざっていないか（出典の誤記：kifjp の Psiquiatría、厚労省の Neurocirugia）

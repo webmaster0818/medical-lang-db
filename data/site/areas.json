@@ -6434,6 +6434,14 @@
  {
   "prefCode": "20",
   "prefSlug": "nagano",
+  "cityCode": "20220",
+  "citySlug": "azumino",
+  "prefJa": "長野県",
+  "cityJa": "安曇野市"
+ },
+ {
+  "prefCode": "20",
+  "prefSlug": "nagano",
   "cityCode": "20305",
   "citySlug": "minamimaki",
   "prefJa": "長野県",
@@ -6782,6 +6790,334 @@
   "citySlug": "sakae",
   "prefJa": "長野県",
   "cityJa": "下水内郡栄村"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21201",
+  "citySlug": "gifu",
+  "prefJa": "岐阜県",
+  "cityJa": "岐阜市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21202",
+  "citySlug": "ogaki",
+  "prefJa": "岐阜県",
+  "cityJa": "大垣市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21203",
+  "citySlug": "takayama",
+  "prefJa": "岐阜県",
+  "cityJa": "高山市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21204",
+  "citySlug": "tajimi",
+  "prefJa": "岐阜県",
+  "cityJa": "多治見市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21205",
+  "citySlug": "seki",
+  "prefJa": "岐阜県",
+  "cityJa": "関市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21206",
+  "citySlug": "nakatsugawa",
+  "prefJa": "岐阜県",
+  "cityJa": "中津川市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21207",
+  "citySlug": "mino",
+  "prefJa": "岐阜県",
+  "cityJa": "美濃市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21208",
+  "citySlug": "mizunami",
+  "prefJa": "岐阜県",
+  "cityJa": "瑞浪市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21209",
+  "citySlug": "hashima",
+  "prefJa": "岐阜県",
+  "cityJa": "羽島市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21210",
+  "citySlug": "ena",
+  "prefJa": "岐阜県",
+  "cityJa": "恵那市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21211",
+  "citySlug": "minokamo",
+  "prefJa": "岐阜県",
+  "cityJa": "美濃加茂市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21212",
+  "citySlug": "toki",
+  "prefJa": "岐阜県",
+  "cityJa": "土岐市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21213",
+  "citySlug": "kakamigahara",
+  "prefJa": "岐阜県",
+  "cityJa": "各務原市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21214",
+  "citySlug": "kani",
+  "prefJa": "岐阜県",
+  "cityJa": "可児市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21215",
+  "citySlug": "yamagata",
+  "prefJa": "岐阜県",
+  "cityJa": "山県市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21216",
+  "citySlug": "mizuho",
+  "prefJa": "岐阜県",
+  "cityJa": "瑞穂市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21217",
+  "citySlug": "hida",
+  "prefJa": "岐阜県",
+  "cityJa": "飛騨市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21218",
+  "citySlug": "motosu",
+  "prefJa": "岐阜県",
+  "cityJa": "本巣市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21219",
+  "citySlug": "gujo",
+  "prefJa": "岐阜県",
+  "cityJa": "郡上市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21220",
+  "citySlug": "gero",
+  "prefJa": "岐阜県",
+  "cityJa": "下呂市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21221",
+  "citySlug": "kaizu",
+  "prefJa": "岐阜県",
+  "cityJa": "海津市"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21302",
+  "citySlug": "ginan",
+  "prefJa": "岐阜県",
+  "cityJa": "羽島郡岐南町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21303",
+  "citySlug": "kasamatsu",
+  "prefJa": "岐阜県",
+  "cityJa": "羽島郡笠松町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21341",
+  "citySlug": "yoro",
+  "prefJa": "岐阜県",
+  "cityJa": "養老郡養老町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21361",
+  "citySlug": "tarui",
+  "prefJa": "岐阜県",
+  "cityJa": "不破郡垂井町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21362",
+  "citySlug": "sekigahara",
+  "prefJa": "岐阜県",
+  "cityJa": "不破郡関ケ原町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21381",
+  "citySlug": "godo",
+  "prefJa": "岐阜県",
+  "cityJa": "安八郡神戸町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21382",
+  "citySlug": "wanochi",
+  "prefJa": "岐阜県",
+  "cityJa": "安八郡輪之内町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21383",
+  "citySlug": "ampachi",
+  "prefJa": "岐阜県",
+  "cityJa": "安八郡安八町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21401",
+  "citySlug": "ibigawa",
+  "prefJa": "岐阜県",
+  "cityJa": "揖斐郡揖斐川町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21403",
+  "citySlug": "ono",
+  "prefJa": "岐阜県",
+  "cityJa": "揖斐郡大野町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21404",
+  "citySlug": "ikeda",
+  "prefJa": "岐阜県",
+  "cityJa": "揖斐郡池田町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21421",
+  "citySlug": "kitagata",
+  "prefJa": "岐阜県",
+  "cityJa": "本巣郡北方町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21501",
+  "citySlug": "sakahogi",
+  "prefJa": "岐阜県",
+  "cityJa": "加茂郡坂祝町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21502",
+  "citySlug": "tomika",
+  "prefJa": "岐阜県",
+  "cityJa": "加茂郡富加町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21503",
+  "citySlug": "kawabe",
+  "prefJa": "岐阜県",
+  "cityJa": "加茂郡川辺町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21504",
+  "citySlug": "hichiso",
+  "prefJa": "岐阜県",
+  "cityJa": "加茂郡七宗町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21505",
+  "citySlug": "yaotsu",
+  "prefJa": "岐阜県",
+  "cityJa": "加茂郡八百津町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21506",
+  "citySlug": "shirakawa-cho",
+  "prefJa": "岐阜県",
+  "cityJa": "加茂郡白川町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21521",
+  "citySlug": "mitake",
+  "prefJa": "岐阜県",
+  "cityJa": "可児郡御嵩町"
+ },
+ {
+  "prefCode": "21",
+  "prefSlug": "gifu",
+  "cityCode": "21604",
+  "citySlug": "shirakawa-mura",
+  "prefJa": "岐阜県",
+  "cityJa": "大野郡白川村"
  },
  {
   "prefCode": "22",
@@ -7624,6 +7960,334 @@
   "cityJa": "額田郡幸田町"
  },
  {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24201",
+  "citySlug": "tsu",
+  "prefJa": "三重県",
+  "cityJa": "津市"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24202",
+  "citySlug": "yokkaichi",
+  "prefJa": "三重県",
+  "cityJa": "四日市市"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24203",
+  "citySlug": "ise",
+  "prefJa": "三重県",
+  "cityJa": "伊勢市"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24204",
+  "citySlug": "matsusaka",
+  "prefJa": "三重県",
+  "cityJa": "松阪市"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24205",
+  "citySlug": "kuwana",
+  "prefJa": "三重県",
+  "cityJa": "桑名市"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24207",
+  "citySlug": "suzuka",
+  "prefJa": "三重県",
+  "cityJa": "鈴鹿市"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24208",
+  "citySlug": "nabari",
+  "prefJa": "三重県",
+  "cityJa": "名張市"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24209",
+  "citySlug": "owase",
+  "prefJa": "三重県",
+  "cityJa": "尾鷲市"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24210",
+  "citySlug": "kameyama",
+  "prefJa": "三重県",
+  "cityJa": "亀山市"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24211",
+  "citySlug": "toba",
+  "prefJa": "三重県",
+  "cityJa": "鳥羽市"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24212",
+  "citySlug": "kumano",
+  "prefJa": "三重県",
+  "cityJa": "熊野市"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24214",
+  "citySlug": "inabe",
+  "prefJa": "三重県",
+  "cityJa": "いなべ市"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24215",
+  "citySlug": "shima",
+  "prefJa": "三重県",
+  "cityJa": "志摩市"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24216",
+  "citySlug": "iga",
+  "prefJa": "三重県",
+  "cityJa": "伊賀市"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24324",
+  "citySlug": "toin",
+  "prefJa": "三重県",
+  "cityJa": "員弁郡東員町"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24341",
+  "citySlug": "komono",
+  "prefJa": "三重県",
+  "cityJa": "三重郡菰野町"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24441",
+  "citySlug": "taki",
+  "prefJa": "三重県",
+  "cityJa": "多気郡多気町"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24442",
+  "citySlug": "meiwa",
+  "prefJa": "三重県",
+  "cityJa": "多気郡明和町"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24461",
+  "citySlug": "tamaki",
+  "prefJa": "三重県",
+  "cityJa": "度会郡玉城町"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24471",
+  "citySlug": "taiki",
+  "prefJa": "三重県",
+  "cityJa": "度会郡大紀町"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24472",
+  "citySlug": "minamiise",
+  "prefJa": "三重県",
+  "cityJa": "度会郡南伊勢町"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24543",
+  "citySlug": "kihoku",
+  "prefJa": "三重県",
+  "cityJa": "北牟婁郡紀北町"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24561",
+  "citySlug": "mihama",
+  "prefJa": "三重県",
+  "cityJa": "南牟婁郡御浜町"
+ },
+ {
+  "prefCode": "24",
+  "prefSlug": "mie",
+  "cityCode": "24562",
+  "citySlug": "kiho",
+  "prefJa": "三重県",
+  "cityJa": "南牟婁郡紀宝町"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25201",
+  "citySlug": "otsu",
+  "prefJa": "滋賀県",
+  "cityJa": "大津市"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25202",
+  "citySlug": "hikone",
+  "prefJa": "滋賀県",
+  "cityJa": "彦根市"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25203",
+  "citySlug": "nagahama",
+  "prefJa": "滋賀県",
+  "cityJa": "長浜市"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25204",
+  "citySlug": "omihachiman",
+  "prefJa": "滋賀県",
+  "cityJa": "近江八幡市"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25206",
+  "citySlug": "kusatsu",
+  "prefJa": "滋賀県",
+  "cityJa": "草津市"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25207",
+  "citySlug": "moriyama",
+  "prefJa": "滋賀県",
+  "cityJa": "守山市"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25208",
+  "citySlug": "ritto",
+  "prefJa": "滋賀県",
+  "cityJa": "栗東市"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25209",
+  "citySlug": "koka",
+  "prefJa": "滋賀県",
+  "cityJa": "甲賀市"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25210",
+  "citySlug": "yasu",
+  "prefJa": "滋賀県",
+  "cityJa": "野洲市"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25211",
+  "citySlug": "konan",
+  "prefJa": "滋賀県",
+  "cityJa": "湖南市"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25212",
+  "citySlug": "takashima",
+  "prefJa": "滋賀県",
+  "cityJa": "高島市"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25213",
+  "citySlug": "higashiomi",
+  "prefJa": "滋賀県",
+  "cityJa": "東近江市"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25214",
+  "citySlug": "maibara",
+  "prefJa": "滋賀県",
+  "cityJa": "米原市"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25383",
+  "citySlug": "hino",
+  "prefJa": "滋賀県",
+  "cityJa": "蒲生郡日野町"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25384",
+  "citySlug": "ryuo",
+  "prefJa": "滋賀県",
+  "cityJa": "蒲生郡竜王町"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25425",
+  "citySlug": "aisho",
+  "prefJa": "滋賀県",
+  "cityJa": "愛知郡愛荘町"
+ },
+ {
+  "prefCode": "25",
+  "prefSlug": "shiga",
+  "cityCode": "25443",
+  "citySlug": "taga",
+  "prefJa": "滋賀県",
+  "cityJa": "犬上郡多賀町"
+ },
+ {
   "prefCode": "26",
   "prefSlug": "kyoto",
   "cityCode": "26101",
@@ -8448,6 +9112,2318 @@
   "cityJa": "南河内郡河南町"
  },
  {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28101",
+  "citySlug": "kobe-higashinada",
+  "prefJa": "兵庫県",
+  "cityJa": "神戸市東灘区"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28102",
+  "citySlug": "kobe-nada",
+  "prefJa": "兵庫県",
+  "cityJa": "神戸市灘区"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28105",
+  "citySlug": "kobe-hyogo",
+  "prefJa": "兵庫県",
+  "cityJa": "神戸市兵庫区"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28106",
+  "citySlug": "kobe-nagata",
+  "prefJa": "兵庫県",
+  "cityJa": "神戸市長田区"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28107",
+  "citySlug": "kobe-suma",
+  "prefJa": "兵庫県",
+  "cityJa": "神戸市須磨区"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28108",
+  "citySlug": "kobe-tarumi",
+  "prefJa": "兵庫県",
+  "cityJa": "神戸市垂水区"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28109",
+  "citySlug": "kobe-kita",
+  "prefJa": "兵庫県",
+  "cityJa": "神戸市北区"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28110",
+  "citySlug": "kobe-chuo",
+  "prefJa": "兵庫県",
+  "cityJa": "神戸市中央区"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28111",
+  "citySlug": "kobe-nishi",
+  "prefJa": "兵庫県",
+  "cityJa": "神戸市西区"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28201",
+  "citySlug": "himeji",
+  "prefJa": "兵庫県",
+  "cityJa": "姫路市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28202",
+  "citySlug": "amagasaki",
+  "prefJa": "兵庫県",
+  "cityJa": "尼崎市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28203",
+  "citySlug": "akashi",
+  "prefJa": "兵庫県",
+  "cityJa": "明石市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28204",
+  "citySlug": "nishinomiya",
+  "prefJa": "兵庫県",
+  "cityJa": "西宮市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28205",
+  "citySlug": "sumoto",
+  "prefJa": "兵庫県",
+  "cityJa": "洲本市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28206",
+  "citySlug": "ashiya",
+  "prefJa": "兵庫県",
+  "cityJa": "芦屋市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28207",
+  "citySlug": "itami",
+  "prefJa": "兵庫県",
+  "cityJa": "伊丹市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28208",
+  "citySlug": "aioi",
+  "prefJa": "兵庫県",
+  "cityJa": "相生市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28209",
+  "citySlug": "toyoka",
+  "prefJa": "兵庫県",
+  "cityJa": "豊岡市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28210",
+  "citySlug": "kakogawa",
+  "prefJa": "兵庫県",
+  "cityJa": "加古川市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28212",
+  "citySlug": "ako",
+  "prefJa": "兵庫県",
+  "cityJa": "赤穂市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28213",
+  "citySlug": "nishiwaki",
+  "prefJa": "兵庫県",
+  "cityJa": "西脇市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28214",
+  "citySlug": "takarazuka",
+  "prefJa": "兵庫県",
+  "cityJa": "宝塚市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28215",
+  "citySlug": "miki",
+  "prefJa": "兵庫県",
+  "cityJa": "三木市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28216",
+  "citySlug": "takasago",
+  "prefJa": "兵庫県",
+  "cityJa": "高砂市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28217",
+  "citySlug": "kawanishi",
+  "prefJa": "兵庫県",
+  "cityJa": "川西市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28218",
+  "citySlug": "ono",
+  "prefJa": "兵庫県",
+  "cityJa": "小野市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28219",
+  "citySlug": "sanda",
+  "prefJa": "兵庫県",
+  "cityJa": "三田市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28220",
+  "citySlug": "kasai",
+  "prefJa": "兵庫県",
+  "cityJa": "加西市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28221",
+  "citySlug": "tambasasayama",
+  "prefJa": "兵庫県",
+  "cityJa": "丹波篠山市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28222",
+  "citySlug": "yabu",
+  "prefJa": "兵庫県",
+  "cityJa": "養父市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28223",
+  "citySlug": "tamba",
+  "prefJa": "兵庫県",
+  "cityJa": "丹波市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28224",
+  "citySlug": "minamiawaji",
+  "prefJa": "兵庫県",
+  "cityJa": "南あわじ市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28225",
+  "citySlug": "asago",
+  "prefJa": "兵庫県",
+  "cityJa": "朝来市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28226",
+  "citySlug": "awaji",
+  "prefJa": "兵庫県",
+  "cityJa": "淡路市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28227",
+  "citySlug": "shiso",
+  "prefJa": "兵庫県",
+  "cityJa": "宍粟市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28228",
+  "citySlug": "kato",
+  "prefJa": "兵庫県",
+  "cityJa": "加東市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28229",
+  "citySlug": "tatsuno",
+  "prefJa": "兵庫県",
+  "cityJa": "たつの市"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28301",
+  "citySlug": "inagawa",
+  "prefJa": "兵庫県",
+  "cityJa": "川辺郡猪名川町"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28365",
+  "citySlug": "taka",
+  "prefJa": "兵庫県",
+  "cityJa": "多可郡多可町"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28381",
+  "citySlug": "inami",
+  "prefJa": "兵庫県",
+  "cityJa": "加古郡稲美町"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28382",
+  "citySlug": "harima",
+  "prefJa": "兵庫県",
+  "cityJa": "加古郡播磨町"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28442",
+  "citySlug": "ichikawa",
+  "prefJa": "兵庫県",
+  "cityJa": "神崎郡市川町"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28443",
+  "citySlug": "fukusaki",
+  "prefJa": "兵庫県",
+  "cityJa": "神崎郡福崎町"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28446",
+  "citySlug": "kamikawa",
+  "prefJa": "兵庫県",
+  "cityJa": "神崎郡神河町"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28464",
+  "citySlug": "taishi",
+  "prefJa": "兵庫県",
+  "cityJa": "揖保郡太子町"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28481",
+  "citySlug": "kamigori",
+  "prefJa": "兵庫県",
+  "cityJa": "赤穂郡上郡町"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28501",
+  "citySlug": "sayo",
+  "prefJa": "兵庫県",
+  "cityJa": "佐用郡佐用町"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28585",
+  "citySlug": "kami",
+  "prefJa": "兵庫県",
+  "cityJa": "美方郡香美町"
+ },
+ {
+  "prefCode": "28",
+  "prefSlug": "hyogo",
+  "cityCode": "28586",
+  "citySlug": "shinonsen",
+  "prefJa": "兵庫県",
+  "cityJa": "美方郡新温泉町"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29201",
+  "citySlug": "nara",
+  "prefJa": "奈良県",
+  "cityJa": "奈良市"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29202",
+  "citySlug": "yamatotakada",
+  "prefJa": "奈良県",
+  "cityJa": "大和高田市"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29203",
+  "citySlug": "yamatokoriyama",
+  "prefJa": "奈良県",
+  "cityJa": "大和郡山市"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29204",
+  "citySlug": "tenri",
+  "prefJa": "奈良県",
+  "cityJa": "天理市"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29205",
+  "citySlug": "kashihara",
+  "prefJa": "奈良県",
+  "cityJa": "橿原市"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29206",
+  "citySlug": "sakurai",
+  "prefJa": "奈良県",
+  "cityJa": "桜井市"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29207",
+  "citySlug": "gojo",
+  "prefJa": "奈良県",
+  "cityJa": "五條市"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29208",
+  "citySlug": "gose",
+  "prefJa": "奈良県",
+  "cityJa": "御所市"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29209",
+  "citySlug": "ikoma",
+  "prefJa": "奈良県",
+  "cityJa": "生駒市"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29210",
+  "citySlug": "kashiba",
+  "prefJa": "奈良県",
+  "cityJa": "香芝市"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29211",
+  "citySlug": "katsuragi",
+  "prefJa": "奈良県",
+  "cityJa": "葛城市"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29212",
+  "citySlug": "uda",
+  "prefJa": "奈良県",
+  "cityJa": "宇陀市"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29342",
+  "citySlug": "heguri",
+  "prefJa": "奈良県",
+  "cityJa": "生駒郡平群町"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29343",
+  "citySlug": "sango",
+  "prefJa": "奈良県",
+  "cityJa": "生駒郡三郷町"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29344",
+  "citySlug": "ikaruga",
+  "prefJa": "奈良県",
+  "cityJa": "生駒郡斑鳩町"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29361",
+  "citySlug": "kawanishi",
+  "prefJa": "奈良県",
+  "cityJa": "磯城郡川西町"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29363",
+  "citySlug": "tawaramoto",
+  "prefJa": "奈良県",
+  "cityJa": "磯城郡田原本町"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29401",
+  "citySlug": "takatori",
+  "prefJa": "奈良県",
+  "cityJa": "高市郡高取町"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29402",
+  "citySlug": "asuka",
+  "prefJa": "奈良県",
+  "cityJa": "高市郡明日香村"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29424",
+  "citySlug": "kammaki",
+  "prefJa": "奈良県",
+  "cityJa": "北葛城郡上牧町"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29425",
+  "citySlug": "oji",
+  "prefJa": "奈良県",
+  "cityJa": "北葛城郡王寺町"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29426",
+  "citySlug": "koryo",
+  "prefJa": "奈良県",
+  "cityJa": "北葛城郡広陵町"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29427",
+  "citySlug": "kawai",
+  "prefJa": "奈良県",
+  "cityJa": "北葛城郡河合町"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29441",
+  "citySlug": "yoshino",
+  "prefJa": "奈良県",
+  "cityJa": "吉野郡吉野町"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29442",
+  "citySlug": "oyodo",
+  "prefJa": "奈良県",
+  "cityJa": "吉野郡大淀町"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29443",
+  "citySlug": "shimoichi",
+  "prefJa": "奈良県",
+  "cityJa": "吉野郡下市町"
+ },
+ {
+  "prefCode": "29",
+  "prefSlug": "nara",
+  "cityCode": "29446",
+  "citySlug": "tenkawa",
+  "prefJa": "奈良県",
+  "cityJa": "吉野郡天川村"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30201",
+  "citySlug": "wakayama",
+  "prefJa": "和歌山県",
+  "cityJa": "和歌山市"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30202",
+  "citySlug": "kainan",
+  "prefJa": "和歌山県",
+  "cityJa": "海南市"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30203",
+  "citySlug": "hashimoto",
+  "prefJa": "和歌山県",
+  "cityJa": "橋本市"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30204",
+  "citySlug": "arida",
+  "prefJa": "和歌山県",
+  "cityJa": "有田市"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30205",
+  "citySlug": "gobo",
+  "prefJa": "和歌山県",
+  "cityJa": "御坊市"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30206",
+  "citySlug": "tanabe",
+  "prefJa": "和歌山県",
+  "cityJa": "田辺市"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30207",
+  "citySlug": "shingu",
+  "prefJa": "和歌山県",
+  "cityJa": "新宮市"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30208",
+  "citySlug": "kinokawa",
+  "prefJa": "和歌山県",
+  "cityJa": "紀の川市"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30209",
+  "citySlug": "iwade",
+  "prefJa": "和歌山県",
+  "cityJa": "岩出市"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30304",
+  "citySlug": "kimino",
+  "prefJa": "和歌山県",
+  "cityJa": "海草郡紀美野町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30341",
+  "citySlug": "katsuragi",
+  "prefJa": "和歌山県",
+  "cityJa": "伊都郡かつらぎ町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30343",
+  "citySlug": "kudoyama",
+  "prefJa": "和歌山県",
+  "cityJa": "伊都郡九度山町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30344",
+  "citySlug": "koya",
+  "prefJa": "和歌山県",
+  "cityJa": "伊都郡高野町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30361",
+  "citySlug": "yuasa",
+  "prefJa": "和歌山県",
+  "cityJa": "有田郡湯浅町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30362",
+  "citySlug": "hirogawa",
+  "prefJa": "和歌山県",
+  "cityJa": "有田郡広川町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30366",
+  "citySlug": "aridagawa",
+  "prefJa": "和歌山県",
+  "cityJa": "有田郡有田川町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30381",
+  "citySlug": "mihama",
+  "prefJa": "和歌山県",
+  "cityJa": "日高郡美浜町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30382",
+  "citySlug": "hidaka",
+  "prefJa": "和歌山県",
+  "cityJa": "日高郡日高町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30383",
+  "citySlug": "yura",
+  "prefJa": "和歌山県",
+  "cityJa": "日高郡由良町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30390",
+  "citySlug": "inami",
+  "prefJa": "和歌山県",
+  "cityJa": "日高郡印南町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30391",
+  "citySlug": "minabe",
+  "prefJa": "和歌山県",
+  "cityJa": "日高郡みなべ町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30392",
+  "citySlug": "hidakagawa",
+  "prefJa": "和歌山県",
+  "cityJa": "日高郡日高川町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30401",
+  "citySlug": "shirahama",
+  "prefJa": "和歌山県",
+  "cityJa": "西牟婁郡白浜町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30404",
+  "citySlug": "kamitonda",
+  "prefJa": "和歌山県",
+  "cityJa": "西牟婁郡上富田町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30406",
+  "citySlug": "susami",
+  "prefJa": "和歌山県",
+  "cityJa": "西牟婁郡すさみ町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30421",
+  "citySlug": "nachikatsura",
+  "prefJa": "和歌山県",
+  "cityJa": "東牟婁郡那智勝浦町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30422",
+  "citySlug": "taiji",
+  "prefJa": "和歌山県",
+  "cityJa": "東牟婁郡太地町"
+ },
+ {
+  "prefCode": "30",
+  "prefSlug": "wakayama",
+  "cityCode": "30428",
+  "citySlug": "kushimoto",
+  "prefJa": "和歌山県",
+  "cityJa": "東牟婁郡串本町"
+ },
+ {
+  "prefCode": "31",
+  "prefSlug": "tottori",
+  "cityCode": "31201",
+  "citySlug": "tottori",
+  "prefJa": "鳥取県",
+  "cityJa": "鳥取市"
+ },
+ {
+  "prefCode": "31",
+  "prefSlug": "tottori",
+  "cityCode": "31202",
+  "citySlug": "yonago",
+  "prefJa": "鳥取県",
+  "cityJa": "米子市"
+ },
+ {
+  "prefCode": "31",
+  "prefSlug": "tottori",
+  "cityCode": "31203",
+  "citySlug": "kurayoshi",
+  "prefJa": "鳥取県",
+  "cityJa": "倉吉市"
+ },
+ {
+  "prefCode": "31",
+  "prefSlug": "tottori",
+  "cityCode": "31204",
+  "citySlug": "sakaiminato",
+  "prefJa": "鳥取県",
+  "cityJa": "境港市"
+ },
+ {
+  "prefCode": "31",
+  "prefSlug": "tottori",
+  "cityCode": "31325",
+  "citySlug": "wakasa",
+  "prefJa": "鳥取県",
+  "cityJa": "八頭郡若桜町"
+ },
+ {
+  "prefCode": "31",
+  "prefSlug": "tottori",
+  "cityCode": "31328",
+  "citySlug": "chizu",
+  "prefJa": "鳥取県",
+  "cityJa": "八頭郡智頭町"
+ },
+ {
+  "prefCode": "31",
+  "prefSlug": "tottori",
+  "cityCode": "31364",
+  "citySlug": "misasa",
+  "prefJa": "鳥取県",
+  "cityJa": "東伯郡三朝町"
+ },
+ {
+  "prefCode": "31",
+  "prefSlug": "tottori",
+  "cityCode": "31370",
+  "citySlug": "yurihama",
+  "prefJa": "鳥取県",
+  "cityJa": "東伯郡湯梨浜町"
+ },
+ {
+  "prefCode": "31",
+  "prefSlug": "tottori",
+  "cityCode": "31371",
+  "citySlug": "kotora",
+  "prefJa": "鳥取県",
+  "cityJa": "東伯郡琴浦町"
+ },
+ {
+  "prefCode": "31",
+  "prefSlug": "tottori",
+  "cityCode": "31372",
+  "citySlug": "hokuei",
+  "prefJa": "鳥取県",
+  "cityJa": "東伯郡北栄町"
+ },
+ {
+  "prefCode": "31",
+  "prefSlug": "tottori",
+  "cityCode": "31384",
+  "citySlug": "hiezu",
+  "prefJa": "鳥取県",
+  "cityJa": "西伯郡日吉津村"
+ },
+ {
+  "prefCode": "31",
+  "prefSlug": "tottori",
+  "cityCode": "31386",
+  "citySlug": "daisen",
+  "prefJa": "鳥取県",
+  "cityJa": "西伯郡大山町"
+ },
+ {
+  "prefCode": "31",
+  "prefSlug": "tottori",
+  "cityCode": "31389",
+  "citySlug": "nambu",
+  "prefJa": "鳥取県",
+  "cityJa": "西伯郡南部町"
+ },
+ {
+  "prefCode": "31",
+  "prefSlug": "tottori",
+  "cityCode": "31390",
+  "citySlug": "hoki",
+  "prefJa": "鳥取県",
+  "cityJa": "西伯郡伯耆町"
+ },
+ {
+  "prefCode": "31",
+  "prefSlug": "tottori",
+  "cityCode": "31401",
+  "citySlug": "nichinan",
+  "prefJa": "鳥取県",
+  "cityJa": "日野郡日南町"
+ },
+ {
+  "prefCode": "31",
+  "prefSlug": "tottori",
+  "cityCode": "31402",
+  "citySlug": "hino",
+  "prefJa": "鳥取県",
+  "cityJa": "日野郡日野町"
+ },
+ {
+  "prefCode": "32",
+  "prefSlug": "shimane",
+  "cityCode": "32201",
+  "citySlug": "matsue",
+  "prefJa": "島根県",
+  "cityJa": "松江市"
+ },
+ {
+  "prefCode": "32",
+  "prefSlug": "shimane",
+  "cityCode": "32202",
+  "citySlug": "hamada",
+  "prefJa": "島根県",
+  "cityJa": "浜田市"
+ },
+ {
+  "prefCode": "32",
+  "prefSlug": "shimane",
+  "cityCode": "32203",
+  "citySlug": "izumo",
+  "prefJa": "島根県",
+  "cityJa": "出雲市"
+ },
+ {
+  "prefCode": "32",
+  "prefSlug": "shimane",
+  "cityCode": "32204",
+  "citySlug": "masuda",
+  "prefJa": "島根県",
+  "cityJa": "益田市"
+ },
+ {
+  "prefCode": "32",
+  "prefSlug": "shimane",
+  "cityCode": "32205",
+  "citySlug": "oda",
+  "prefJa": "島根県",
+  "cityJa": "大田市"
+ },
+ {
+  "prefCode": "32",
+  "prefSlug": "shimane",
+  "cityCode": "32206",
+  "citySlug": "yasugi",
+  "prefJa": "島根県",
+  "cityJa": "安来市"
+ },
+ {
+  "prefCode": "32",
+  "prefSlug": "shimane",
+  "cityCode": "32207",
+  "citySlug": "gotsu",
+  "prefJa": "島根県",
+  "cityJa": "江津市"
+ },
+ {
+  "prefCode": "32",
+  "prefSlug": "shimane",
+  "cityCode": "32209",
+  "citySlug": "unnan",
+  "prefJa": "島根県",
+  "cityJa": "雲南市"
+ },
+ {
+  "prefCode": "32",
+  "prefSlug": "shimane",
+  "cityCode": "32343",
+  "citySlug": "okuizumo",
+  "prefJa": "島根県",
+  "cityJa": "仁多郡奥出雲町"
+ },
+ {
+  "prefCode": "32",
+  "prefSlug": "shimane",
+  "cityCode": "32441",
+  "citySlug": "kawamoto",
+  "prefJa": "島根県",
+  "cityJa": "邑智郡川本町"
+ },
+ {
+  "prefCode": "32",
+  "prefSlug": "shimane",
+  "cityCode": "32449",
+  "citySlug": "onan",
+  "prefJa": "島根県",
+  "cityJa": "邑智郡邑南町"
+ },
+ {
+  "prefCode": "32",
+  "prefSlug": "shimane",
+  "cityCode": "32501",
+  "citySlug": "tsuwano",
+  "prefJa": "島根県",
+  "cityJa": "鹿足郡津和野町"
+ },
+ {
+  "prefCode": "32",
+  "prefSlug": "shimane",
+  "cityCode": "32505",
+  "citySlug": "yoshika",
+  "prefJa": "島根県",
+  "cityJa": "鹿足郡吉賀町"
+ },
+ {
+  "prefCode": "32",
+  "prefSlug": "shimane",
+  "cityCode": "32526",
+  "citySlug": "nishinoshima",
+  "prefJa": "島根県",
+  "cityJa": "隠岐郡西ノ島町"
+ },
+ {
+  "prefCode": "32",
+  "prefSlug": "shimane",
+  "cityCode": "32528",
+  "citySlug": "okinoshima",
+  "prefJa": "島根県",
+  "cityJa": "隠岐郡隠岐の島町"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33101",
+  "citySlug": "okayama-kita",
+  "prefJa": "岡山県",
+  "cityJa": "岡山市北区"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33102",
+  "citySlug": "okayama-naka",
+  "prefJa": "岡山県",
+  "cityJa": "岡山市中区"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33103",
+  "citySlug": "okayama-higashi",
+  "prefJa": "岡山県",
+  "cityJa": "岡山市東区"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33104",
+  "citySlug": "okayama-minami",
+  "prefJa": "岡山県",
+  "cityJa": "岡山市南区"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33202",
+  "citySlug": "kurashiki",
+  "prefJa": "岡山県",
+  "cityJa": "倉敷市"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33203",
+  "citySlug": "tsuyama",
+  "prefJa": "岡山県",
+  "cityJa": "津山市"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33204",
+  "citySlug": "tamano",
+  "prefJa": "岡山県",
+  "cityJa": "玉野市"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33205",
+  "citySlug": "kasaoka",
+  "prefJa": "岡山県",
+  "cityJa": "笠岡市"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33207",
+  "citySlug": "ibara",
+  "prefJa": "岡山県",
+  "cityJa": "井原市"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33208",
+  "citySlug": "soja",
+  "prefJa": "岡山県",
+  "cityJa": "総社市"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33209",
+  "citySlug": "takahashi",
+  "prefJa": "岡山県",
+  "cityJa": "高梁市"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33210",
+  "citySlug": "niimi",
+  "prefJa": "岡山県",
+  "cityJa": "新見市"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33211",
+  "citySlug": "bizen",
+  "prefJa": "岡山県",
+  "cityJa": "備前市"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33212",
+  "citySlug": "setochi",
+  "prefJa": "岡山県",
+  "cityJa": "瀬戸内市"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33213",
+  "citySlug": "akaiwa",
+  "prefJa": "岡山県",
+  "cityJa": "赤磐市"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33214",
+  "citySlug": "maniwa",
+  "prefJa": "岡山県",
+  "cityJa": "真庭市"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33215",
+  "citySlug": "mimasaka",
+  "prefJa": "岡山県",
+  "cityJa": "美作市"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33216",
+  "citySlug": "asakuchi",
+  "prefJa": "岡山県",
+  "cityJa": "浅口市"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33346",
+  "citySlug": "wake",
+  "prefJa": "岡山県",
+  "cityJa": "和気郡和気町"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33423",
+  "citySlug": "hayashima",
+  "prefJa": "岡山県",
+  "cityJa": "都窪郡早島町"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33445",
+  "citySlug": "satosho",
+  "prefJa": "岡山県",
+  "cityJa": "浅口郡里庄町"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33461",
+  "citySlug": "yakage",
+  "prefJa": "岡山県",
+  "cityJa": "小田郡矢掛町"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33586",
+  "citySlug": "shinjo",
+  "prefJa": "岡山県",
+  "cityJa": "真庭郡新庄村"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33606",
+  "citySlug": "kagamino",
+  "prefJa": "岡山県",
+  "cityJa": "苫田郡鏡野町"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33663",
+  "citySlug": "kumenan",
+  "prefJa": "岡山県",
+  "cityJa": "久米郡久米南町"
+ },
+ {
+  "prefCode": "33",
+  "prefSlug": "okayama",
+  "cityCode": "33666",
+  "citySlug": "misaki",
+  "prefJa": "岡山県",
+  "cityJa": "久米郡美咲町"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34101",
+  "citySlug": "hiroshima-naka",
+  "prefJa": "広島県",
+  "cityJa": "広島市中区"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34102",
+  "citySlug": "hiroshima-higashi",
+  "prefJa": "広島県",
+  "cityJa": "広島市東区"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34103",
+  "citySlug": "hiroshima-minami",
+  "prefJa": "広島県",
+  "cityJa": "広島市南区"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34104",
+  "citySlug": "hiroshima-nishi",
+  "prefJa": "広島県",
+  "cityJa": "広島市西区"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34105",
+  "citySlug": "hiroshima-asaminami",
+  "prefJa": "広島県",
+  "cityJa": "広島市安佐南区"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34106",
+  "citySlug": "hiroshima-asakita",
+  "prefJa": "広島県",
+  "cityJa": "広島市安佐北区"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34107",
+  "citySlug": "hiroshima-aki",
+  "prefJa": "広島県",
+  "cityJa": "広島市安芸区"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34108",
+  "citySlug": "hiroshima-saeki",
+  "prefJa": "広島県",
+  "cityJa": "広島市佐伯区"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34202",
+  "citySlug": "kure",
+  "prefJa": "広島県",
+  "cityJa": "呉市"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34203",
+  "citySlug": "takehara",
+  "prefJa": "広島県",
+  "cityJa": "竹原市"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34204",
+  "citySlug": "mihara",
+  "prefJa": "広島県",
+  "cityJa": "三原市"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34205",
+  "citySlug": "onomichi",
+  "prefJa": "広島県",
+  "cityJa": "尾道市"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34207",
+  "citySlug": "fukuyama",
+  "prefJa": "広島県",
+  "cityJa": "福山市"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34208",
+  "citySlug": "fuchu",
+  "prefJa": "広島県",
+  "cityJa": "府中市"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34209",
+  "citySlug": "miyoshi",
+  "prefJa": "広島県",
+  "cityJa": "三次市"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34210",
+  "citySlug": "shobara",
+  "prefJa": "広島県",
+  "cityJa": "庄原市"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34211",
+  "citySlug": "otake",
+  "prefJa": "広島県",
+  "cityJa": "大竹市"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34212",
+  "citySlug": "higashihiroshima",
+  "prefJa": "広島県",
+  "cityJa": "東広島市"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34213",
+  "citySlug": "hatsukaichi",
+  "prefJa": "広島県",
+  "cityJa": "廿日市市"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34214",
+  "citySlug": "akitakata",
+  "prefJa": "広島県",
+  "cityJa": "安芸高田市"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34215",
+  "citySlug": "etajima",
+  "prefJa": "広島県",
+  "cityJa": "江田島市"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34302",
+  "citySlug": "fuchu-cho",
+  "prefJa": "広島県",
+  "cityJa": "安芸郡府中町"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34304",
+  "citySlug": "kaita",
+  "prefJa": "広島県",
+  "cityJa": "安芸郡海田町"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34307",
+  "citySlug": "kumano",
+  "prefJa": "広島県",
+  "cityJa": "安芸郡熊野町"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34309",
+  "citySlug": "saka",
+  "prefJa": "広島県",
+  "cityJa": "安芸郡坂町"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34368",
+  "citySlug": "akiota",
+  "prefJa": "広島県",
+  "cityJa": "山県郡安芸太田町"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34369",
+  "citySlug": "kitahiroshima",
+  "prefJa": "広島県",
+  "cityJa": "山県郡北広島町"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34431",
+  "citySlug": "osakikamijima",
+  "prefJa": "広島県",
+  "cityJa": "豊田郡大崎上島町"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34462",
+  "citySlug": "sera",
+  "prefJa": "広島県",
+  "cityJa": "世羅郡世羅町"
+ },
+ {
+  "prefCode": "34",
+  "prefSlug": "hiroshima",
+  "cityCode": "34545",
+  "citySlug": "jinsekikogen",
+  "prefJa": "広島県",
+  "cityJa": "神石郡神石高原町"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35201",
+  "citySlug": "shimonoseki",
+  "prefJa": "山口県",
+  "cityJa": "下関市"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35202",
+  "citySlug": "ube",
+  "prefJa": "山口県",
+  "cityJa": "宇部市"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35203",
+  "citySlug": "yamaguchi",
+  "prefJa": "山口県",
+  "cityJa": "山口市"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35204",
+  "citySlug": "hagi",
+  "prefJa": "山口県",
+  "cityJa": "萩市"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35206",
+  "citySlug": "hofu",
+  "prefJa": "山口県",
+  "cityJa": "防府市"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35207",
+  "citySlug": "kudamatsu",
+  "prefJa": "山口県",
+  "cityJa": "下松市"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35208",
+  "citySlug": "iwakuni",
+  "prefJa": "山口県",
+  "cityJa": "岩国市"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35210",
+  "citySlug": "hikari",
+  "prefJa": "山口県",
+  "cityJa": "光市"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35211",
+  "citySlug": "nagato",
+  "prefJa": "山口県",
+  "cityJa": "長門市"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35212",
+  "citySlug": "yanai",
+  "prefJa": "山口県",
+  "cityJa": "柳井市"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35213",
+  "citySlug": "mine",
+  "prefJa": "山口県",
+  "cityJa": "美祢市"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35215",
+  "citySlug": "shunan",
+  "prefJa": "山口県",
+  "cityJa": "周南市"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35216",
+  "citySlug": "sanyoonoda",
+  "prefJa": "山口県",
+  "cityJa": "山陽小野田市"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35305",
+  "citySlug": "suooshima",
+  "prefJa": "山口県",
+  "cityJa": "大島郡周防大島町"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35343",
+  "citySlug": "tabuse",
+  "prefJa": "山口県",
+  "cityJa": "熊毛郡田布施町"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35344",
+  "citySlug": "hirao",
+  "prefJa": "山口県",
+  "cityJa": "熊毛郡平生町"
+ },
+ {
+  "prefCode": "35",
+  "prefSlug": "yamaguchi",
+  "cityCode": "35502",
+  "citySlug": "abu",
+  "prefJa": "山口県",
+  "cityJa": "阿武郡阿武町"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36201",
+  "citySlug": "tokushima",
+  "prefJa": "徳島県",
+  "cityJa": "徳島市"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36202",
+  "citySlug": "naruto",
+  "prefJa": "徳島県",
+  "cityJa": "鳴門市"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36203",
+  "citySlug": "komatsushima",
+  "prefJa": "徳島県",
+  "cityJa": "小松島市"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36204",
+  "citySlug": "anan",
+  "prefJa": "徳島県",
+  "cityJa": "阿南市"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36205",
+  "citySlug": "yoshinogawa",
+  "prefJa": "徳島県",
+  "cityJa": "吉野川市"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36206",
+  "citySlug": "awa",
+  "prefJa": "徳島県",
+  "cityJa": "阿波市"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36207",
+  "citySlug": "mima",
+  "prefJa": "徳島県",
+  "cityJa": "美馬市"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36208",
+  "citySlug": "miyoshi",
+  "prefJa": "徳島県",
+  "cityJa": "三好市"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36301",
+  "citySlug": "katsura",
+  "prefJa": "徳島県",
+  "cityJa": "勝浦郡勝浦町"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36302",
+  "citySlug": "kamikatsu",
+  "prefJa": "徳島県",
+  "cityJa": "勝浦郡上勝町"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36341",
+  "citySlug": "ishii",
+  "prefJa": "徳島県",
+  "cityJa": "名西郡石井町"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36342",
+  "citySlug": "kamiyama",
+  "prefJa": "徳島県",
+  "cityJa": "名西郡神山町"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36368",
+  "citySlug": "naka",
+  "prefJa": "徳島県",
+  "cityJa": "那賀郡那賀町"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36383",
+  "citySlug": "mugi",
+  "prefJa": "徳島県",
+  "cityJa": "海部郡牟岐町"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36387",
+  "citySlug": "minami",
+  "prefJa": "徳島県",
+  "cityJa": "海部郡美波町"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36388",
+  "citySlug": "kaiyo",
+  "prefJa": "徳島県",
+  "cityJa": "海部郡海陽町"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36401",
+  "citySlug": "matsushige",
+  "prefJa": "徳島県",
+  "cityJa": "板野郡松茂町"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36402",
+  "citySlug": "kitajima",
+  "prefJa": "徳島県",
+  "cityJa": "板野郡北島町"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36403",
+  "citySlug": "aizumi",
+  "prefJa": "徳島県",
+  "cityJa": "板野郡藍住町"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36404",
+  "citySlug": "itano",
+  "prefJa": "徳島県",
+  "cityJa": "板野郡板野町"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36405",
+  "citySlug": "kamiita",
+  "prefJa": "徳島県",
+  "cityJa": "板野郡上板町"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36468",
+  "citySlug": "tsurugi",
+  "prefJa": "徳島県",
+  "cityJa": "美馬郡つるぎ町"
+ },
+ {
+  "prefCode": "36",
+  "prefSlug": "tokushima",
+  "cityCode": "36489",
+  "citySlug": "higashimiyoshi",
+  "prefJa": "徳島県",
+  "cityJa": "三好郡東みよし町"
+ },
+ {
+  "prefCode": "37",
+  "prefSlug": "kagawa",
+  "cityCode": "37201",
+  "citySlug": "takamatsu",
+  "prefJa": "香川県",
+  "cityJa": "高松市"
+ },
+ {
+  "prefCode": "37",
+  "prefSlug": "kagawa",
+  "cityCode": "37202",
+  "citySlug": "marugame",
+  "prefJa": "香川県",
+  "cityJa": "丸亀市"
+ },
+ {
+  "prefCode": "37",
+  "prefSlug": "kagawa",
+  "cityCode": "37203",
+  "citySlug": "sakaide",
+  "prefJa": "香川県",
+  "cityJa": "坂出市"
+ },
+ {
+  "prefCode": "37",
+  "prefSlug": "kagawa",
+  "cityCode": "37204",
+  "citySlug": "zentsuji",
+  "prefJa": "香川県",
+  "cityJa": "善通寺市"
+ },
+ {
+  "prefCode": "37",
+  "prefSlug": "kagawa",
+  "cityCode": "37205",
+  "citySlug": "kanonji",
+  "prefJa": "香川県",
+  "cityJa": "観音寺市"
+ },
+ {
+  "prefCode": "37",
+  "prefSlug": "kagawa",
+  "cityCode": "37206",
+  "citySlug": "sanuki",
+  "prefJa": "香川県",
+  "cityJa": "さぬき市"
+ },
+ {
+  "prefCode": "37",
+  "prefSlug": "kagawa",
+  "cityCode": "37208",
+  "citySlug": "mitoyo",
+  "prefJa": "香川県",
+  "cityJa": "三豊市"
+ },
+ {
+  "prefCode": "37",
+  "prefSlug": "kagawa",
+  "cityCode": "37341",
+  "citySlug": "miki",
+  "prefJa": "香川県",
+  "cityJa": "木田郡三木町"
+ },
+ {
+  "prefCode": "37",
+  "prefSlug": "kagawa",
+  "cityCode": "37386",
+  "citySlug": "utazu",
+  "prefJa": "香川県",
+  "cityJa": "綾歌郡宇多津町"
+ },
+ {
+  "prefCode": "37",
+  "prefSlug": "kagawa",
+  "cityCode": "37387",
+  "citySlug": "ayagawa",
+  "prefJa": "香川県",
+  "cityJa": "綾歌郡綾川町"
+ },
+ {
+  "prefCode": "37",
+  "prefSlug": "kagawa",
+  "cityCode": "37403",
+  "citySlug": "kotohira",
+  "prefJa": "香川県",
+  "cityJa": "仲多度郡琴平町"
+ },
+ {
+  "prefCode": "37",
+  "prefSlug": "kagawa",
+  "cityCode": "37404",
+  "citySlug": "tadotsu",
+  "prefJa": "香川県",
+  "cityJa": "仲多度郡多度津町"
+ },
+ {
+  "prefCode": "37",
+  "prefSlug": "kagawa",
+  "cityCode": "37406",
+  "citySlug": "manno",
+  "prefJa": "香川県",
+  "cityJa": "仲多度郡まんのう町"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38201",
+  "citySlug": "matsuyama",
+  "prefJa": "愛媛県",
+  "cityJa": "松山市"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38202",
+  "citySlug": "imabari",
+  "prefJa": "愛媛県",
+  "cityJa": "今治市"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38203",
+  "citySlug": "uwajima",
+  "prefJa": "愛媛県",
+  "cityJa": "宇和島市"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38204",
+  "citySlug": "yawatahama",
+  "prefJa": "愛媛県",
+  "cityJa": "八幡浜市"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38205",
+  "citySlug": "niihama",
+  "prefJa": "愛媛県",
+  "cityJa": "新居浜市"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38206",
+  "citySlug": "saijo",
+  "prefJa": "愛媛県",
+  "cityJa": "西条市"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38207",
+  "citySlug": "ozu",
+  "prefJa": "愛媛県",
+  "cityJa": "大洲市"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38210",
+  "citySlug": "iyo",
+  "prefJa": "愛媛県",
+  "cityJa": "伊予市"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38213",
+  "citySlug": "shikokuchuo",
+  "prefJa": "愛媛県",
+  "cityJa": "四国中央市"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38214",
+  "citySlug": "seiyo",
+  "prefJa": "愛媛県",
+  "cityJa": "西予市"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38215",
+  "citySlug": "toon",
+  "prefJa": "愛媛県",
+  "cityJa": "東温市"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38356",
+  "citySlug": "kamijima",
+  "prefJa": "愛媛県",
+  "cityJa": "越智郡上島町"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38386",
+  "citySlug": "kumakogen",
+  "prefJa": "愛媛県",
+  "cityJa": "上浮穴郡久万高原町"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38401",
+  "citySlug": "masaki",
+  "prefJa": "愛媛県",
+  "cityJa": "伊予郡松前町"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38402",
+  "citySlug": "tobe",
+  "prefJa": "愛媛県",
+  "cityJa": "伊予郡砥部町"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38422",
+  "citySlug": "uchiko",
+  "prefJa": "愛媛県",
+  "cityJa": "喜多郡内子町"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38442",
+  "citySlug": "ikata",
+  "prefJa": "愛媛県",
+  "cityJa": "西宇和郡伊方町"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38484",
+  "citySlug": "matsuno",
+  "prefJa": "愛媛県",
+  "cityJa": "北宇和郡松野町"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38488",
+  "citySlug": "kihoku",
+  "prefJa": "愛媛県",
+  "cityJa": "北宇和郡鬼北町"
+ },
+ {
+  "prefCode": "38",
+  "prefSlug": "ehime",
+  "cityCode": "38506",
+  "citySlug": "ainan",
+  "prefJa": "愛媛県",
+  "cityJa": "南宇和郡愛南町"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39201",
+  "citySlug": "kochi",
+  "prefJa": "高知県",
+  "cityJa": "高知市"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39203",
+  "citySlug": "aki",
+  "prefJa": "高知県",
+  "cityJa": "安芸市"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39204",
+  "citySlug": "nankoku",
+  "prefJa": "高知県",
+  "cityJa": "南国市"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39205",
+  "citySlug": "tosa",
+  "prefJa": "高知県",
+  "cityJa": "土佐市"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39206",
+  "citySlug": "susaki",
+  "prefJa": "高知県",
+  "cityJa": "須崎市"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39208",
+  "citySlug": "sukumo",
+  "prefJa": "高知県",
+  "cityJa": "宿毛市"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39209",
+  "citySlug": "tosashimizu",
+  "prefJa": "高知県",
+  "cityJa": "土佐清水市"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39210",
+  "citySlug": "shimanto",
+  "prefJa": "高知県",
+  "cityJa": "四万十市"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39211",
+  "citySlug": "konan",
+  "prefJa": "高知県",
+  "cityJa": "香南市"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39212",
+  "citySlug": "kami",
+  "prefJa": "高知県",
+  "cityJa": "香美市"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39307",
+  "citySlug": "geisei",
+  "prefJa": "高知県",
+  "cityJa": "安芸郡芸西村"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39341",
+  "citySlug": "motoyama",
+  "prefJa": "高知県",
+  "cityJa": "長岡郡本山町"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39344",
+  "citySlug": "otoyo",
+  "prefJa": "高知県",
+  "cityJa": "長岡郡大豊町"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39363",
+  "citySlug": "tosa-cho",
+  "prefJa": "高知県",
+  "cityJa": "土佐郡土佐町"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39364",
+  "citySlug": "okawa",
+  "prefJa": "高知県",
+  "cityJa": "土佐郡大川村"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39386",
+  "citySlug": "ino",
+  "prefJa": "高知県",
+  "cityJa": "吾川郡いの町"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39387",
+  "citySlug": "niyodogawa",
+  "prefJa": "高知県",
+  "cityJa": "吾川郡仁淀川町"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39401",
+  "citySlug": "nakatosa",
+  "prefJa": "高知県",
+  "cityJa": "高岡郡中土佐町"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39402",
+  "citySlug": "sakawa",
+  "prefJa": "高知県",
+  "cityJa": "高岡郡佐川町"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39403",
+  "citySlug": "ochi",
+  "prefJa": "高知県",
+  "cityJa": "高岡郡越知町"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39410",
+  "citySlug": "hidaka",
+  "prefJa": "高知県",
+  "cityJa": "高岡郡日高村"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39411",
+  "citySlug": "tsuno",
+  "prefJa": "高知県",
+  "cityJa": "高岡郡津野町"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39412",
+  "citySlug": "shimanto-cho",
+  "prefJa": "高知県",
+  "cityJa": "高岡郡四万十町"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39424",
+  "citySlug": "otsuki",
+  "prefJa": "高知県",
+  "cityJa": "幡多郡大月町"
+ },
+ {
+  "prefCode": "39",
+  "prefSlug": "kochi",
+  "cityCode": "39428",
+  "citySlug": "kuroshio",
+  "prefJa": "高知県",
+  "cityJa": "幡多郡黒潮町"
+ },
+ {
   "prefCode": "40",
   "prefSlug": "fukuoka",
   "cityCode": "40101",
@@ -9006,5 +11982,1381 @@
   "citySlug": "chikujo",
   "prefJa": "福岡県",
   "cityJa": "築上郡築上町"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41201",
+  "citySlug": "saga",
+  "prefJa": "佐賀県",
+  "cityJa": "佐賀市"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41202",
+  "citySlug": "karatsu",
+  "prefJa": "佐賀県",
+  "cityJa": "唐津市"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41203",
+  "citySlug": "tosu",
+  "prefJa": "佐賀県",
+  "cityJa": "鳥栖市"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41204",
+  "citySlug": "taku",
+  "prefJa": "佐賀県",
+  "cityJa": "多久市"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41205",
+  "citySlug": "imari",
+  "prefJa": "佐賀県",
+  "cityJa": "伊万里市"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41206",
+  "citySlug": "takeo",
+  "prefJa": "佐賀県",
+  "cityJa": "武雄市"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41207",
+  "citySlug": "kashima",
+  "prefJa": "佐賀県",
+  "cityJa": "鹿島市"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41208",
+  "citySlug": "ogi",
+  "prefJa": "佐賀県",
+  "cityJa": "小城市"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41209",
+  "citySlug": "ureshino",
+  "prefJa": "佐賀県",
+  "cityJa": "嬉野市"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41210",
+  "citySlug": "kanzaki",
+  "prefJa": "佐賀県",
+  "cityJa": "神埼市"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41327",
+  "citySlug": "yoshinogari",
+  "prefJa": "佐賀県",
+  "cityJa": "神埼郡吉野ヶ里町"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41341",
+  "citySlug": "kiyama",
+  "prefJa": "佐賀県",
+  "cityJa": "三養基郡基山町"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41345",
+  "citySlug": "kamimine",
+  "prefJa": "佐賀県",
+  "cityJa": "三養基郡上峰町"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41346",
+  "citySlug": "miyaki",
+  "prefJa": "佐賀県",
+  "cityJa": "三養基郡みやき町"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41387",
+  "citySlug": "genkai",
+  "prefJa": "佐賀県",
+  "cityJa": "東松浦郡玄海町"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41401",
+  "citySlug": "arita",
+  "prefJa": "佐賀県",
+  "cityJa": "西松浦郡有田町"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41423",
+  "citySlug": "omachi",
+  "prefJa": "佐賀県",
+  "cityJa": "杵島郡大町町"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41424",
+  "citySlug": "kohoku",
+  "prefJa": "佐賀県",
+  "cityJa": "杵島郡江北町"
+ },
+ {
+  "prefCode": "41",
+  "prefSlug": "saga",
+  "cityCode": "41425",
+  "citySlug": "shiroishi",
+  "prefJa": "佐賀県",
+  "cityJa": "杵島郡白石町"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42201",
+  "citySlug": "nagasaki",
+  "prefJa": "長崎県",
+  "cityJa": "長崎市"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42202",
+  "citySlug": "sasebo",
+  "prefJa": "長崎県",
+  "cityJa": "佐世保市"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42204",
+  "citySlug": "isahaya",
+  "prefJa": "長崎県",
+  "cityJa": "諫早市"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42205",
+  "citySlug": "omura",
+  "prefJa": "長崎県",
+  "cityJa": "大村市"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42207",
+  "citySlug": "hirado",
+  "prefJa": "長崎県",
+  "cityJa": "平戸市"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42208",
+  "citySlug": "matsura",
+  "prefJa": "長崎県",
+  "cityJa": "松浦市"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42209",
+  "citySlug": "tsushima",
+  "prefJa": "長崎県",
+  "cityJa": "対馬市"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42210",
+  "citySlug": "iki",
+  "prefJa": "長崎県",
+  "cityJa": "壱岐市"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42211",
+  "citySlug": "goto",
+  "prefJa": "長崎県",
+  "cityJa": "五島市"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42212",
+  "citySlug": "saikai",
+  "prefJa": "長崎県",
+  "cityJa": "西海市"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42213",
+  "citySlug": "unzen",
+  "prefJa": "長崎県",
+  "cityJa": "雲仙市"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42214",
+  "citySlug": "minamishimabara",
+  "prefJa": "長崎県",
+  "cityJa": "南島原市"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42307",
+  "citySlug": "nagayo",
+  "prefJa": "長崎県",
+  "cityJa": "西彼杵郡長与町"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42308",
+  "citySlug": "togitsu",
+  "prefJa": "長崎県",
+  "cityJa": "西彼杵郡時津町"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42321",
+  "citySlug": "higashisonogi",
+  "prefJa": "長崎県",
+  "cityJa": "東彼杵郡東彼杵町"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42322",
+  "citySlug": "kawatana",
+  "prefJa": "長崎県",
+  "cityJa": "東彼杵郡川棚町"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42323",
+  "citySlug": "hasami",
+  "prefJa": "長崎県",
+  "cityJa": "東彼杵郡波佐見町"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42391",
+  "citySlug": "saza",
+  "prefJa": "長崎県",
+  "cityJa": "北松浦郡佐々町"
+ },
+ {
+  "prefCode": "42",
+  "prefSlug": "nagasaki",
+  "cityCode": "42411",
+  "citySlug": "shinkamigoto",
+  "prefJa": "長崎県",
+  "cityJa": "南松浦郡新上五島町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43101",
+  "citySlug": "kumamoto-chuo",
+  "prefJa": "熊本県",
+  "cityJa": "熊本市中央区"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43102",
+  "citySlug": "kumamoto-higashi",
+  "prefJa": "熊本県",
+  "cityJa": "熊本市東区"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43103",
+  "citySlug": "kumamoto-nishi",
+  "prefJa": "熊本県",
+  "cityJa": "熊本市西区"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43104",
+  "citySlug": "kumamoto-minami",
+  "prefJa": "熊本県",
+  "cityJa": "熊本市南区"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43105",
+  "citySlug": "kumamoto-kita",
+  "prefJa": "熊本県",
+  "cityJa": "熊本市北区"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43202",
+  "citySlug": "yatsushiro",
+  "prefJa": "熊本県",
+  "cityJa": "八代市"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43203",
+  "citySlug": "hitoyoshi",
+  "prefJa": "熊本県",
+  "cityJa": "人吉市"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43204",
+  "citySlug": "arao",
+  "prefJa": "熊本県",
+  "cityJa": "荒尾市"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43205",
+  "citySlug": "minamata",
+  "prefJa": "熊本県",
+  "cityJa": "水俣市"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43206",
+  "citySlug": "tamana",
+  "prefJa": "熊本県",
+  "cityJa": "玉名市"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43208",
+  "citySlug": "yamaga",
+  "prefJa": "熊本県",
+  "cityJa": "山鹿市"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43210",
+  "citySlug": "kikuchi",
+  "prefJa": "熊本県",
+  "cityJa": "菊池市"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43211",
+  "citySlug": "uto",
+  "prefJa": "熊本県",
+  "cityJa": "宇土市"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43212",
+  "citySlug": "kamiamakusa",
+  "prefJa": "熊本県",
+  "cityJa": "上天草市"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43213",
+  "citySlug": "uki",
+  "prefJa": "熊本県",
+  "cityJa": "宇城市"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43214",
+  "citySlug": "aso",
+  "prefJa": "熊本県",
+  "cityJa": "阿蘇市"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43215",
+  "citySlug": "amakusa",
+  "prefJa": "熊本県",
+  "cityJa": "天草市"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43216",
+  "citySlug": "koshi",
+  "prefJa": "熊本県",
+  "cityJa": "合志市"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43348",
+  "citySlug": "misato",
+  "prefJa": "熊本県",
+  "cityJa": "下益城郡美里町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43364",
+  "citySlug": "gyokuto",
+  "prefJa": "熊本県",
+  "cityJa": "玉名郡玉東町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43367",
+  "citySlug": "nankan",
+  "prefJa": "熊本県",
+  "cityJa": "玉名郡南関町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43368",
+  "citySlug": "nagasu",
+  "prefJa": "熊本県",
+  "cityJa": "玉名郡長洲町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43369",
+  "citySlug": "nagomi",
+  "prefJa": "熊本県",
+  "cityJa": "玉名郡和水町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43403",
+  "citySlug": "ozu",
+  "prefJa": "熊本県",
+  "cityJa": "菊池郡大津町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43404",
+  "citySlug": "kikuyo",
+  "prefJa": "熊本県",
+  "cityJa": "菊池郡菊陽町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43428",
+  "citySlug": "takamori",
+  "prefJa": "熊本県",
+  "cityJa": "阿蘇郡高森町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43432",
+  "citySlug": "nishihara",
+  "prefJa": "熊本県",
+  "cityJa": "阿蘇郡西原村"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43433",
+  "citySlug": "minamiaso",
+  "prefJa": "熊本県",
+  "cityJa": "阿蘇郡南阿蘇村"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43441",
+  "citySlug": "mifune",
+  "prefJa": "熊本県",
+  "cityJa": "上益城郡御船町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43442",
+  "citySlug": "kashima",
+  "prefJa": "熊本県",
+  "cityJa": "上益城郡嘉島町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43443",
+  "citySlug": "mashiki",
+  "prefJa": "熊本県",
+  "cityJa": "上益城郡益城町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43444",
+  "citySlug": "kosa",
+  "prefJa": "熊本県",
+  "cityJa": "上益城郡甲佐町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43447",
+  "citySlug": "yamato",
+  "prefJa": "熊本県",
+  "cityJa": "上益城郡山都町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43468",
+  "citySlug": "hikawa",
+  "prefJa": "熊本県",
+  "cityJa": "八代郡氷川町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43482",
+  "citySlug": "ashikita",
+  "prefJa": "熊本県",
+  "cityJa": "葦北郡芦北町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43484",
+  "citySlug": "tsunagi",
+  "prefJa": "熊本県",
+  "cityJa": "葦北郡津奈木町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43501",
+  "citySlug": "nishiki",
+  "prefJa": "熊本県",
+  "cityJa": "球磨郡錦町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43505",
+  "citySlug": "taragi",
+  "prefJa": "熊本県",
+  "cityJa": "球磨郡多良木町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43506",
+  "citySlug": "yunomae",
+  "prefJa": "熊本県",
+  "cityJa": "球磨郡湯前町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43507",
+  "citySlug": "mizukami",
+  "prefJa": "熊本県",
+  "cityJa": "球磨郡水上村"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43510",
+  "citySlug": "sagara",
+  "prefJa": "熊本県",
+  "cityJa": "球磨郡相良村"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43513",
+  "citySlug": "kuma",
+  "prefJa": "熊本県",
+  "cityJa": "球磨郡球磨村"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43514",
+  "citySlug": "asagiri",
+  "prefJa": "熊本県",
+  "cityJa": "球磨郡あさぎり町"
+ },
+ {
+  "prefCode": "43",
+  "prefSlug": "kumamoto",
+  "cityCode": "43531",
+  "citySlug": "reihoku",
+  "prefJa": "熊本県",
+  "cityJa": "天草郡苓北町"
+ },
+ {
+  "prefCode": "44",
+  "prefSlug": "oita",
+  "cityCode": "44201",
+  "citySlug": "oita",
+  "prefJa": "大分県",
+  "cityJa": "大分市"
+ },
+ {
+  "prefCode": "44",
+  "prefSlug": "oita",
+  "cityCode": "44202",
+  "citySlug": "beppu",
+  "prefJa": "大分県",
+  "cityJa": "別府市"
+ },
+ {
+  "prefCode": "44",
+  "prefSlug": "oita",
+  "cityCode": "44203",
+  "citySlug": "nakatsu",
+  "prefJa": "大分県",
+  "cityJa": "中津市"
+ },
+ {
+  "prefCode": "44",
+  "prefSlug": "oita",
+  "cityCode": "44204",
+  "citySlug": "hita",
+  "prefJa": "大分県",
+  "cityJa": "日田市"
+ },
+ {
+  "prefCode": "44",
+  "prefSlug": "oita",
+  "cityCode": "44205",
+  "citySlug": "saiki",
+  "prefJa": "大分県",
+  "cityJa": "佐伯市"
+ },
+ {
+  "prefCode": "44",
+  "prefSlug": "oita",
+  "cityCode": "44206",
+  "citySlug": "usuki",
+  "prefJa": "大分県",
+  "cityJa": "臼杵市"
+ },
+ {
+  "prefCode": "44",
+  "prefSlug": "oita",
+  "cityCode": "44207",
+  "citySlug": "tsukumi",
+  "prefJa": "大分県",
+  "cityJa": "津久見市"
+ },
+ {
+  "prefCode": "44",
+  "prefSlug": "oita",
+  "cityCode": "44208",
+  "citySlug": "taketa",
+  "prefJa": "大分県",
+  "cityJa": "竹田市"
+ },
+ {
+  "prefCode": "44",
+  "prefSlug": "oita",
+  "cityCode": "44209",
+  "citySlug": "bungotakada",
+  "prefJa": "大分県",
+  "cityJa": "豊後高田市"
+ },
+ {
+  "prefCode": "44",
+  "prefSlug": "oita",
+  "cityCode": "44210",
+  "citySlug": "kitsuki",
+  "prefJa": "大分県",
+  "cityJa": "杵築市"
+ },
+ {
+  "prefCode": "44",
+  "prefSlug": "oita",
+  "cityCode": "44211",
+  "citySlug": "usa",
+  "prefJa": "大分県",
+  "cityJa": "宇佐市"
+ },
+ {
+  "prefCode": "44",
+  "prefSlug": "oita",
+  "cityCode": "44212",
+  "citySlug": "bungoono",
+  "prefJa": "大分県",
+  "cityJa": "豊後大野市"
+ },
+ {
+  "prefCode": "44",
+  "prefSlug": "oita",
+  "cityCode": "44213",
+  "citySlug": "yufu",
+  "prefJa": "大分県",
+  "cityJa": "由布市"
+ },
+ {
+  "prefCode": "44",
+  "prefSlug": "oita",
+  "cityCode": "44341",
+  "citySlug": "hiji",
+  "prefJa": "大分県",
+  "cityJa": "速見郡日出町"
+ },
+ {
+  "prefCode": "44",
+  "prefSlug": "oita",
+  "cityCode": "44461",
+  "citySlug": "kokonoe",
+  "prefJa": "大分県",
+  "cityJa": "玖珠郡九重町"
+ },
+ {
+  "prefCode": "44",
+  "prefSlug": "oita",
+  "cityCode": "44462",
+  "citySlug": "kusu",
+  "prefJa": "大分県",
+  "cityJa": "玖珠郡玖珠町"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45201",
+  "citySlug": "miyazaki",
+  "prefJa": "宮崎県",
+  "cityJa": "宮崎市"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45202",
+  "citySlug": "miyakonojo",
+  "prefJa": "宮崎県",
+  "cityJa": "都城市"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45203",
+  "citySlug": "nobeoka",
+  "prefJa": "宮崎県",
+  "cityJa": "延岡市"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45204",
+  "citySlug": "nichinan",
+  "prefJa": "宮崎県",
+  "cityJa": "日南市"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45205",
+  "citySlug": "kobayashi",
+  "prefJa": "宮崎県",
+  "cityJa": "小林市"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45206",
+  "citySlug": "hyuga",
+  "prefJa": "宮崎県",
+  "cityJa": "日向市"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45207",
+  "citySlug": "kushima",
+  "prefJa": "宮崎県",
+  "cityJa": "串間市"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45208",
+  "citySlug": "saito",
+  "prefJa": "宮崎県",
+  "cityJa": "西都市"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45209",
+  "citySlug": "ebino",
+  "prefJa": "宮崎県",
+  "cityJa": "えびの市"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45341",
+  "citySlug": "mimata",
+  "prefJa": "宮崎県",
+  "cityJa": "北諸県郡三股町"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45361",
+  "citySlug": "takaharu",
+  "prefJa": "宮崎県",
+  "cityJa": "西諸県郡高原町"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45382",
+  "citySlug": "kunitomi",
+  "prefJa": "宮崎県",
+  "cityJa": "東諸県郡国富町"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45383",
+  "citySlug": "aya",
+  "prefJa": "宮崎県",
+  "cityJa": "東諸県郡綾町"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45401",
+  "citySlug": "takanabe",
+  "prefJa": "宮崎県",
+  "cityJa": "児湯郡高鍋町"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45402",
+  "citySlug": "shintomi",
+  "prefJa": "宮崎県",
+  "cityJa": "児湯郡新富町"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45404",
+  "citySlug": "kijo",
+  "prefJa": "宮崎県",
+  "cityJa": "児湯郡木城町"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45405",
+  "citySlug": "kawaminami",
+  "prefJa": "宮崎県",
+  "cityJa": "児湯郡川南町"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45406",
+  "citySlug": "tsuno",
+  "prefJa": "宮崎県",
+  "cityJa": "児湯郡都農町"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45421",
+  "citySlug": "kadogawa",
+  "prefJa": "宮崎県",
+  "cityJa": "東臼杵郡門川町"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45430",
+  "citySlug": "shiiba",
+  "prefJa": "宮崎県",
+  "cityJa": "東臼杵郡椎葉村"
+ },
+ {
+  "prefCode": "45",
+  "prefSlug": "miyazaki",
+  "cityCode": "45443",
+  "citySlug": "gokase",
+  "prefJa": "宮崎県",
+  "cityJa": "西臼杵郡五ヶ瀬町"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46201",
+  "citySlug": "kagoshima",
+  "prefJa": "鹿児島県",
+  "cityJa": "鹿児島市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46203",
+  "citySlug": "kanoya",
+  "prefJa": "鹿児島県",
+  "cityJa": "鹿屋市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46204",
+  "citySlug": "makurazaki",
+  "prefJa": "鹿児島県",
+  "cityJa": "枕崎市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46206",
+  "citySlug": "akune",
+  "prefJa": "鹿児島県",
+  "cityJa": "阿久根市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46208",
+  "citySlug": "izumi",
+  "prefJa": "鹿児島県",
+  "cityJa": "出水市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46210",
+  "citySlug": "ibusuki",
+  "prefJa": "鹿児島県",
+  "cityJa": "指宿市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46213",
+  "citySlug": "nishinomote",
+  "prefJa": "鹿児島県",
+  "cityJa": "西之表市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46214",
+  "citySlug": "tarumizu",
+  "prefJa": "鹿児島県",
+  "cityJa": "垂水市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46215",
+  "citySlug": "satsumasendai",
+  "prefJa": "鹿児島県",
+  "cityJa": "薩摩川内市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46216",
+  "citySlug": "hioki",
+  "prefJa": "鹿児島県",
+  "cityJa": "日置市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46218",
+  "citySlug": "kirishima",
+  "prefJa": "鹿児島県",
+  "cityJa": "霧島市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46219",
+  "citySlug": "ichikikushikino",
+  "prefJa": "鹿児島県",
+  "cityJa": "いちき串木野市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46220",
+  "citySlug": "minamisatsuma",
+  "prefJa": "鹿児島県",
+  "cityJa": "南さつま市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46222",
+  "citySlug": "amami",
+  "prefJa": "鹿児島県",
+  "cityJa": "奄美市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46223",
+  "citySlug": "minamikyushu",
+  "prefJa": "鹿児島県",
+  "cityJa": "南九州市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46224",
+  "citySlug": "isa",
+  "prefJa": "鹿児島県",
+  "cityJa": "伊佐市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46225",
+  "citySlug": "aira",
+  "prefJa": "鹿児島県",
+  "cityJa": "姶良市"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46392",
+  "citySlug": "satsuma",
+  "prefJa": "鹿児島県",
+  "cityJa": "薩摩郡さつま町"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46404",
+  "citySlug": "nagashima",
+  "prefJa": "鹿児島県",
+  "cityJa": "出水郡長島町"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46490",
+  "citySlug": "kinko",
+  "prefJa": "鹿児島県",
+  "cityJa": "肝属郡錦江町"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46492",
+  "citySlug": "kimotsuki",
+  "prefJa": "鹿児島県",
+  "cityJa": "肝属郡肝付町"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46505",
+  "citySlug": "yakushima",
+  "prefJa": "鹿児島県",
+  "cityJa": "熊毛郡屋久島町"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46523",
+  "citySlug": "yamato",
+  "prefJa": "鹿児島県",
+  "cityJa": "大島郡大和村"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46524",
+  "citySlug": "uken",
+  "prefJa": "鹿児島県",
+  "cityJa": "大島郡宇検村"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46525",
+  "citySlug": "setochi",
+  "prefJa": "鹿児島県",
+  "cityJa": "大島郡瀬戸内町"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46527",
+  "citySlug": "tatsugo",
+  "prefJa": "鹿児島県",
+  "cityJa": "大島郡龍郷町"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46529",
+  "citySlug": "kikai",
+  "prefJa": "鹿児島県",
+  "cityJa": "大島郡喜界町"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46530",
+  "citySlug": "tokunoshima",
+  "prefJa": "鹿児島県",
+  "cityJa": "大島郡徳之島町"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46531",
+  "citySlug": "amagi",
+  "prefJa": "鹿児島県",
+  "cityJa": "大島郡天城町"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46533",
+  "citySlug": "wadomari",
+  "prefJa": "鹿児島県",
+  "cityJa": "大島郡和泊町"
+ },
+ {
+  "prefCode": "46",
+  "prefSlug": "kagoshima",
+  "cityCode": "46534",
+  "citySlug": "china",
+  "prefJa": "鹿児島県",
+  "cityJa": "大島郡知名町"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47201",
+  "citySlug": "naha",
+  "prefJa": "沖縄県",
+  "cityJa": "那覇市"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47205",
+  "citySlug": "ginowan",
+  "prefJa": "沖縄県",
+  "cityJa": "宜野湾市"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47207",
+  "citySlug": "ishigaki",
+  "prefJa": "沖縄県",
+  "cityJa": "石垣市"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47208",
+  "citySlug": "urasoe",
+  "prefJa": "沖縄県",
+  "cityJa": "浦添市"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47209",
+  "citySlug": "nago",
+  "prefJa": "沖縄県",
+  "cityJa": "名護市"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47210",
+  "citySlug": "itoman",
+  "prefJa": "沖縄県",
+  "cityJa": "糸満市"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47211",
+  "citySlug": "okinawa",
+  "prefJa": "沖縄県",
+  "cityJa": "沖縄市"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47212",
+  "citySlug": "tomigusuku",
+  "prefJa": "沖縄県",
+  "cityJa": "豊見城市"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47213",
+  "citySlug": "uruma",
+  "prefJa": "沖縄県",
+  "cityJa": "うるま市"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47214",
+  "citySlug": "miyakojima",
+  "prefJa": "沖縄県",
+  "cityJa": "宮古島市"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47215",
+  "citySlug": "nanjo",
+  "prefJa": "沖縄県",
+  "cityJa": "南城市"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47308",
+  "citySlug": "motobu",
+  "prefJa": "沖縄県",
+  "cityJa": "国頭郡本部町"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47311",
+  "citySlug": "onna",
+  "prefJa": "沖縄県",
+  "cityJa": "国頭郡恩納村"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47324",
+  "citySlug": "yomitan",
+  "prefJa": "沖縄県",
+  "cityJa": "中頭郡読谷村"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47326",
+  "citySlug": "chatan",
+  "prefJa": "沖縄県",
+  "cityJa": "中頭郡北谷町"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47327",
+  "citySlug": "kitanakagusuku",
+  "prefJa": "沖縄県",
+  "cityJa": "中頭郡北中城村"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47328",
+  "citySlug": "nakagusuku",
+  "prefJa": "沖縄県",
+  "cityJa": "中頭郡中城村"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47329",
+  "citySlug": "nishihara",
+  "prefJa": "沖縄県",
+  "cityJa": "中頭郡西原町"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47350",
+  "citySlug": "haebaru",
+  "prefJa": "沖縄県",
+  "cityJa": "島尻郡南風原町"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47361",
+  "citySlug": "kumejima",
+  "prefJa": "沖縄県",
+  "cityJa": "島尻郡久米島町"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47362",
+  "citySlug": "yaese",
+  "prefJa": "沖縄県",
+  "cityJa": "島尻郡八重瀬町"
+ },
+ {
+  "prefCode": "47",
+  "prefSlug": "okinawa",
+  "cityCode": "47381",
+  "citySlug": "taketomi",
+  "prefJa": "沖縄県",
+  "cityJa": "八重山郡竹富町"
  }
 ]
