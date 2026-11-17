@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 ING = ROOT / "ingest" / "data" / "out"
 # out/ の後ろに足す納品（ingest/data/<名前>/ の merged_facility*.json）。T18 から out/ に結合せず、ここで読む。
 # 差し替え（T18b など）はディレクトリの中身を入れ替えるだけで済む。既存の施設と id が重なったら止める
-EXTRA = ["t18"]
+EXTRA = ["t18", "t19"]
 OUT = ROOT / "data" / "site"
 
 SITE_LANGS = {
@@ -121,6 +121,65 @@ def hours_of(h: dict) -> dict:
     return out
 
 
+def replace_d5_only(stats_path: Path, name: str, fac: list, rows: list) -> None:
+    """納品の stats.json の「D-5 だけの施設の置き換え」（T19 から）に従い、納品済みの D-5 だけの施設（id「d5:電話番号」）を
+    同じ施設の new_id に置き換える。同じ施設が2つ載らないよう、古い施設と言語の行は消し、D-5 の情報は new_id に寄せる。
+    - new_id に D-5 の欄（d5）が無ければ古い施設から移し、翻訳機の出典に d5 を足す
+    - 古い施設にだけある言語の行は new_id に付け替える（new_id にその言語の行があれば古い行は捨てる）
+    fac・rows はその場で書き換える"""
+    if not stats_path.exists():
+        return
+    sec = json.load(open(stats_path)).get("D-5 だけの施設の置き換え")
+    if not sec:
+        return
+    by_id = {f["id"]: f for f in fac}
+    drop, moved, done, absent = set(), 0, 0, []
+    for p in sec["一覧"]:
+        olds = p.get("old_d5_only_ids") or []
+        if not olds:
+            continue
+        new = by_id.get(p["new_id"])
+        if new is None or "kikan_kbn" not in new:
+            raise SystemExit(f"{name}: 置き換え先の施設がありません（医療情報ネットの施設でない）: {p['new_id']}")
+        for oid in olds:
+            old = by_id.get(oid)
+            if old is None:
+                absent.append(oid)
+                continue
+            if not oid.startswith("d5:") or "kikan_kbn" in old:
+                raise SystemExit(f"{name}: 置き換え元が D-5 だけの施設ではありません: {oid}")
+            if not new.get("d5") and old.get("d5"):
+                new["d5"] = old["d5"]
+            srcs = new.get("translation_device_sources") or []
+            if "d5" in (old.get("translation_device_sources") or []) and "d5" not in srcs:
+                new["translation_device_sources"] = srcs + ["d5"]
+            drop.add(oid)
+            done += 1
+    if not drop:
+        if absent:
+            print(f"{name}: D-5 だけの施設の置き換え 0件（置き換え元が見つからない {len(absent)}件: {absent[:5]}）")
+        return
+    new_of = {o: p["new_id"] for p in sec["一覧"] for o in (p.get("old_d5_only_ids") or []) if o in drop}
+    have_lang = {(r["facility_id"], r["lang"]) for r in rows if r["facility_id"] not in drop}
+    keep = []
+    for r in rows:
+        nid = new_of.get(r["facility_id"])
+        if nid is None:
+            keep.append(r)
+        elif (nid, r["lang"]) not in have_lang:
+            keep.append(dict(r, facility_id=nid))
+            have_lang.add((nid, r["lang"]))
+            moved += 1
+    dropped_rows = len(rows) - len(keep)
+    rows[:] = keep
+    fac[:] = [f for f in fac if f["id"] not in drop]
+    left = [r["facility_id"] for r in rows if r["facility_id"] in drop]
+    if left:
+        raise SystemExit(f"{name}: 置き換え後も古い id の行が残っています: {left[:5]}")
+    print(f"{name}: D-5 だけの施設の置き換え {done}件（施設 -{len(drop)}・言語の行 -{dropped_rows}・new_id へ付け替え {moved}行"
+          + (f"・置き換え元が見つからない {len(absent)}件: {absent[:5]}" if absent else "") + "）")
+
+
 def main():
     fac = json.load(open(ING / "merged_facility.json"))
     rows = json.load(open(ING / "merged_facility_language.json"))
@@ -139,6 +198,7 @@ def main():
         fac += add
         rows += add_rows
         print(f"{name}: +{len(add)} 施設 / +{len(add_rows)} 行")
+        replace_d5_only(d / "stats.json", name, fac, rows)
     dic = json.load(open(ROOT / "data" / "dict" / "dictionary.json"))
 
     # ポルトガル語にスペイン語の綴りが混ざっていないか（出典の誤記：kifjp の Psiquiatría、厚労省の Neurocirugia）
