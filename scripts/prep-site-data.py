@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 ING = ROOT / "ingest" / "data" / "out"
 # out/ の後ろに足す納品（ingest/data/<名前>/ の merged_facility*.json）。T18 から out/ に結合せず、ここで読む。
 # 差し替え（T18b など）はディレクトリの中身を入れ替えるだけで済む。既存の施設と id が重なったら止める
-EXTRA = ["t18", "t19"]
+EXTRA = ["t18", "t19", "t20"]
 OUT = ROOT / "data" / "site"
 
 SITE_LANGS = {

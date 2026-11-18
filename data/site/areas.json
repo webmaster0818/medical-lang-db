@@ -5090,10 +5090,82 @@
  {
   "prefCode": "13",
   "prefSlug": "tokyo",
+  "cityCode": "13303",
+  "citySlug": "mizuho",
+  "prefJa": "東京都",
+  "cityJa": "西多摩郡瑞穂町"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13305",
+  "citySlug": "hinode",
+  "prefJa": "東京都",
+  "cityJa": "西多摩郡日の出町"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13308",
+  "citySlug": "okutama",
+  "prefJa": "東京都",
+  "cityJa": "西多摩郡奥多摩町"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13361",
+  "citySlug": "oshima",
+  "prefJa": "東京都",
+  "cityJa": "大島町"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13363",
+  "citySlug": "niijima",
+  "prefJa": "東京都",
+  "cityJa": "新島村"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13364",
+  "citySlug": "kozushima",
+  "prefJa": "東京都",
+  "cityJa": "神津島村"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13381",
+  "citySlug": "miyakejimamiyake",
+  "prefJa": "東京都",
+  "cityJa": "三宅島三宅村"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13382",
+  "citySlug": "mikurajima",
+  "prefJa": "東京都",
+  "cityJa": "御蔵島村"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
   "cityCode": "13401",
   "citySlug": "hachijojimahachijo",
   "prefJa": "東京都",
   "cityJa": "八丈島八丈町"
+ },
+ {
+  "prefCode": "13",
+  "prefSlug": "tokyo",
+  "cityCode": "13402",
+  "citySlug": "aogashima",
+  "prefJa": "東京都",
+  "cityJa": "青ヶ島村"
  },
  {
   "prefCode": "13",
